@@ -1,0 +1,165 @@
+[
+  {
+    "_id": "634c98aeb5edf589e6bb2e64",
+    "title": "Special Conference in Pancreatic Cancer ",
+    "date": "2020",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b6"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e65",
+    "title": "38th Winter School on proteinases and their inhibitors ",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b6"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e66",
+    "title": "James Lepock Memorial Student Research Symposium",
+    "date": "2021, May 31",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b6"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e67",
+    "title": "AACR Virtual Special Conference on Artificial Intelligence, Diagnosis, and Imaging ",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b5"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e68",
+    "title": "AAAI Spring Symposium ",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b7"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e69",
+    "title": "MLHC ",
+    "date": "2020",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b2"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6a",
+    "title": "5th CCRC, Ottawa ",
+    "date": "2019",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b3"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6b",
+    "title": "5th Canadian Conference on Epigenetics ",
+    "date": "2018",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b3"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6c",
+    "title": "BioC, Online-Boston ",
+    "date": "2020",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b1"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6d",
+    "title": "ISMB/ECCB, Basel, Switzerland",
+    "date": "2019",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b1"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6e",
+    "title": "EuroBioC ",
+    "date": "2017",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b1"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e6f",
+    "title": "AACR annual meeting ",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b0"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e70",
+    "title": "Society of Canada (SSC)",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76b0"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e71",
+    "title": "Attended and presented ToxicoGx package at OpenRiskNet final workshop, Amsterdam. Title - ToxicoGx: An R platform for integrated toxicogenomics data analysis",
+    "date": "2019",
+    "url": "https://openrisknet.org/events/74/",
+    "memberId": [
+      "6349b56d2a91a29c37ac76bd"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e72",
+    "title": "Bioc 2020 Workshop: Biomarker discovery from high throughput screening datasets",
+    "date": "2020",
+    "memberId": [
+      "6349b56d2a91a29c37ac76ba"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e73",
+    "title": "Bioc 2021 Presentation: PDATK",
+    "date": "2021",
+    "memberId": [
+      "6349b56d2a91a29c37ac76ba"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e74",
+    "title": "Bioc 2022 Workshop: PharmacoGx 3.0: data structures and methods for discovering molecular biomarkers of response to drug combination therapy in precision oncology",
+    "date": "2022",
+    "memberId": [
+      "6349b56d2a91a29c37ac76ba"
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "634c98aeb5edf589e6bb2e75",
+    "title": "BioConductor Conference \"BioC\" 2020",
+    "date": "2020",
+    "memberId": [
+      "6349b56d2a91a29c37ac76bb"
+    ],
+    "__v": 0
+  }
+]

@@ -1,0 +1,2084 @@
+[
+  {
+    "_id": "6349b56d2a91a29c37ac76af",
+    "image": "mattea_welch.jpg",
+    "position": "Scientific Associate",
+    "name": "Mattea Welch",
+    "status": "current member",
+    "bio": "Dr. Mattea Welch completed her doctoral degree in Medical Biophysics at the University of Toronto. During her graduate studies she researched quantitative medical image processing for quality assurance, and predictive and prognostic modelling in cancer. Mattea also holds a master's degree in Medical Biophysics and a bachelor's degree from Queen's University where she trained as a biomedical computing student. At this early stage in Mattea's career, she aims to use her passion for computing and logic to solve real-life problems in multidisciplinary environments involving computer scientists and clinicians.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "mattea.welch@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "mattea.welch@rmp.uhn.ca",
+        "type": "UHN",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b2",
+    "image": "alex_adam.jpeg",
+    "position": "PhD Student",
+    "name": "George-Alexandru Adam",
+    "status": "current member",
+    "bio": "Alex graduated with an undergraduate degree in computer science from U of T, and is currently pursuing a Master's degree. He is interested in creating robust neural network models for a variety of vision applications. He has experience working with histology images, and is currently shifting his focus to radiology. Alex is keen on understanding and fixing failure modes of neural networks, and he believes this will eventually lead to increased model interpretability. This focus stems from an understanding that hospitals are reluctant to adopt new technologies that have not been thoroughly tested. His recent interest in model security in the context of adversarial examples has lead him to develop several defence schemes that may have transferability to less security intensive applications.",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "alex.adam@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b4",
+    "image": "zeinab_navidi.jpeg",
+    "position": "PhD student",
+    "name": "Zeinab Navidi",
+    "status": "current member",
+    "bio": "Zeinab graduated with a Bachelor's degree in Computer Engineering from the Sharif University of Technology and continued to complete a Master's degree in Artificial Intelligence before moving to Canada. She works at the University Health Network with a focus on single-cell ATAC-seq analyses and the application of deep learning on medical images. She is a computer science Ph.D. student under Dr. Bo Wang and Dr. Benjamin Haibe-kains' supervision investigating machine learning techniques towards cancer ATAC-seq analyses.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "zeinab.nvd@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76bd",
+    "image": "Sisira.jpg",
+    "position": "Research Associate",
+    "name": "Sisira Kadambat Nair",
+    "status": "current member",
+    "bio": "Sisira Nair received her Masters in Biotechnology from Amrita School of Biotechnology, India. During her graduate studies, Sisira has worked on the cloning of induced pluripotent stem cells (iPSCs) to study the effect of neurotransmitters on embryonic stem cells. After graduation, she started working at Cellworks, India where she was involved in the modeling of cancer cells, analysis of cancer networks and drug resistance mechanisms. Her research interests include understanding crosstalks and pathways in cancer, pharmacogenomic data analysis and personalised medicine. In the lab, she is working on data curation, toxicogenomics and finding translatable biomarkers in AML. ",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "sisira.nair@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "sknair4@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76be",
+    "image": "nikta_feizi.jpg",
+    "position": "PhD Student",
+    "name": "Nikta Feizi",
+    "status": "current member",
+    "bio": "Nikta received her bachelor degree in Microbiology from the University of Tehran, Iran. Following this, she attended the University of Manitoba to get her Master of Science degree in Bioinformatics. As her MSc thesis, Nikta worked on developing supervised algorithms for classifying cancer-specific somatic mutations based on their pathogenic status. Her research interests include application of machine learning algorithms in pharmacogenomic analysis, cancer diagnosis and personalized medicine. As a research analyst in the lab, Nikta is involved in different projects sharpening her expertise in computational programming and research. ",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "nikta.feizi@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "niktafeizi@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c7",
+    "image": "yunni_qu.jpeg",
+    "position": "Research Student",
+    "name": "Yunni Qu",
+    "status": "current member",
+    "bio": "Yunni is going into her 4th year in the Data Science specialist program at the University of Toronto. Her research interest lies in the intersection of computer vision and medical imaging and she is interested in exploring ways to apply computer science methods to medical diagnosis. This summer, she will be working together with the Radiomics group on benchmarking robustness of MRI segmentation models. In her free time, she enjoys listening to music and cooking.",
+    "display": true,
+    "startDate": "2022-05-09",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "yunni.qu@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c8",
+    "image": "Jonas_Wang.png",
+    "position": "Research Volunteer",
+    "name": "Jonas Wang",
+    "status": "current member",
+    "bio": "Jonas Wang is going into his 4th year as an undergraduate student at the University of Western Ontario pursuing an Honours Specialization in Interdisciplinary Medical Sciences. He is interested in getting exposure to the bioinformatics field and gaining experience in data analysis using coding. As a summer student, he is currently investigating drug response prediction using genomics and proteomics signatures.",
+    "display": true,
+    "startDate": "2022-05-24",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "cwang862@uwo.ca",
+        "type": "Personal",
+        "preferred": true
+      },
+      {
+        "email": "jonas.wang@uhn.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "jonaswangjona@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ca",
+    "image": "nega_rohatgi.jpeg",
+    "position": "Postdoctoral Fellow",
+    "name": "Neha Rohatgi",
+    "status": "alumni",
+    "bio": "Neha completed her PhD at the Center for Systems Biology, University of Iceland in Reykjavik, Iceland in the field of systems biology. Her research focused on developing mathematical algorithms for the prediction of metabolic phenotype of cells. After her PhD, Neha joined the Genome Institute of Singapore (GIS) as a postdoctoral fellow. During her time at GIS, she worked on understanding metabolic phenotype of cancer cells across cancer types using tumor transcriptome and deconvolution algorithms. Her current work involves understanding molecular subtypes and predicting therapeutic targets for pancreatic cancer.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76cd",
+    "image": "jun_won_kim.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Jun Won Kim",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=A72upBQAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Jun Won Kim is a Radiation Oncologist and completed his PhD in radiation-induced skin injuries from the Department of Radiation Oncology, Yonsei University College of Medicine, Seoul, Korea.\n Jun Won will be joining the BHK lab in March 2020 during his research leave with a focus on Machine learning techniques in Radiomics, namely, developing novel models predictive of patient survival and therapy response, and validating these models in independent datasets collected internally and externally. He wishes to implement these techniques in clinical practice and prospective trials when he returns to his clinic in Korea.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76cf",
+    "image": "zhaleh_safikhani.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Zhaleh Safikhani",
+    "status": "alumni",
+    "bio": "Dr. Zhaleh Safikhani holds a PhD in bioinformatics from University of Tehran, Iran. Her major research focus was on de novo transcriptome assembly and isoform discovery from RNA-seq reads. In her thesis work she devised a novel de novo method that incorporate Interval Integer Linear Programming to resolve alternatively spliced isoforms. Before pursuing her PhD studies, she received a master's degree in computer science with an emphasis on data mining and machine learning. Using her experience in analyzing next generation sequencing data, she is currently investigating the association between tumor-specific transcripts and drug sensitivity.",
+    "display": true,
+    "startDate": "2014-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d3",
+    "image": "jeff_bruce.jpg",
+    "position": "Postdoctoral Research Fellow",
+    "name": "Jeff Bruce",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=fY-8XwQAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Dr. Jeff Bruce received his PhD in Cell and Molecular Biology from the University of Toronto under the supervision of Dr. Fei-Fei Liu in the department of Medical Biophysics.&nbsp; During his PhD Jeff worked on identifying biological and clinical uses for micro-RNAs in the treatment and diagnosis of head and neck cancers.&nbsp; Currently, Jeff is focused on using a variety of computational approaches to translate multiple types of molecular data from patient tumour and healthy tissue samples into clinically actionable insight.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d4",
+    "image": "elham_salehi.jpg",
+    "position": "Postdoctoral Research Fellow",
+    "name": "Elham Salehi",
+    "status": "alumni",
+    "bio": "Elham Salehi received her PhD in Computer Science from University of Windsor, Canada, her M.Sc in computer science from University of Tehran, Iran and her BSc. in computer engineering from Sharif University of Technology, Tehran, Iran. During her PhD, she developed an efficient Bayesian Network-based combinatorial optimization algorithm for high dimensional problems and applied it for predicting glycation sites in mammalian proteins. She also developed several multiple dependency detection algorithms and studied the effects of the characteristics of problems on the efficiency of those algorithms. She has worked at the National Research Council of Canada before joining the BHK lab where she will work on developing novel bioinformatic approaches for high-throughput discovery of drug combinations in cancer.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d9",
+    "image": "rene_quevedo.jpeg",
+    "position": "Postdoctoral Fellow",
+    "name": "Rene Quevedo",
+    "status": "alumni",
+    "bio": "Rene has completed a Bachelor of Science Degree in Science at McMaster University with a focus on Biology, Psychology and Biochemistry.  Following this, he continued to complete a Graduate Certificate program in Bioinformatics at Seneca College.  Recent work has been focused on whole-exome and whole-genome sequence analysis for patient-derived cancer samples to create landscapes of the disease, as well as functional interpretation of the data.  His current projects will involve working with Zhaleh Safikhani in the lab to analyze the subclonality of cancer cell lines as well as investigation into tumor-derived unannotated transcripts and their relation to drug sensitivity data.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e0",
+    "image": "shaun_shepherd.jpg",
+    "position": "Research Associate/Project Manager",
+    "name": "Shaun Shepherd",
+    "status": "alumni",
+    "bio": "Shaun Shepherd received his Master's in Health Research Methodology from McMaster University. During his graduate studies, Shaun has worked on multi-centre randomized control trials in implementation sciences and population-level research focused on immigrant and ethnic health disparity. After graduation, Shaun developed and implemented research database systems for a clinical research lab. Following graduation, Shaun served a staff at the Canadian Institute of Health Research (CIHR) where he has worked on projects to improve ease of access to grants for young investigators and improve equitable access to Canadian tri-agency grants for groups historically under-represented among awardees. As the lab manager, Shaun works to execute the strategic vision of BHK Lab across its multiple projects.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ed",
+    "image": "evgeniya_gorobets.jpg",
+    "position": "Research Student",
+    "name": "Evgeniya Gorobets",
+    "status": "alumni",
+    "bio": "Evgeniya is a third year Bioinformatics and Computer Science student at the University of Toronto. She is passionate about applying statistical models and machine learning to health care research, especially cancer research. Currently, she is working on analyzing large-scale pharmacogenomic datasets.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ef",
+    "image": "grace_wu.jpg",
+    "position": "Research Student",
+    "name": "Grace Wu",
+    "status": "alumni",
+    "bio": "Grace is a third year Engineering Science student at the University of Toronto specializing in machine intelligence. She is passionate about applying machine learning to solve problems in bioinformatics, specifically at the genetic level. Currently, she is working on developing an R script to leverage text mining as a way to identify relevant biomarkers for feature selection when predicting drug response from gene expression.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f5",
+    "image": "frank_wang.png",
+    "position": "Undergraduate Summer Student",
+    "name": "Frank Wang",
+    "status": "alumni",
+    "bio": "Frank Wang is a summer student studying Software Engineering at University of Ottawa. His project involves developing web applications that make use of the genomic and proteomic technologies developed in the laboratory. During his spare time he studies deep learning applications on natural language processing in hope of one day making a fortune in this industry. He also has around 4000 hours logged on DotA2.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7702",
+    "image": "simon_papillon_cavanagh.jpg",
+    "position": "Undergrad Student",
+    "name": "Simon Papillon-Cavanagh",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=tpzxb70AAAAJ&hl=en"
+      }
+    ],
+    "bio": "Simon participated in a year-long undergraduate internship under the supervision of Dr. Haibe-Kains. Simon's work was directed at developing a new feature selection approach based on ensemble minimum Redundancy, Maximum Relevance (mRMR) and integrating features from multiple omics platforms to predict drug sensitivity and resistance. He is currently pursuing his graduate studies as PhD student in human genetics at McGill University under the supervision of Dr. Jacek Majewski. His interest lies in the application and development of bioinformatic tools for high-level integration of next generation sequencing technologies. Recently, Simon has been successfully involved in analyzing pediatric brain cancer patients in two projects published in Nature Genetics. Simon has been awarded the FRQS award for a project involving comparative methods of genetic copy number variants in glioblastoma patients.",
+    "display": true,
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7704",
+    "image": "dong_wang.jpg",
+    "position": "Summer Student",
+    "name": "Dong Yao (Donald) Wang",
+    "preferredName": "Donald Wang",
+    "status": "alumni",
+    "bio": "Donald is currently in his final year at University of Toronto studying Pharmacology and Physiology. He is interested in repurposing of chemotherapy agents. His current project involve the development of an integrated database to connect large of pharmaco- and toxicogenomic datasets, which will subsequently enable their joint analysis to better identify the drugs' mechanisms of action and better position unexplored drugs.",
+    "display": true,
+    "startDate": "2014-01-01",
+    "endDate": "2014-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7707",
+    "image": "gregory_chen.jpeg",
+    "position": "Undergrad summer student",
+    "name": "Gregory Chen",
+    "status": "alumni",
+    "bio": "Greg is an undergraduate student with interests in machine learning and statistical approaches in computational biology. His research experience includes projects in biomarker discovery at the Ontario Institute for Cancer Research, and computational chemistry at McMaster University's Faculty of Health Sciences. Greg is looking forward to pursuing a career in cross-disciplinary approaches to personalized medicine.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2015-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7709",
+    "image": "keshav_dial.jpeg",
+    "position": "Research Trainee",
+    "name": "Keshav Dial",
+    "status": "alumni",
+    "bio": "Keshav earned his HBSc in Pharmacology and Biology from the University of Western Ontario. He is currently pursuing a Graduate Certificate in Bioinformatics at Seneca College. He is currently working on the development of a software pipeline that analyzes ovarian and breast cancer gene expression profiles and associated clinical data.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2016-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7713",
+    "image": "nina_wang.jpg",
+    "position": "Rotation Student",
+    "name": "TingTing (Nina) Wang",
+    "status": "alumni",
+    "bio": "Nina is a graduate student with the Department of Medical Biophysics at the University of Toronto. She completed her Bachelor of Science at the University of Toronto with a focus on Human Biology and Cell & Systems Biology. Her current work focuses on combination drug response prediction using cell line and patient data.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771b",
+    "image": "karina.jpeg",
+    "position": "Undergraduate Student",
+    "name": "Karina Merida",
+    "status": "alumni",
+    "bio": "Karina Merida is a biology major at the University of Toronto with minors in computer science and math. She is interested in machine learning and epigenetics. Currently, she is developing a pipeline that will predict drug response based on models trained on perturbation signatures. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771c",
+    "image": "Behyad.jpg",
+    "position": "Undergraduate Student",
+    "name": "Behyad Rahmati",
+    "status": "alumni",
+    "bio": "Behyad is an undergraduate student studying Cell and Systems Biology, Immunology and Statistics. He is interested in algorithmically studying the relationship between transcriptomics and proteomics, and he is focused on applying my statistical and programming knowledge to analyzing big data sets.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7720",
+    "image": "claire_tang.jpg",
+    "position": "Volunteer",
+    "name": "Claire Tang",
+    "status": "alumni",
+    "bio": "I am a financial and data analytics professional embracing challenges in my career journey. My education background is economic science and project management, graduated from University of Rouen in 2004 (Master's degree, major in Industrial and Financial Dynamic Strategy) and International Space University in 2006 (Master's degree, major in Space Management). After 8 years working at Rogers [1] in various roles (e.g., credit operation, sales audit and financial analysis), I do believe numbers tell stories; “Data brings knowledge” [2]. Stats is not one silver bullet for all issues, but a science assisting us to mitigate risks or “turn risks into opportunities”. In order to polish and enhance my analytical skills, I completed Data Science Certification program designed by University of Toronto in 2018.\nBecoming one of the best business planners is my goal. Why am I here, in BHK lab? Because of amazing people here and because supporting cancer research is helping Canadiens and people all over the world to have a better life.\nI love to use “balance” to describe myself; it is one of things on which I am devoting my time to keep them happening. I love adventures; I am a fan of baseball, basketball, squash, chess, funny & strategy video games, horse riding, sailing and hot yoga; I enjoy meeting friends, playing volleyball, sketching, listening to music, reading, cooking, and of course coding for process automation.\nI use Nike’s motto as mine: “Just do it.” Wish to share my knowledge and make more good friends.\n[1] A leader in telecom and media industry in Canada.\n[2] Hastie T., Tibshirani R., Friedman J., The Elements of Statistical Learning, Data Mining, Inference, and Prediction, 2nd Edition, January 2017",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772b",
+    "image": "laleh_soltan_ghoraie.jpg",
+    "position": "Postdoc ",
+    "name": "Laleh Soltan Ghoraie",
+    "status": "alumni",
+    "bio": "Laleh received her PhD in Computer Science from University of Waterloo, Canada. She is interested in applications of Machine Learning in Bioinformatics. During her PhD studies, she proposed a framework – utilizing inference in Probabilistic Graphical Models - for predicting conformations of proteins’ polymorphic side chains. Furthermore, she developed a novel algorithm, named Kernelized Partial Canonical Correlation Analysis, to estimate networks of directly coupled side chains of proteins. Direct couplings reveal interesting information regarding allosteric behaviour of proteins. Prior to her PhD, Laleh earned a Master's degree in Computer Science from University of Windsor, Canada. She is currently applying statistical and Machine Learning methods to analyze genomic data in pharmacogenomics applications.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2016-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7730",
+    "image": "Emily_So.jpeg",
+    "position": "MSc student",
+    "name": "Emily So",
+    "status": "current member",
+    "bio": "Emily So received her undergraduate at the University of Toronto, specializing in Bioinformatics and Computational Biology. She has conducted multiple bioinformatics projects in the past, focused on areas such as computational neuroscience and transcriptomics. She is currently an MSc candidate in the Department of Medical Biophysics, in the research stream of Data Science and Computational Biology. Her research interests are centred around applications of machine learning in bioinformatics and research in personalized medicine. In addition to her studies, she is a Solutions Scientist at Code Ocean, focusing on developing collaborative and reproducible bioinformatics workflows.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "emily.so@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      },
+      {
+        "email": "emilyadr.so@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7734",
+    "image": "chantal_ho.jpg",
+    "position": "Software Developer",
+    "name": "Chantal Ho",
+    "status": "alumni",
+    "bio": "Chantal is a 2nd year undergraduate student at UofT studying Bioinformatics and Computational Biology. She is interested in algorithmic and interface design, as well as genetic processes and how they relate to the overall understanding of the human body. She hopes to further her knowledge in the practical applications of knowledge she has obtained from courses, as well as gain research experience in bioinformatics.",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7738",
+    "image": "heewon_seo.jpeg",
+    "position": "Postdoctoral Fellow",
+    "name": "Heewon Seo",
+    "status": "alumni",
+    "bio": "Dr. Heewon Seo is a highly skilled data scientist in the field of genomics. He holds a MS and PhD in Biomedical Informatics from Seoul National University, Korea, where he specialized in pharmacogenomics. Here, he utilized next-generation sequencing for variant- and gene-based analysis, in order to identify genomic variants that are associated with drug-induced side effects. Therefore, his work focused on the analysis of genomic profiles of patients with adverse drug reactions. His current focus is on developing a translational framework for precision oncology using a compendium of preclinical pharmacogenomics datasets and clinical patient cohorts. His goal is to identify robust gene-drug associations using both molecular and pharmacological profiles of tumour samples to enhance therapeutic strategies for patients. Additionally, he has been immensely devoted to expanding his knowledge in drug combination therapies in preclinical model systems and their effects on patient chemotherapy outcomes, in order to improve current treatment strategies.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2020-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773b",
+    "image": "danielle_denisko.jpg",
+    "position": "Rotation Student",
+    "name": "Danielle Denisko",
+    "status": "alumni",
+    "bio": "Danielle obtained her Hon. B.Sc. from the University of Toronto in Biophysics and Mathematics. She recently joined the Department of Medical Biophysics as a first-year M.Sc. student. She became interested in computational epigenomics while investigating the use of knockout controls in ChIP-seq transcription factor binding site prediction and motif elucidation in her fourth-year project. She is interested in exploring epigenetic regulation in the context of cancer.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773d",
+    "image": "oliver_clark.jpg",
+    "position": "Visiting Student",
+    "name": "Oliver Clark",
+    "status": "alumni",
+    "bio": "Oliver obtained his BSc in Biology at McGill University in Montreal, with minors in Computer Science and Mathematics. During his studies at McGill, he conducted research in behavioural biology to examine the patterns of courtship calls in female songbirds and their underlying neural mechanisms. He currently studies Medicine at UCD in Dublin, Ireland, and is a volunteer at Systems Biology Ireland, where he is investigating specific protein-protein interactions involved in several childhood cancers. In the BHK Lab, he is working as a summer student to uncover non-coding RNA biomarkers to predict in vitro drug response. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773e",
+    "image": "michael_zon.jpg",
+    "position": "Intern",
+    "name": "Michael Zon",
+    "status": "alumni",
+    "bio": "Michael Zon received his BSc from the University of Guelph where he studied Nanoscience, and is currently pursuing a medical degree and PhD in Biomedical Engineering at McMaster University. He has previously conducted research simulating twitching motility in bacteria using molecular dynamics, and locating rodent skull sutures via ultrasound imaging. Within the Computational Genomics Laboratory at Princess Margaret Michael develops software to test the prognostic value of gene signatures and assess drug repurposing methods. Michael's primary interests are in the application of the physical sciences to medicine. As such, he aspires to become a physician scientist in order to apply his research interests to the medical field and integrate his results into patient care.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7740",
+    "image": "lauren_podmore.jpg",
+    "position": "PhD Student",
+    "name": "Lauren Podmore",
+    "status": "alumni",
+    "bio": "Lauren has pursued cancer research for over a decade, first with an Honours Bachelor of Science in Biochemistry from University of Toronto, followed by a Master of Science in Experimental Medicine from McGill University. After graduating, she worked as a research technician at the Hospital for Sick Children, assisting with projects relating to neurological cancers, before returning to the University of Toronto to obtain her doctorate in the Department of Medical Biophysics. As a PhD student, Lauren joins the Haibe-Kains lab to study the suppression of mutant oncogenes in the context of cancer, aiming to expand her bioinformatics knowledge and skillset in ways that inform her wet-lab work, which surrounds cancer cell signaling and is performed under the co-supervision of Dr. Vuk Stambolic.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7742",
+    "image": "tamara_mahbubani.jpg",
+    "position": "Undergraduate Student",
+    "name": "Tamara_Mahbubani",
+    "status": "alumni",
+    "bio": "Tamara Mahbubani is a first year Engineering Science student at the University of Toronto. She is a summer student at the BHK lab and will be creating a tool that produces an interactive heat map given a certain set of data. She is interested in pursuing biomedical engineering and is excited to be doing a project that relates to cancer research.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7747",
+    "name": "Nora Samhadaneh",
+    "display": false,
+    "startDate": "2021-01-01",
+    "endDate": "2021-01-01",
+    "position": "Research Student"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7748",
+    "name": "Cartik Sharma",
+    "display": false,
+    "startDate": "2021-01-01",
+    "endDate": "2021-01-01",
+    "position": "Technical Coordinator (CBMP)"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac774b",
+    "name": "Erik Ensminger",
+    "display": false,
+    "startDate": "2022-05-24",
+    "endDate": null,
+    "position": "Summer Student",
+    "contactInfo": [
+      {
+        "email": "e.ensminger@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "erik.ensminger@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b6",
+    "image": "foram_vyas.jpg",
+    "position": "MSc Student",
+    "name": "Foram Vyas",
+    "status": "current member",
+    "bio": "After earning her HBSc. from the University of Toronto where her undergraduate projects focused on the histological and functional characterization of pancreatic cancer stroma, Foram is now pursuing a graduate degree in Medical Biophysics under the co-supervision of Dr. Haibe-Kains and Dr. Khokha",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "f.vyas98@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "f.vyas@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      },
+      {
+        "email": "foram.vyas@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b7",
+    "image": "sejin_kim.jpg",
+    "position": "MSc Student",
+    "name": "Sejin Kim",
+    "status": "current member",
+    "bio": "Sejin is studying Medical Health Informatics at Western University. Sejin is joining the BHK lab to explore the intersection of machine learning and medicine. As part of the radiomics team, he will be implementing various neural network architectures to segment tumours and metastatic nodes from head/neck CT scans.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "hello@sejin.kim",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "sejin.kim@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b8",
+    "image": "paul_brogee.jpg",
+    "position": "Program Coordinator (CBMP)",
+    "name": "Paul Brogee",
+    "status": "current member",
+    "bio": "Paul received a Bachelor of Science degree (Molecular Biology) in 2013, and a Master of Applied Science degree (Chemical Engineering) in 2019, from the University of Waterloo. His previous research focuses have included ancestral character state reconstruction of pathogenesis-related proteins in Arabidopsis thaliana, and the use of PhiC31 recombinase for recombinase-mediated cassette exchange in the Spodoptera frugiperda genome. Paul frequently involves himself in scientific outreach programs & events to help educate the public about subjects such as vaccines and genome engineering. As the Program Coordinator for the Computational Biology and Medicine Program, Paul works to execute the strategic vision of the CBMP, and to maximize the impact of its research.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "paul.brogee@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      },
+      {
+        "email": "pbrogee@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76bc",
+    "image": "parinaz_nasr_esfahani.jpg",
+    "position": "Software Developer",
+    "name": "Parinaz Nasr Esfahani",
+    "preferredName": "Parinaz Nasr",
+    "status": "current member",
+    "bio": "Parinaz has completed her Bachelor's degree in Software Engineering at the Isfahan University of Technology, where she could develop her skills in algorithm design, data analysis, and big data technologies. She received her Master of Science degree in Computer Science from Western University, with a focus on data science and visual analytics. During her studies, she has always been interested in applying her expertise to health-related projects. Currently, Parinaz is working to develop a web platform for visualizing and analyzing shared pharmacogenomic datasets from different studies.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "parinaz.nasr@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      },
+      {
+        "email": "parinaz.nasresfahani@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76bf",
+    "image": "nicholas_li.jpg",
+    "position": "Research Student",
+    "name": "Nicholas Li",
+    "status": "current member",
+    "bio": "Nick is a 2nd Year undergraduate student studying Health Sciences at McMaster University. His research interests include application of machine learning for drug response prediction on cell-lines and patient-derived xenografts. He is currently working on creating machine learning models that leverage gene information to predict drug combination synergies.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "lin37@mcmaster.ca",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c0",
+    "image": "Grace_Yu.jpg",
+    "position": "Intern",
+    "name": "Grace Yu",
+    "status": "current member",
+    "bio": "Grace is a 3rd Year undergraduate student studying Computer Science and Bioinformatics at University of Toronto. She is interested in using computer science to explore the mechanism behind cancer and ageing. She is currently working on a course project at BHK's lab which involves using few-shot learning to predict drug response on clinical cancer cell lines.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c2",
+    "image": "Kevin_Tabatabaei.jpg",
+    "position": "Summer Student",
+    "name": "Kevin Tabatabaei",
+    "status": "current member",
+    "bio": "Kevin is entering his 4th year in the Health Sciences program at McMaster University. He is a skilled programmer who has interned at companies including Microsoft, Top Hat, and Kritik, and he hopes to bring his computer science skills to medicine. He was also the recipient of the Fulbright Killam Fellowship last year where he spent a semester studying at The University of Texas at Austin. This summer, Kevin will be working alongside the pharmacogenomics team at the BHK lab.",
+    "display": true,
+    "startDate": "2022-05-02",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "tabatabk@mcmaster.ca",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c9",
+    "image": "brad_van_oosten.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Brad Van Oosten",
+    "status": "alumni",
+    "bio": "Dr. van Oosten received his PhD in biophysics from Brock University.   His major focus of study was in lipid membranes and their interactions with small molecules utilizing molecular dynamics and scattering techniques.  After his PhD, he continued in the area of biophysics as a postdoctoral researcher at Uppsala University, Sweden.  In Uppsala, he pursued new DNA sequencing techniques as well as studying protein dynamics and interactions with DNA utilizing microscopy techniques including single molecule fluorescence resonance energy transfer (smFRET).  Currently he is investigating genotype-phenotype associations in ovarian and head-and-neck cancers using patient-derived organoids(PDO) and xenografts(PDX).",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2022-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d1",
+    "image": "venkata_manem.jpeg",
+    "position": "Postdoctoral Fellow",
+    "name": "Venkata Manem",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=NL5x8moAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Dr. Venkata Manem earned his PhD in Applied Mathematics (with specialization in Biomedical Sciences) at University of Waterloo, Canada. He worked as a research fellow in the department of radiation oncology at the Massachusetts General Hospital and Harvard Medical School, Boston, USA. His postdoctoral research focused on (i) mathematical models to understand and quantify the mechanism of action between radiotherapy and chemotherapy, and (ii) mathematical models to quantify the geometric uncertainties in proton and photon treatment planning. During his PhD studies, his research focused on mathematical modeling of anti-cancer therapy induced secondary cancer risks, and, also worked on spatial evolutionary modeling on networks to understand cancer progression in real tissues. Prior to his PhD, he obtained a Masters in Mathematics from Memorial University of Newfoundland, Canada and a Masters in Mathematics (with specialization in Computer Science) from Sri Sathya Sai Institute of Higher Learning, India. Currently, he is employing his mathematical and computational skills to model the crosstalk between the tumor epithelia and stroma in malignant breast cancers, and potentially identify chemotherapeutic agents that can inhibit these interactions.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2018-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d8",
+    "image": "hossein_sharifi_noghabi.jpeg",
+    "position": "Research Student",
+    "name": "Hossein Sharifi-Noghabi",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Github",
+        "link": "http://hosseinshn.github.io/"
+      }
+    ],
+    "bio": "Hossein Sharifi-Noghabi is a PhD candidate at school of computing science at Simon Fraser University working with Prof. Martin Ester and Prof. Colin Collins (UBC). Before that, he obtained his B.Eng. in Information Technology and his M.Sc. in Artificial Intelligence in 2012 and 2015, respectively. His current research is transfer learning, domain generalization, and semi-supervised learning with applications in pharmacogenomics.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76da",
+    "image": "fatemeh.JPG",
+    "position": "PhD Student",
+    "name": "Fatemeh Almodaresi",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": " https://scholar.google.ca/citations?user=X-BUd5EAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "bio": "Fatemeh is a Ph.D. student in Computer Science at Stony Brook University. Having a few years of background and working experience in the field of data mining and data analysis, she has moved to the amazing field of Computational Biology as a pursuit of accomplishing her Ph.D. Most of her focus now is on designing and implementing time and space efficient data structures and algorithms; specifically, those that are scalable to large-scale transcriptomic analysis and complex metagenomic experiments. She has led or been part of implementing a variety of tools developed as reference-based or reference-free indexing schemes that are used for search, alignment, assembly or comparison of the sequencing read datasets; tools such as Rainbowfish, Pufferfish, and Mantis.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76dc",
+    "image": "nehme_elhachem.jpg",
+    "position": "PhD Student",
+    "name": "Nehme El-Hachem",
+    "status": "alumni",
+    "bio": "Nehme El-Hachem earned his MSc. in biochemistry and toxicology. He is doing a PhD in biomedical sciences at the Université de Montréal under the supervision of Dr. Haibe-Kains. His main research interests include pharmacogenomics, toxicogenomics, drug repositioning in cancer as well as personalized medicine and disease management.",
+    "display": true,
+    "startDate": "2012-01-01",
+    "endDate": "2016-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76dd",
+    "image": "patrick_grossman.jpg",
+    "position": "PhD Student",
+    "name": "Patrick Grossmann",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=vPpo438AAAAJ&hl=en"
+      }
+    ],
+    "bio": "Patrick Grossmann was trained as a classical bioinformatician within the program Bioinformatics & Genome Research at University of Bielefeld (Germany), where he obtained both his Bachelor and Master of Science degrees. His research interest switched to statistical data analysis and he conducted his Bachelor's and Master's Thesis at ETH-Zurich, Basel (Switzerland), in the groups of Computational Systems Biology and Computational Biology, respectively. In addition, Patrick served as an intern at Dana-Farber Cancer Institute, Boston (USA), during his Master studies. For the latter two projects he was awarded two independent scholarships. As a PhD Candidate at University Maastricht (Netherlands), Dana-Farber Cancer Institute, and Harvard Medical School, he is now conducting doctoral research studies on Radiogenomics (finding a connection between quantitative imaging features of tumors and their molecular data), Toxicogenomics (understanding how potentially toxic chemicals influence molecular mechanisms of exposed cells), and Pharmacogenomics (understanding how drug responses are influenced by the genomic profile of an individual). He aims to contribute in promoting precision medicine in cancer by this approach of integrative and reproducible data analysis.",
+    "display": true,
+    "startDate": "2013-01-01",
+    "endDate": "2018-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e4",
+    "image": "michal.jpg",
+    "position": "MSc Student",
+    "name": "Michal Kazmierski",
+    "status": "alumni",
+    "bio": "Michal is a final-year undergraduate at Imperial College London. During his summer internship at MAASTRO clinic in Maastricht, Netherlands he gained experience in medical image analysis and radiomics. His interests include cancer biology, computer vision and machine learning. He aims to apply his computational skills and biological knowledge to create robust, reproducible and clinically useful models integrating different data modalities. Currently, he is working on his BSc thesis, focusing on extracting prognostic information from medical images using deep learning.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e8",
+    "image": "Emily_Heath.jpeg",
+    "position": "Masters Student",
+    "name": "Emily Heath",
+    "status": "alumni",
+    "bio": "Emily obtained a Bachelor of Science at Queen's University, completing her undergraduate studies in Life Science. As an undergraduate thesis student her research focus was towards earlier detection of Myelodysplastic Syndrome using Next Generation Sequencing. Emily is now a Master's student at the University of Toronto, Institute of Medical Science. Under the supervision of Dr. Aaron Schimmer and co-supervision of Dr. Benjamin Haibe-Kains she is currently investigating a subgroup of NPM1-mutated Acute Myeloid Leukemia with a unique gene expression signature to validate the presence and prognostic/therapeutic significance.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ec",
+    "image": "katherine_zhu.jpeg",
+    "position": "Undergraduate Student",
+    "name": "Katherine Zhu",
+    "status": "alumni",
+    "bio": "Katherine is an Engineering Science student at the University of Toronto, specializing in Biomedical Systems Engineering. She is interested in further exploring the intersection between machine learning and bioinformatics and is currently working on applying ML models in predicting patient outcomes.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f4",
+    "image": "amin_noorani.jpg",
+    "position": "Research student intern",
+    "name": "Amin Noorani",
+    "status": "alumni",
+    "bio": "Amin is an undergraduate student of Bioinformatics in University of Sapienza in Rome. His current research interests are bioinformatics in cancer treatment and also want to explore his domain of expertise to many other areas like System biology and drug designing. He is a huge soccer fan and loves travelling.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2020-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f6",
+    "image": "amy_tang.jpg",
+    "position": "Undergraduate Summer Student",
+    "name": "Amy Tang",
+    "status": "alumni",
+    "bio": "Amy Tang is a summer student studying Biomedical Computing at Queen's University. She recently started her computer science journey after switching from Life Sciences. This summer, Amy is developing a package for toxicogenomics analysis. Outside of work, she loves to channel her energy into working out, reading, and making friends!",
+    "display": true,
+    "startDate": "2019-05-01",
+    "endDate": "2019-08-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76fa",
+    "image": "parsa_sadeghi.jpg",
+    "position": "Undergraduate Student",
+    "name": "Parsa Sadeghi",
+    "status": "alumni",
+    "bio": "Parsa is a second year undergraduate student in Memorial University, studying science. He is interested in studying dentistry and he hopes to gain lab work experience. On his spare time parsa likes to workout, travel and read.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76fb",
+    "image": "mahamed_suleiman.jpg",
+    "position": "Undergraduate Student",
+    "name": "Mahamed Suleiman",
+    "status": "alumni",
+    "bio": "Mahamed Suleiman is currently working a postgraduate Bioinformatics program offered at Seneca. His interests lie in computational biology and next-gen sequencing. He is currently researching pipeline stability across cancer cell lines as part of a small group from Seneca college. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76fc",
+    "image": "melanie_dawe.jpg",
+    "position": "Undergraduate Student",
+    "name": "Melanie Dawe",
+    "status": "alumni",
+    "bio": "Melanie previously obtained a Bachelor of Science degree in Molecular Biology and Genetics from the University of Guelph.  Through her undergraduate coursework, she developed an interest in bioinformatics and genomics. She is now pursuing a postgraduate diploma in Bioinformatics from Seneca College.  Currently she is researching RNA-seq pipeline stability across cancer cell lines with a group of students from Seneca college.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76fe",
+    "image": "sarah_ma.jpg",
+    "position": "Undergraduate Student",
+    "name": "Sarah Ma",
+    "status": "alumni",
+    "bio": "Sarah earned her Honours Bachelor of Science from University of Toronto, where she majored in Human Biology and Cell & Molecular Biology. She is currently completing her Bioinformatics Graduate Certificate Program at Seneca College. Her current project focuses on investigating bioinformatics software pipeline stability for the analysis of gene expression across cancer cell lines.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7706",
+    "image": "natchar_ratanasirigulchal.jpeg",
+    "position": "Undergraduate Student",
+    "name": "Natchar Ratanasirigulchal",
+    "status": "alumni",
+    "bio": "Natchar is currently an undergraduate student at the University of British Columbia, pursuing a combined honours degree in Biology and Computer Science. She has recently been involved in autophagy research in relation to human vascular smooth muscle cells. Natchar intends to apply her Computer Science knowledge to other fields of research, including bioinformatics and medicine.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7708",
+    "image": "adrian_she.jpg",
+    "position": "Undergrad Student",
+    "name": "Adrian She",
+    "status": "alumni",
+    "bio": "Adrian is currently an undergraduate student in Computer Science and Mathematics at the University of British Columbia. He is passionate about interdisciplinary applications of computer science, especially the application of machine learning and data mining techniques in bioinformatics and computational linguistics. His current project will involve the development of a unified pharmacogenomic database and the corresponding bioinformatic pipeline to characterize drug mechanisms of action and identify robust biomarkers for drug responses. He plans to pursue graduate studies after he finishes his undergraduate degree.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2015-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770a",
+    "image": "christina-chung.jpeg",
+    "position": "Undergraduate Student",
+    "name": "Christina Chung",
+    "status": "alumni",
+    "bio": "Christina Chung is an undergraduate at the University of Toronto. She studies Computer Science, Math and Statistics. She is interested in a variety of areas in Computer Science, and hopes to pursue research upon completing her undergrad.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770d",
+    "image": "rathusshan-kuganesan.jpg",
+    "position": "Undergraduate Student",
+    "name": "Rathusshan Kuganesan",
+    "status": "alumni",
+    "bio": "Rathusshan Kuganesan is an undergraduate student at the University of Toronto, studying Computer Science. His interests includes software engineering and human-computer interaction, as it pertains to help solve today's problems. Rathusshan aims to further his knowledge through interdisciplinary research. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7712",
+    "image": "Vishwesh_ramanathan.jpg",
+    "position": "Rotation Student",
+    "name": "Vishwesh Ramanathan",
+    "status": "alumni",
+    "bio": "Vishwesh graduated from Indian Institute of Technology, Madras, with a dual degree in Chemical Engineering and Data Sciences. During his undergrads, he became very much interested in computer vision and its applications in different domains, especially in medical imaging. He is currently pursuing a Ph.D  degree in Medical Biophysics with a keen interest in computer vision and machine learning applications in medical domain.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7717",
+    "image": "joe_walton.jpg",
+    "position": "Rotation Student",
+    "name": "Joe Walton",
+    "status": "alumni",
+    "bio": "Joe completed a Bachelor of Science Degree in Biochemistry with a specialization in Molecular Biology at McMaster University. He went on to complete graduate studies in Biotechnology and Physical Therapy and has spent time working in a diversity of fields including management consulting, pharmaceutical marketing and as a physical therapist. A love of science and a strong desire to pursue a research career research inspired Joe to return for doctoral studies in the Medical Biophysics department at the University of Toronto. Joe's current research interests include the application of next generation sequencing technologies and epigenetics to the study of cancer biology.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7722",
+    "image": "diana_yan.jpg",
+    "position": "Intern",
+    "name": "Diana Yan",
+    "status": "alumni",
+    "bio": "Diana Yan studied Data Science and Pharmacology and obtained her HBSc from the University of Toronto. She is going to pursue her MSc in applied computing also at UofT. Her research interest is in applying statistical methods in solving medical problems. As a summer student in the lab, she is currently working on models that predict drug responses with pharmacogenomic datasets.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7728",
+    "image": "Jenny_Wang.jpg",
+    "position": "Volunteer",
+    "name": "Jenny Wang",
+    "status": "alumni",
+    "bio": "Jenny was an intern at the BHKLAB. During her time, she created a computational pipeline for a set of breast cancer PDX data. She hopes that these data will continue to pave way for drug discovery concerning PDX samples. Jenny is now a masters student at Harvard University, pursuing a degree in Health Data Science.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772a",
+    "image": "caryn_geady.png",
+    "position": "PhD Student",
+    "name": "Caryn Geady",
+    "status": "current member",
+    "bio": "Caryn graduated with a Bachelor's degree in Physics with a focus on Medical Physics and Imaging from Ryerson University. Following this, she continued to complete a Master's degree in Medical Biophysics with a focus on Medical Imaging from UofT. Her MSc thesis is on texture analysis of pathology images towards biological interpretation of radiomics features in pancreatic cancer. For her PhD, she is investigating machine learning techniques towards assessing treatment response in sarcoma.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "caryn.geady@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      },
+      {
+        "email": "caryn.geady@uhn.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "caryn@geady.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "caryngeady@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772e",
+    "image": "Arvind_Mer.jpeg",
+    "position": "Postdoctoral Fellow",
+    "name": "Arvind Singh Mer",
+    "status": "alumni",
+    "links": [
+      {
+        "title": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?hl=en&user=Xy6KKl8AAAAJ"
+      }
+    ],
+    "bio": "Dr. Mer completed his PhD at the Max Delbrück Center for Molecular Medicine and the Free University in Berlin, Germany in the field of bioinformatics and machine learning. His research focused on developing machine learning algorithms for the prediction of protein subcellular localization. After his PhD, Arvind joined the Karolinska Institute, Stockholm as a postdoctoral fellow. During his time at the Karolinska Institute Arvind worked on breast cancer and acute myeloid leukemia patient genomic and clinical data analysis using machine learning methods. In his research work, he analyzed sample size and sequencing requirements for clinical implementation of sequencing based molecular subtyping of breast cancer patients. Combining his previous experiences in machine learning and cancer genomics, Dr. Mer's current work is focused on the prediction of molecular markers for therapeutic resistance in breast cancer.",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772f",
+    "image": "joan.jpg",
+    "position": "Undergrad Student",
+    "name": "Joan Marcè i Igual",
+    "status": "alumni",
+    "bio": "Joan is finishing his studies in Computer Science and Industrial Engineering at Polytechnic University of Catalonia and he has been doing a double degree program at CFIS (Interdisciplinary Higher Education Centre). He is a visiting student in the Haibe-Kains laboratory and he will be doing his Final Degree Research thesis \"Unlock the potential of medical imaging data using deep learning.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2018-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7735",
+    "image": "anthony_mammoliti.jpg",
+    "position": "MSc Student",
+    "name": "Anthony Mammoliti",
+    "status": "alumni",
+    "bio": "Anthony has obtained a Bachelors of Science in Biology at York University, and is completing a Bioinformatics Graduate Certificate at Seneca College. His recent work has involved proteomic profiling for a bioinformatics patent, along with data analytics for an aerospace company. He is immensely interested in computational epigenetics, such as the identification and analysis of epigenetic biomarkers in cancer cell lines through next-generation sequencing.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7737",
+    "image": "sakeena_panju.jpg",
+    "position": "Undergrad research intern",
+    "name": "Sakeena Panju",
+    "status": "alumni",
+    "links": [
+      {
+        "title": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=pc2MBJ4AAAAJ&hl=en"
+      }
+    ],
+    "bio": "Sakeena Panju is a 4th year student in Engineering Science (Biomedical Systems) at the University of Toronto.  Her research interests include using computational biology and machine learning for efficient drug repurposing in breast cancers.  Prior to doing her undergraduate thesis in the Haibe-Kains lab, she worked as a full-stack software engineer for Bayer Inc. on an informatics platform (Radimetrics™) for radiation dose management in a medical imaging setting. Sakeena is a coder in practice and an oncologist at heart.",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773f",
+    "image": "kenan_deng.jpg",
+    "position": "Undergraduate Student",
+    "name": "Kenan Deng",
+    "status": "alumni",
+    "bio": "Kenan Deng is an undergraduate at the University of Toronto. He studies Computer Science. He is interested in artificial intelligence and computer vision. And he hopes to further his studies in various areas in Computer Science.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7743",
+    "image": "Yuan_Gao.jpg",
+    "position": "Rotation Student",
+    "name": "Yuan (William) Gao",
+    "status": "alumni",
+    "bio": "Yuan (William) Gao received his Master of Science in Pharmacology and Toxicology from the University of Toronto in the field of pharmacogenomics and smoking addiction. William completed many bioinformatics projects to understand addiction and improve smoking cessation using transcriptional and genetic sequencing datasets. During his Masters, he grew fascinated with the field of machine learning and its applications to personalized medicine. He is now pursuing a Ph.D. degree in the Department of Medical Biophysics, interested in machine learning and its applications in high throughput pharmacogenomic datasets.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7749",
+    "name": "Ferran Lopez Guitart",
+    "display": false,
+    "startDate": "2021-01-01",
+    "endDate": "2021-01-01",
+    "position": "Visiting BSc Student"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b0",
+    "image": "farnoosh_babazadeh.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Farnoosh Abbas Aghababazadeh",
+    "preferredName": "Farnoosh Babazadeh",
+    "status": "current member",
+    "bio": "Farnoosh completed her PhD in Mathematics (Biostatistics emphasis) from the Department of Mathematics and Statistics at the University of Ottawa, Canada. Her major research focus was on improving statistical methods in multiple hypothesis testing problem using the local false discovery rate with application in high-throughput biological data, diffusion tensor imaging and genome-wide association studies. Farnoosh holds MSc and BSc in Mathematical Statistics and Statistics, respectively, from Shiraz University, Iran.  After her PhD, Farnoosh joined the Department of Biostatistics and Bioinformatics at the Moffitt Cancer Center in Florida as a post-doctoral research fellow. During that time, she gained extensive experience in statistical genomics, pharmacogenomics and collaborative research involving multi-omics data. Currently, Farnoosh is developing statistical methods for high-dimensional omic studies involving pharmacogenomics and cancer.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "Farnoosh.AbbasAghababazadeh@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      },
+      {
+        "email": "farnooshbabazadeh@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b5",
+    "image": "joseph.jpg",
+    "position": "MSc Student",
+    "name": "Joseph Marsilla",
+    "status": "current member",
+    "bio": "After graduating with an Honour Bachelors of Science the University of Toronto, Joseph joins the BHK lab to pursue an applied MSc in Medical Biophysics where he seeks to research new Machine learning techniques applied to genetics, radiomics and medical imaging diagnostics..",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "joseph.marsilla@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      },
+      {
+        "email": "josephmarsilla@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b1",
+    "image": "petr_smirnov.jpg",
+    "position": "PhD Student",
+    "name": "Petr Smirnov",
+    "status": "current member",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=VeRay04AAAAJ&hl=en"
+      }
+    ],
+    "bio": "Petr Smirnov obtained his HBSc from the University of Toronto with a specialist in Mathematics and Physics, and is currently pursuing his MSc in Medical Biophysics, also at UofT. His research interests are in extracting clinically meaningful discoveries from high throughput pharmacogenomic datasets, and tackling the barriers to translating these discoveries into practice. In addition to his research into machine learning methods for learning from these datasets adapted to the constraints imposed by clinical realities, he works to build tools for making the analysis of high throughput pharmacogenomic studies easier for non-specialists in the field.",
+    "display": true,
+    "startDate": "2014-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "petr.smirnov@utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      },
+      {
+        "email": "psmirnov2000@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b3",
+    "image": "ian_smith.jpg",
+    "position": "PhD Student",
+    "name": "Ian Smith",
+    "status": "current member",
+    "bio": "Ian received his Bachelors of Science in Physics from the Massachusetts Institute of Technology in Boston, USA. After university, his interests switched to machine learning and bioinformatics.  He worked as a computational biologist at the Broad Institute of MIT and Harvard with a primary focus on analysis of high-throughput gene expression data from the L1000 assay in the Connectivity Map as part of the LINCS Consortium. Most of his work has pertained to the analysis of transcriptional data from genetic perturbations, especially RNAi and CRISPR data.  As part of a collaboration with the Genomic Perturbations Platform of the Broad, he constructed predictive models to maximize the efficacy and minimize the off-target effects of sgRNAs for CRISPR-Cas9. His research interests include construction of gene networks from high-throughput biological data, integration of different assay technologies, modeling of drug treatment and combination therapy, and statistical methods to properly analyze and normalize high throughput transcriptomic data. ",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "iamsinht@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "ianc.smith@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76b9",
+    "image": "gangesh.jpg",
+    "position": "Software Developer",
+    "name": "Gangesh Beri",
+    "status": "current member",
+    "bio": "Gangesh received his Master of Computer Science from the University of Ottawa. During his graduate studies, Gangesh has done an Internship working as an Automation Developer with the prime objective of planning and implementing the new automated test suite, building in-house automation tools, and data visualization tools. Gangesh also worked as a Research Assistant in Dr. Bolic's lab at uOttawa where he was involved in designing cloud-based solution for simulation and processing of sensor data. The project involved the development of scalable cloud-based web application for real-time acquisition and processing of the data from contactless sensors as well as for presenting historical data. Leveraging his prior experience of working with scalable cloud-based web application and his expertise in computer science he is currently working on building cloud-based infrastructure and databases for the available pharmacogenomic datasets including Patient-derived tumor xenografts pharmacogenomic data.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "gangesh.beri@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      },
+      {
+        "email": "gangeshberi@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c4",
+    "image": "Prabhkirat_Kaur.jpg",
+    "position": "Research Volunteer",
+    "name": "Prabhkirat Kaur",
+    "status": "current member",
+    "bio": "Prabhkirat is going into her third year in the Medical Sciences program at Western University specializing in pharmacology and physiology. She is currently working on a paper for the credibility of AI technology in published journals. She would like to pursue different research areas in cancer biology and epigenetics throughout her undergraduate career. In her free time, she enjoys playing basketball and crochet! ",
+    "display": true,
+    "startDate": "2022-05-02",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "kaurprabhki.ki@gmail.com",
+        "type": "Personal",
+        "preferred": true
+      },
+      {
+        "email": "pkaur67@uwo.ca",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ce",
+    "image": "Hassan.png",
+    "position": "Postdoctoral Fellow",
+    "name": "Hassan Mahmoud Mohamed",
+    "preferredName": "Hassan Mahmoud",
+    "status": "alumni",
+    "bio": "Hassan earned his MSc in medical image analysis at Ain Shams University and he worked as software development team leader. He earned his PhD in Computational Biology & Bioinformatics through a fellowship from Genoa University (Italy) in biological network analysis, semantic enrichment, machine learning and Community detection. He was a postdoctoral fellow at Milan (Italy) working on computational aspects of cancer genomics, immunology, RNA sequencing and alternate splicing. He is Assistant Professor of Computer Science in Egypt at Benha University and Visiting Assistant Professor at Ainshams and Helwan Universities at Faculty of Computer Science and Faculty of Engineering.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d5",
+    "image": "nadia_penrod.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Nadia Penrod",
+    "status": "alumni",
+    "bio": "Dr. Nadia Penrod holds a PhD in Experimental and Molecular Medicine from the Geisel School of Medicine at Dartmouth College. During her dissertation research she studied how gene coexpression networks adapt to targeted drugs and applied novel methods to identify genes of influence within these networks as potential druggable targets. She maintains research interests in cancer biology, molecular pharmacology, and translational bioinformatics and is currently exploring the relationships within and between tumors, cell-lines, and drugs to improve drug repurposing for individual patients. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76db",
+    "image": "heather_selby.jpg",
+    "position": "PhD Student",
+    "name": "Heather Selby",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.com/citations?user=5_PoxbEAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Heather Selby is a Ph.D student in bioinformatics at Boston University (USA). She recently joined Dr. John Quackenbush's computational biology laboratory at Dana-Farber Cancer Institute.  She is co-advised by Dr. Mark Kon and Dr. Benjamin Haibe-Kains.  She is creating cross-platform signatures to identify breast cancer subtypes.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76de",
+    "image": "michal_zukcinski.jpg",
+    "position": "Master Student",
+    "name": "Michal Zulcinski",
+    "status": "alumni",
+    "bio": "Michal Zulcinski earned his BSc in Biotechnology from the University of Wroclaw in Poland. He is currently a Master student at the University of Paris-Saclay in France, studying Bioinformatics. Through his studies, he developed an interest in a variety of areas including genomics, machine learning and data analysis. ",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e1",
+    "image": "aria_rezaie.jpg",
+    "position": "Project Manager",
+    "name": "Aria Rezaie",
+    "status": "alumni",
+    "bio": "Aria received his Honors Bachelor of Science in Biology and Medical Sciences with distinction at the University of Western Ontario. Prior to the BHK lab, Aria has assisted with field research on the dominance hierarchy of black-capped chickadees at the Sherry lab at Western University. He has also helped with the creation of an intra-arterial stroke treatment database at the Aviv lab at Sunnybrook Hospital. After graduation, Aria has worked at the Womelsdorf lab at York University in research relating to feature learning and understanding using vision and gaze. Aria hopes that his work at the BHK lab would make him a better physician in the future through having a better understanding of policy and research. Currently, among other tasks, Aria assists the lab in managing its grants and ensuring the quality of its manuscripts.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e2",
+    "image": "dennis_tk.png",
+    "position": "Software Developer",
+    "name": "Denis Tkachuk",
+    "status": "alumni",
+    "bio": "Denis holds his Masters degree with honours in Genetics from Taras Shevchenko National University of Kyiv, and he has been previously involved in studies related to cell signal pathways. However, he is very passionate about the software development field where he can combine his expertise in genetics and molecular biology with modern technologies to build unique web platforms to advance academic research. Right now, Denis is working on building web platforms to help visualize, analyze and standardize data obtained from different pharmacogenetic studies",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e5",
+    "image": "vaibhav_kulshrestha.jpg",
+    "position": "Research Student",
+    "name": "Vaibhav Kulshrestha",
+    "status": "alumni",
+    "bio": "Vaibhav is pursuing a dual degree program in MSc. Biological Sciences and BE. Electrical and Electronics Engineering from BITS Pilani, Goa Campus in India. As part of his academic program, he is carrying out his graduate thesis at BHK Lab. Vaibhav is working under the guidance of Dr. Arvind Mer. The project is to find isoforms that can act as biomarkers for Acute Myeloid Leukemia. For this, he is using the Cox regression implementation in the programming language R.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e6",
+    "image": "denis.jpg",
+    "position": "MSc Student",
+    "name": "Denis Keimakh",
+    "status": "alumni",
+    "bio": "Denis previously majored in Life Sciences and holds his BSc. (Hons.) from Queen's University. He is currently pursuing a masters degree in the Haibe-Kains lab. He is interested in bridging image analysis with clinical data extracted from pharmacogenomic datasets. Currently, Denis is focusing on methods of mathematical modelling of tumor growth datasets to observe the clinical utility of patient-derived xenograph models.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e7",
+    "image": "nicolas_bouchard.jpg",
+    "position": "MSc Student",
+    "name": "Nicolas Bouchard",
+    "status": "alumni",
+    "bio": "Nicolas obtained a M.D. at McGill University, Montreal. He then followed courses in bio-informatics at University Laval, Quebec. He is currently enrolled in a M.Sc. in Molecular Biology at University of Montreal co-supervised by Dr Frederic Charron, IRCM (Montreal) and Dr Haibe-Kains. Nicolas's project focuses on analyzing high-throughput sequencing data of cancer samples from animal models and human specimens.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ea",
+    "image": "shahzada_farooq.jpeg",
+    "position": "Research Student",
+    "name": "Shahzada Farooq",
+    "status": "alumni",
+    "bio": "Shahzada Shameel is a 3rd year undergraduate student at the University of Toronto pursuing a specialist in Bioinformatics and Computational Biology with a minor in Immunology. He came to love coding after taking an intro to programming class in his first year at university as an elective. Passionate about the life sciences since a young age, he decided to merge his two academic interests and enrolled in the Bioinformatics program. He is currently working on the AnnotationGx package at the BHK lab. In his spare time he enjoys hanging out with his friends, watching films and trying out new restaurants. His favourite film is the Godfather part 1.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": "2022-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ee",
+    "image": "david_anglada.jpeg",
+    "position": "Visiting Postdoctoral Fellow",
+    "name": "David Anglada",
+    "status": "alumni",
+    "bio": "I'm 23 years old and I'm from Menorca, from the Balearic Islands, but now I'm living in Barcelona. Here, I'm finishing my degrees in Mathematics and Data Science & Data Engineering in the Universitat Politècnica de Catalunya. To finish my degrees, I have to do a Final Degree Thesis and this is what I'm doing here at BHKLab, as a Student Intern.<br>",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f2",
+    "image": "Bo_Li.jpg",
+    "position": "Research Intern",
+    "name": "Bo Li",
+    "status": "alumni",
+    "bio": "Bo Li is an undergraduate student at UofT studying computer Engineering. He is also interested in artificial intelligence and bioinformatics analysis, he would like to apply software engineering technique on those fields. He hopes to further the study about computer science and bioinformatics in the future, and gain more research experience.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f3",
+    "image": "dean_zhu.jpg",
+    "position": "Undergraduate Student",
+    "name": "Dean Zhu",
+    "status": "alumni",
+    "bio": "Dean is a last year computer science and mathematics undergrad at Universitat Politecnica de catalunya. Academically he enjoys solving problems, has interests in competitive programming and is curious about real world applications of machine learning in order to improve the quality of life of people. That is why he will be joining BHK labs to further explore on this topic. On his free time he enjoys doing any kind of sports: Volley, football, basketbsall.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ff",
+    "image": "delvin_so.jpg",
+    "position": "Undergraduate Student",
+    "name": "Delvin So",
+    "status": "alumni",
+    "bio": "Delvin completed his undergrad at Queen's University, where he obtained a Bachelor of Science degree focusing on Genetics and Molecular Biology. Nearing the end of his undergraduate studies, he developed an interest in Bioinformatics and is now completing a postgraduate program at Seneca College and afterwards, hopes to further his academic studies through a Master's degree. Currently, he is looking into the stability of various RNA-seq pipelines and potentially, the characteristics of such sequences that lend to their instability. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7703",
+    "image": "po_bachant_winner.jpg",
+    "position": "Undergraduate Student",
+    "name": "Pierre-Olivier Bachant-Winner",
+    "status": "alumni",
+    "bio": "Pierre-Olivier Bachant-Winner recently earned his B.Sc in engineering physics in the field of biomedical physics at the Polytechnique of Montreal, Canada. Having realized many internships in applied engineering, some for the multinational Bombardier, Pierre-Olivier decided in 2013 to undertake an internship in academic research in the field of computational biology at the IRCM, under the supervision of Dr. Haibe-Kains. While working at the IRCM, Pierre-Olivier collaborated on a project in breast cancer immunology with Dr. Katrina Podsypanina. During his internship, he created a subtype specific meta-analysis pipeline based on clustering techniques that enables the identification of unique genomic features of breast cancer that can be used to predict patients' survival.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770e",
+    "image": "john-chen.jpg",
+    "position": "Undergraduate Student",
+    "name": "John Chen",
+    "status": "alumni",
+    "bio": "John Chen is an undergraduate student at the University of Toronto, studying Bioinformatics and Computational Biology and Computer Science. He is interested in meaningful applications of computers towards research, especially with respect to the medical field. He hopes to pursue graduate studies in the future by completing a PhD and MD. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7711",
+    "image": "emily_kaczmarek.jpg",
+    "position": "MSc student",
+    "name": "Emily Kaczmarek",
+    "status": "alumni",
+    "bio": "Emily Kaczmarek is a PhD student in the Department of Medical Biophysics. Previously, she received her Master of Science in Computing at Queen's University, with a specialization in Artificial Intelligence. During her Masters, she worked on a number of projects to better understand and diagnose cancer through microRNA-based deep learning, including interpretable clustering methods and graph neural networks. Her research interests include precision medicine and pharmacogenomics, multi-omics integration, and interpretable deep learning algorithms for cancer research.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": "2022-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7716",
+    "image": "james_pemberton.jpg",
+    "position": "Rotation Student",
+    "name": "James Pemberton",
+    "status": "alumni",
+    "bio": "James Pemberton is a first year Medical Biophysics student at the University of Toronto who has strong interests in researching the various protein to protein interactions that take-part in the progression of neoplastic cells.  As a new graduate student with background in molecular and cellular biology, James is looking to enhance his research in cancer biology with an approach in bioinformatics and computational genomics.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7719",
+    "image": "aleix.jpg",
+    "position": "Visiting Student",
+    "name": "Aleix Lascorz",
+    "status": "alumni",
+    "bio": "Aleix Lascorz is studying his last year of Mathematics and Computer Science in UPC. The research conducted at Princess Margaret will allow him to finish his degrees. He is interested in applying Machine Learning to real-world problems that have the potential to save lives while also enjoying mostly theoretical fields like Quantum Computing.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771a",
+    "image": "Geoff.jpg",
+    "position": "Rotation Student",
+    "name": "Geoff Chen",
+    "status": "alumni",
+    "bio": "Geoff holds an MSc. with distinction from King's College London in Artificial Intelligence. He recently joined the Department of Medical Biophysics as a first-year PhD student. His previous research involves deep learning, computer vision, robotics and signal processing. Currently, his research interest is in developing machine learning models for quantitative biology.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771d",
+    "image": "vrishti.jpg",
+    "position": "Undergraduate Student",
+    "name": "Vrishti Dutta",
+    "status": "alumni",
+    "bio": "Vrishti Dutta is studying Computer Science in the University of Toronto. She is focused on learning and applying her knowledge in the field of Computer Vision and Machine Learning through the huge volumes of cancer research data. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771e",
+    "image": "Jash.jpg",
+    "position": "Undergraduate Student",
+    "name": "Jash Mehta",
+    "status": "alumni",
+    "bio": "Jash Mehta is a second year student in the bioinformatics and computational biology program at UofT. Jash is interested in exploring the connection of biology and computer science from a genetic standpoint.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac771f",
+    "image": "narjes_rohani.jpg",
+    "position": "Volunteer",
+    "name": "Narjes Rohani",
+    "status": "alumni",
+    "bio": "Narjes graduated from Master of Computer Science at Shahid Beheshti University. She accomplished several Bioinformatics research projects by proposing computational methods for biological issues.\nShe has presented two methods for drug-drug interaction prediction based on neural networks as well as matrix factorization. Her recent research project on cancer molecular subtypes has been applied a deep embedded clustering approach on the somatic mutations profile. She also worked on Covid-19 for recommending an RNA-i therapy using Bioinformatics analyses. She is currently working on drug response and drug synergy score prediction for cell lines.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7723",
+    "image": "kevin_shen.jpg",
+    "position": "Research Student",
+    "name": "Kevin Shen",
+    "status": "alumni",
+    "bio": "Kevin is an undergraduate student at University of Waterloo studying Computer Science. His interests include software engineering and applying machine learning to different fields. At the lab's radiomics team, he implemented deep learning models for tumor detection in CT scans.",
+    "display": true,
+    "startDate": "2020-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7724",
+    "image": "andy_liu.jpg",
+    "position": "Intern",
+    "name": "Andy Liu",
+    "status": "alumni",
+    "bio": "Andy is an undergraduate Engineering Science student at the University of Toronto. He is passionate about applying machine learning to different fields and has first-hand experiences in computer vision research. Currently, he is working on an R script to predict drug response with synthetic lethality.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7725",
+    "image": "shawn_han.jpg",
+    "position": "Co-op student",
+    "name": "Shawn Han",
+    "status": "alumni",
+    "bio": "Shawn is an undergraduate student at the University of Waterloo majoring Computer Science, Data Science. His research interests focus on computer vision, including object detection, image matting, landmark detection and semantic segmentation. At the lab, he works on nodule segmentation of volumetric lung CT images using deep learning techniques.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "y262han@uwaterloo.ca",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7726",
+    "image": "colin_arrowsmith.jpg",
+    "position": "Research student intern",
+    "name": "Colin Arrowsmith",
+    "status": "alumni",
+    "bio": "Colin recently completed his undergraduate degree in physics from the University of Toronto. Colin is working on using machine learning to predict the HPV status of patients based on CT scans of tumours in the head and neck. He will also be using machine learning techniques to remove the signals created by dental artifacts from CT scans.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2020-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7729",
+    "image": "Taral_Shah_BW.jpg",
+    "position": "Intern",
+    "name": "Taral Shah",
+    "status": "alumni",
+    "bio": "Taral holds a Bachelor degree in Biomedical and Instrumentation Engineering form Ganpat University, India and Master's degree in Biomedical Engineering from Wayne State University, USA. After that, He joined CompuMed Inc. in Los Angeles as Telemedicine Lead Engineer where He worked with various healthcare IT projects. He also has Microsoft Certification in Data Science. He has worked on developing various Data Analysis tools for PACS, RIS and Health Records with CompuMed.&nbsp; He wants to pursue research which involves the use of Data Analysis techniques to better understand biological data and apply machine learning methods. He is also interested in pursuing PhD in Bioinformatics. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772d",
+    "image": "jun_ma.jpeg",
+    "position": "Visiting PhD Student",
+    "name": "Jun Ma",
+    "status": "alumni",
+    "bio": "Jun Ma earned his Master's degree in bioengineering from Northwest University in China, where he now studies biochemistry and molecular biology as a PhD student. He is a visiting PhD student in the Haibe-Kains laboratry supported by China Scholarship Council. His research interests include analyzing data from The Cancer Genome Atlas to find out disease biomarker associated with heterogeneous molecular cancer subtypes, focusing on breast and ovarian cancers. His future research area will mainly focus on using co-expression network to reveal the link between genes and isoforms in breast and ovarian cancer subtypes.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7731",
+    "image": "Ruiyan_Ni.jpg",
+    "position": "PhD student",
+    "name": "Ruiyan Ni",
+    "status": "current member",
+    "bio": "Ruiyan graduated with a Bachelor's degree in Biomedical Engineering from the Hong Kong Polytechnic University. She is now pursuing a PhD degree in Medical Biophysics focusing on automatic segmentation of targets and OARs in cervical brachytherapy using deep learning.",
+    "display": true,
+    "startDate": "2021-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "raven98yrn@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "ruiyan.ni@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": true
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7732",
+    "image": "wail_baalawi.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Wail Ba-alawi",
+    "status": "alumni",
+    "links": [
+      {
+        "title": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=A72upBQAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Dr. Wail Ba alawi holds a PhD in computer science from King Abdullah University of Science and Technology (KAUST), Saudi Arabia. His major research focus was on drug repurposing in  heterogeneous drug-target networks. In his thesis work he devised a novel method based on graph inference techniques to predict novel and reliable drug-target interactions. Before pursuing his PhD studies, he received a master's degree in computer science with an emphasis on data mining and machine learning. Currently, he is focusing on drug repurposing in cancer and investigating the effect of drug combinations in specific cancer types.",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7739",
+    "image": "victor_kofia.jpg",
+    "position": "Software Developer",
+    "name": "Victor Kofia",
+    "status": "alumni",
+    "bio": "Victor received his Bachelors of Science in Bioinformatics and Computational Biology from the University of Toronto. He is passionate about healthcare and has leveraged his technical expertise as a developer contributing to various software projects in multiple contexts (academia, industry, open-source). Victor previously worked at the Donnelly Center where he developed apps for Cytoscape, a popular bioinformatics network visualization platform. Afterwards he spent some time in industry where he performed development work on a healthcare data integration engine. His broad experience in the field makes him uniquely able to tackle healthcare challenges involving tech and he wishes to continue working on projects that have a real world impact.",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": "2018-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773a",
+    "image": "benjamin_grant.jpg",
+    "position": "Rotation Student",
+    "name": "Benjamin Grant",
+    "status": "alumni",
+    "bio": "Ben Grant is a first year Masters student in the Department of Medical Biophysics at UofT. He completed his undergraduate degree in Biochemistry at McMaster University in 2016 with a focus on physical sciences. His previous research experience includes two sessions as an MBP summer research student in the Ikura Lab at UofT, studying protein-protein interactions by NMR. He is working on leveraging proteomic profiling of cancer cell lines to investigate potential biomarker of drug response.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac773c",
+    "image": "pamela_psarianos.jpg",
+    "position": "Rotation Student",
+    "name": "Pamela Psarianos",
+    "status": "alumni",
+    "bio": "Pamela is a first year Masters student in the Department of Medical Biophysics at the University of Toronto. She graduated with an Honours Bachelor of Science degree from the University of Toronto, majoring in Biochemistry and Physiology. In May of 2013, Pamela began research under the supervision of Dr. Rebecca Laposa in the Department of Pharmacology and Toxicology, working on a project that targeted the mitochondrial RNA polymerase in acute myeloid leukemia. Since May of 2014, Pamela has been working in the laboratory of Dr. Fei-Fei Liu at the Princess Margaret Cancer Centre. In this lab, she has completed two years of the Medical Biophysics Summer Student Program as well as an undergraduate thesis project focusing on the reversal of radiation fibrosis using adipose-derived stem cells. This project has a pharmacogenomic component that involves a collaboration between the Haibe-Kains and Liu labs. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7741",
+    "image": "monica_chung.jpg",
+    "position": "Undergraduate Student",
+    "name": "Monica Chung",
+    "status": "alumni",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7744",
+    "name": "Mina Mahdian",
+    "display": false,
+    "startDate": "2019-01-01",
+    "endDate": "2020-01-01",
+    "position": "Volunteer"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7745",
+    "name": "Alexis Blanchet-Cohen",
+    "display": false,
+    "startDate": "2012-01-01",
+    "endDate": "2014-01-01",
+    "position": "Bioinformatics analyst"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7746",
+    "name": "Sabrina Ge",
+    "display": false,
+    "startDate": "2019-01-01",
+    "endDate": "2021-12-12",
+    "position": "Masters Student"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac774a",
+    "name": "Feifei Li",
+    "display": false,
+    "startDate": "2022-05-09",
+    "endDate": null,
+    "position": "Research Student",
+    "contactInfo": [
+      {
+        "email": "ff.li@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76ba",
+    "image": "christopher_eeles.jpg",
+    "position": "Software Developer",
+    "name": "Christopher Eeles",
+    "status": "current member",
+    "bio": "Christopher is an honours graduate of the Bioinformatics program at Seneca College. His undergraduate work at the University of Guelph earned him a B.Sc in Biology with a focus on the biomedical sciences. He is passionate about health care research, with a strong interest in data storage, management and analysis. Currently, he is working to develop shared pharmacogenomic data resources for an international research consortium studying rare cancers.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "Christopher.eeles@outlook.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "Christopher.eeles@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      },
+      {
+        "email": "eeles.cb@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76bb",
+    "image": "minoru_nakano.jpg",
+    "position": "Software Developer",
+    "name": "Minoru Nakano",
+    "status": "current member",
+    "bio": "Minoru holds a B.Sc in Biochemistry from McGill University, and later earned Diploma in Computer Systems Technology from BCIT. He worked as a web and software developer before pursuing Bioinformatics at Seneca College to bridge his experiences. He specializes in full-stack web development, and is interested in applying his expertise in the field of Computational Biology research. He is currently working to build a pharmacogenomic data-sharing platform for an international research consortium.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "minoru.nakano@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      },
+      {
+        "email": "minoru.nakano@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": true
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c1",
+    "image": "Arianne_Beauregard.jpeg",
+    "position": "Intern",
+    "name": "Arianne",
+    "status": "current member",
+    "bio": "Arianne is a 4th year undergraduate student at the University of Toronto studying Bioinformatics and Computer Science. She is interested in the applications of computational methods to healthcare research, especially in personalised medicine. She is currently working on drug response prediction using genomics and proteomics signatures.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c3",
+    "image": "Julia_Nguyen.jpg",
+    "position": "Summer Student",
+    "name": "Julia Nguyen",
+    "status": "current member",
+    "bio": "Julia Nguyen is an undergraduate student at the University of Western Ontario pursuing an Honours Specialization in Medical Bioinformatics. She is interested in exploring ways to integrate medical research and computational methods to improve the diagnosis and treatment of cancer and other complex human diseases. As a summer student, she is currently investigating non-coding RNAs as potential biomarkers of drug response.",
+    "display": true,
+    "startDate": "2022-05-09",
+    "endDate": "2022-08-26",
+    "contactInfo": [
+      {
+        "email": "jnguy254@uwo.ca",
+        "type": "Personal",
+        "preferred": true
+      },
+      {
+        "email": "julia.nguyen@uhnresearch.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "julianguyenpt@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c5",
+    "image": "Arthur_Soenarto.jpg",
+    "position": "Research Volunteer",
+    "name": "Arthur Soenarto",
+    "status": "current member",
+    "bio": "Arthur is a 3rd Year undergraduate student studying Computer Science at University of Toronto. His interests include machine learning, data analysis and computational biology. As a summer intern at the lab, Arthur will be working alongside the pharmacogenomics team implementing and evaluating SELECT (synthetic lethality and rescue-mediated precision oncology via the transcriptome) methods. In his free time, he either plays video games or binge watch TV shows.",
+    "display": true,
+    "startDate": "2022-05-02",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "arthur.soenarto@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76c6",
+    "image": "Kevin_Qu.png",
+    "position": "Summer Student",
+    "name": "Kevin Qu",
+    "status": "current member",
+    "bio": "Kevin is a first-year student studying Engineering Science at the University of Toronto. He hopes to pursue either the Machine Intelligence or Robotics specializations within the Engineering Science program. At school, Kevin has worked with the machine intelligence student team on predicting employee attrition factors using machine learning. This summer, he will be working with the BHK lab's radiomics team. In his free time, Kevin enjoys fishing.",
+    "display": true,
+    "startDate": "2022-05-09",
+    "endDate": null,
+    "contactInfo": [
+      {
+        "email": "kevin.qu@mail.utoronto.ca",
+        "type": "UToronto",
+        "preferred": false
+      },
+      {
+        "email": "qukevin99@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76cb",
+    "image": "reza_reiazi_2.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Reza Reiazi",
+    "status": "alumni",
+    "bio": "Dr. Reza Reiazi received his Ph.D. in Medical Physics from Isfahan University of Medical Sciences, Iran. He also received his Master degree in Medical physics and Bachelor degree in Radiology from Tehran university of medical sciences. Reza is a faculty member at medical physics department, Iran university of medical sciences (IUMS) and co-director of Medical Image Analysis (MISPAI) laboratory, Medical school, IUMS. His publications are mainly focused on different application of machine learning in the era of medical physics especially medial image analysis and radiation oncology. He is currently working on radiomics projects as a member of Radiomics Working Group, Princess Margaret Cancer Center (PMCC), University Health network (UHN).",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76cc",
+    "image": "soheil.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Soheil Jahangiri Tazehkand",
+    "preferredName": "Soheil Jahangiri",
+    "status": "alumni",
+    "bio": "Dr. Soheil Jahangiri-Tazehkand received his Ph.D. in Bioinformatics from University of Shahid Beheshti, Iran. During his Ph.D. he worked on Comparative Genomics and Phylogenomics of bacterial strains. He was also a research assistant at the Institute for Research in Fundamental Sciences (IPM), Iran, where he worked on Drug-Target interaction prediction and Protein Subcellular localization prediction using recommender system and machine learning methods. Soheil also holds a master's degree in computer science from Amirkabir University of Technology (Tehran Polytechnic), Iran. He is currently working on combinatorial therapeutic strategy in cancer.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d0",
+    "image": "vandana_sandhu.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Vandana Sandhu",
+    "status": "alumni",
+    "bio": "Dr. Vandana Sandhu earned her Ph.D at University College of Southeast Norway, Norway. Her research focus was on using systems biology approach to integrated molecular analysis of transcriptomics and genomics data of pancreatic cancer patients. She was a Research associate in the Department of Cancer Genetics, Institute for Cancer Research, Oslo University Hospital Norwegian Radium hospital, Oslo, Norway where she worked on molecular and clinical data analysis of various pancreatic and lung cancer projects. Prior to her PhD, she pursued a Master of Bioinformatics at Department of Bioinformatics, Centre of Excellence, University of Pune, India. Using her experience in analyzing high throughput molecular data, she is currently investigating the early recurrence marker and molecular subtypes of pancreatic cancer patients.",
+    "display": true,
+    "startDate": "2017-01-01",
+    "endDate": "2018-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d2",
+    "image": "deena_gendoo.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Deena Gendoo",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=GedTo_AAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Dr. Deena Gendoo earned her PhD in Biology, with graduate specialization in Bioinformatics, at McGill University in Montreal, Canada. As part of her PhD, she was also a trainee of the McGill Centre for Bioinformatics, and of the CIHR Systems Biology Training Program. Her research focused on the bioinformatic sequence and structural analysis of amyloidogenicity in prions and other proteins. Prior to her PhD, Deena was a Marie Curie Early Student Training Research Fellows at the University of Leeds, where she pursued a Master of Research (MRes) in Advanced Genetic Analysis. Her fellowship allowed her to focus on bioinformatics projects involving transcriptomic analysis and drug design. Combining her previous experiences, Dr. Gendoo is currently pursuing her postdoctorate fellowship, focusing on drug repurposing in cancer. She is one of a small but select number of awardees across Canada for the Brain Canada-CIBC Brain Cancer Research Training Awards to support her postdoctorate fellowship.",
+    "display": true,
+    "startDate": "2014-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d6",
+    "image": "catharina_olsen.jpg",
+    "position": "Postdoctoral Research Fellow",
+    "name": "Catharina Olsen",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=0nhvJKMAAAAJ&hl=en"
+      }
+    ],
+    "bio": "Dr. Catharina Olsen received her PhD in Computer Science from the Université Libre de Bruxelles, Belgium. During her PhD, she worked with Dr. Haibe-Kains in John Quackenbush's laboratory at the Dana-Farber Cancer Institute, Boston, MA, USA. Her research focused on developing machine learning techniques for Bioinformatics. She mainly worked on the inference of directed networks from genomic cancer data and known interactions. Prior to her PhD, she obtained a Master in Mathematics from the University of Technology in Dresden, Germany. Currently, she is working on employing network models for different prediction tasks in cancer such as subtype classification and the response to drug administration.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76d7",
+    "image": "janosch_ortmann.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Janosch Ortmann",
+    "status": "alumni",
+    "bio": "Dr Janosch Ortmann holds a Horizon postdoctoral fellowship at Concordia University in Montréal. He earned his PhD in mathematics at the University of Warwick, (UK) and then completed a postdoctoral fellowship at the University of Toronto. He collaborates on a project to study the response to chemotherapy in patient-derived tumours implanted in mice. The first part of the project consists of the development of new statistical methods to quantify the response of a tumour to therapy. The second part develops applications of statistical tests and machine learning tools to linking the tumour's response to therapy with the patient's genomic profile.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76df",
+    "image": "deirdre_kelly.jpg",
+    "position": "Medical Oncology Fellow",
+    "name": "Deirdre Kelly",
+    "status": "alumni",
+    "bio": "Deirdre Kelly is currently enrolled on the medical oncology residency program accredited by The Royal College of Physicians in Ireland. She attended University College Dublin from 2006 to 2011 for undergraduate training in Medicine (MB BCh BAO). She has published internationally and has presented posters at ESMO and ASCO. She was awarded The Irish Society of Medical Oncology Award 2016, 2017, 2018 as well as the ESMO-ESO Honorarium 2017. She was the Chief Resident in the Mater Misericordiae University Hospital 2015 / 2016 and won the Health Service Executive National Leadership Award 2016 for her work on Quality Improvement. She is currently undertaking her medical oncology subspecialty fellowship at The Princess Margaret Phase 1 Drug Development Program and collaborating with The Princess Margaret Bioinformatics and Computational Genomics Laboratory.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "contactInfo": [
+      {
+        "email": "deirdre.kelly@uhn.ca",
+        "type": "UHN",
+        "preferred": false
+      },
+      {
+        "email": "﻿deirdre.kelly.2108@gmail.com",
+        "type": "Personal",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e3",
+    "image": "megan_mccusker.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Megan McCusker",
+    "status": "alumni",
+    "bio": "Megan received her PhD in Biology from Dalhousie University and her MSc in Zoology from the University of British Columbia. She has extensive experience in population genetic and phylogenetic analysis in ecology and evolutionary biology. As a postdoctoral fellow at the University of Toronto, she developed an interest in modeling species distributions using machine learning methods. She went on to explore machine learning and data analytics in a certificate program at Ryerson University. She is currently combining her interests in molecular biology and machine learning to conduct a study on cytokine and symptom clusters in ovarian cancer patients with Benjamin Haibe-Kains and Madeline Li at UHN.   ",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76e9",
+    "image": "ying_li.jpg",
+    "position": "Bioinformatics Analyst</a></p>",
+    "name": "Ying Li",
+    "status": "alumni",
+    "bio": "Ying Li earned her BSc. Degree in Information Technology from Wuhan University in China, and studied computer vision as a Master in York University, Canada. Ying Li has been working on prediction of drug response in cancer cell lines in Dr. Haibe-Kains' lab. She also devoted herself on integration of genotype and phenotype on thousands of ADHD patients.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76eb",
+    "image": "frank_chen.jpg",
+    "position": "Undergraduate Student",
+    "name": "Frank Chen",
+    "status": "alumni",
+    "bio": "Frank is an undergraduate student at McMaster University studying Health Sciences. His research interests include applications of ML to imaging diagnostics, and personalized cancer genomics treatment. At the lab he is working with differential gene expression and RNA-seq data analysis.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f0",
+    "image": "mark_freeman.jpg",
+    "position": "Undergrad Student",
+    "name": "Mark Freeman",
+    "status": "alumni",
+    "bio": "Mark is an Applied Math major at Harvard University and has conducted research with the Program for Evolutionary Dynamics there as well as with the University of Toronto's Fields Institute. He is particularly interested in mathematical biology and evolutionary game theory, and aspires to complete an MD/PhD in math and medicine in anticipation of a career in mathematical-medical interdisciplinary research.",
+    "display": true,
+    "startDate": "2015-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f1",
+    "image": "casey_hon.jpg",
+    "position": "Volunteer",
+    "name": "Casey Hon",
+    "status": "alumni",
+    "bio": "Casey is a current undergraduate student studying Bioinformatics and Computational Biology at the University of Toronto, St. George. Her research interests include personalized cancer treatment. At the lab, she is currently working on pharmacogenomic data curation and analysis with acute myeloid leukemia datasets as well as large-scale pharmacogenomic studies.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f7",
+    "image": "esther_yoo.jpg",
+    "position": "Undergraduate Summer Student",
+    "name": "Esther Yoo",
+    "status": "alumni",
+    "bio": "Esther is a summer student studying Engineering Science at the University of Toronto. She is interested in both molecular genetics and computational biology, and is excited to further pursue her interests throughout her undergraduate career. Esther is currently working on developing an R package for integrative analysis of multiple toxicogenomic datasets. In her spare time, she loves listening to music, reading books, and drinking bubble tea with her friends.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f8",
+    "image": "jacob_kelly.jpg",
+    "position": "Undergraduate Summer Student",
+    "name": "Jacob Kelly",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Github",
+        "link": "https://jacobjinkelly.github.io/"
+      }
+    ],
+    "bio": "Jacob Kelly is an undergraduate student at the University of Toronto studying Computer Science, Math, and Statistics. Previously, he interned at Epson Research and Development where he worked on calibration of object detection and pose estimation algorithms for robotics applications. He is interested in developing new machine learning methods for applications to problems in cancer biology, medicine and healthcare. As a summer intern, he is working on methods for inferring gene regulatory networks from gene expression data and analyzing gene signatures for acute myeloid leukemia.",
+    "display": true,
+    "startDate": "2019-01-01",
+    "endDate": "2019-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76f9",
+    "image": "fynn_schmitt.jpg",
+    "position": "Undergraduate Student",
+    "name": "Fynn Schmitt-Ulms",
+    "status": "alumni",
+    "bio": "Fynn Schmitt-Ulms is an undergraduate student at McGill University studying Computer Science and Statistics with a focus on Machine Learning. He is interested in using machine learning techniques to explore biological phenomena and improve cancer treatment. In his spare time, he enjoys going for bike rides and exercising.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac76fd",
+    "image": "sandeep_hunjan.jpg",
+    "position": "Undergraduate Student",
+    "name": "Sandeep Hunjan",
+    "status": "alumni",
+    "bio": "Sandeep earned her BSc in Biochemistry from the University of Waterloo.  She is currently pursuing a Graduate Certificate in Bioinformatics at Seneca College.  She is currently working on an ongoing project with a group of students from Seneca which involves looking at pipeline stability across cancer cell lines. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7700",
+    "image": "alexander_maru.jpg",
+    "position": "Undergrad Student",
+    "name": "Alexander Maru",
+    "status": "alumni",
+    "bio": "Alexander is currently an undergraduate student at University of Waterloo, studying Mathematics and Computer Science. He is interested in a range of areas including machine learning, artificial intelligence, and the applications of mathematical models to computational sciences.  His current project involves developing an interactive web interface for PharmacoDB/PharmacoGx to help in the analysis of large-scale pharmacogenomics datasets. After finishing his degree, he plans to pursue graduate studies in either pure mathematics or computer science.",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": "2017-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7701",
+    "image": "nicolas_de_jay.jpg",
+    "position": "Undergrad Student",
+    "name": "Nicolas De Jay",
+    "status": "alumni",
+    "bio": "Nicolas De Jay earned his BSc in Bioinformatics at the Université de Montréal. He has worked with Dr. Sebastien Lemieux at the Institut de recherche en immunologie et cancer on developing a metric for assessing the performance of various DNA microarray normalization algorithms and ordering statistics. He has then worked with Dr. Benjamin Haibe-Kains at the Institut de recherche cliniques de Montréal on developing the mRMRe package, a highly-parallellized ensemble variant of the minimum Redundancy, Maximum Relevance (mRMR) feature selection algorithm. Nicolas De Jay is currently pursuing his MSc in Human Genetics at McGill University under the supervision of Dr. Nada Jabado, in Montreal, Canada. His MSc research project is focused on integrating statistics and biology to the problem of fusion transcript discovery on next-generation sequencing data., more specifically RNA-Seq.",
+    "display": true,
+    "startDate": "2012-01-01",
+    "endDate": "2012-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7705",
+    "image": "alain_bateman.jpg",
+    "position": "Undergraduate Student",
+    "name": "Alain Bateman",
+    "status": "alumni",
+    "bio": "Alain Bateman earned an undergraduate in bio-informatics at the Université de Montréal. He is currently leveraging statistical learning frameworks to probe the intersection of cellular differentiation and cancer. Prior to this he developed Network Security Operation Centers in Canadian financial institutions and managed infrastructure deployment in 50,000+ user environments. His alternate spheres of interest include probabilistic modeling, cognition, philosophy, English literature and classical music.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770b",
+    "image": "erin-birkwood.jpg",
+    "position": "Undergraduate Student",
+    "name": "Erin Birkwood",
+    "status": "alumni",
+    "bio": "Erin Birkwood is an undergraduate student at McGill University, pursuing a degree in Computer Science and Biology. She is interested in computational modelling of biological systems, as it relates to the medical field. After completing her bachelor's degree, she hopes to further her studies in Bioinformatics. ",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770c",
+    "image": "tiantian-fang.jpg",
+    "position": "Undergraduate Student",
+    "name": "Tiantian Fang",
+    "status": "alumni",
+    "bio": " Tiantian Fang is an undergraduate student at University of Toronto, studying Computer Science and Statistics. Her research interest is in areas related to machine learning and data analysis.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac770f",
+    "image": "chloe-duan.jpg",
+    "position": "Undergraduate Student",
+    "name": "Chloe Duan",
+    "status": "alumni",
+    "bio": "Chloe Duan is studying Computer Science and Biochemistry in the University of Toronto. She hopes to apply what she's learned in both fields on the immense amount of medical data to contribute to a better understanding of certain medical problems.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7710",
+    "image": "Fupan_Yao.jpeg",
+    "position": "Undergrad Student",
+    "name": "Fupan Yao",
+    "status": "alumni",
+    "links": [
+      {
+        "type": "Google Scholar",
+        "link": "https://scholar.google.ca/citations?user=pc2MBJ4AAAAJ&hl=en"
+      }
+    ],
+    "bio": "Fupan is a third year computational biology student at the University of Toronto. He is interested in next generation sequencing techniques and the application of computational analysis methods to NGS. He is looking to pursue graduate studies in Bioinformatic and Computational Biology. ",
+    "display": true,
+    "startDate": "2014-01-01",
+    "endDate": "2016-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7714",
+    "image": "meghan_lambie.jpeg",
+    "position": "Rotation Student",
+    "name": "Meghan Lambie",
+    "status": "alumni",
+    "bio": "Meghan is part of the medical biophysics graduate program at U of T. She completed her undergrad at the University of Guelph in Toxicology, where she was introduced to many of the concepts related to carcinogenesis and cancer treatment. She is interested in supplementing her wet lab experience with computational biology, and is excited to have the opportunity to learn these skills during the rotation process.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7715",
+    "image": "jessica_ray.jpeg",
+    "position": "Rotation Student",
+    "name": "Jessica Ray",
+    "status": "alumni",
+    "bio": "Jessica Ray received her BSc from McGill University studying Anatomy and Cell Biology, and is currently completing MSc rotations in the Department of Medical Biophysics at the University of Toronto, with a research interest on biomarker development. She has previously conducted research into long-non coding RNAs in tumor radiation response, and molecular mechanisms of adverse pharmacological events.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7718",
+    "image": "james_hawley.jpg",
+    "position": "Rotation Student",
+    "name": "James Hawley",
+    "status": "alumni",
+    "bio": "James earned his Bachelor of Mathematics in Mathematical Physics at the University of Waterloo, and is now a Master's student in Medical Biophysics at the University of Toronto. His research interest in bioinformatics grew out of his co-op placement in the Boutros Lab, and the University of Waterloo's iGEM Team. He is now interested in developing mathematical models to study the underlying patterns and complexity of similarly structured biological networks.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7721",
+    "image": "jonathan_zhao.jpg",
+    "position": "Intern",
+    "name": "Jonathan Zhao",
+    "status": "alumni",
+    "bio": "Jonathan Zhao obtained his Master of Science in mathematics from Western University and is currently pursuing his MD at the University of Toronto. He is interested in applying topological and machine learning methods to pharmacogenomics data. He hopes that his work will eventually make its way into the clinic and he hopes to contribute to the goal of personalized medicine.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7727",
+    "image": "parwaiz_nijrabi.jpeg",
+    "position": "Intern",
+    "name": "Parwaiz Nijrabi",
+    "status": "alumni",
+    "bio": "Pairwaiz graduated with a BSc. (Hons.) in Pharmacology and Nutritional Sciences at the University of Toronto. Currently, Pairwaiz is an MSc candidate at the department of Medical Biophysics here at UofT. His research expertise is wet lab focused within cancer biology, studying cell signalling, identification of new biomarkers and chemoresistance in different cancers. In addition to his wet lab experience, he've gained interest in computational approaches to help draw inferences from big data to help guide research questions, in the realm of pharmaco and toxicogenomics. His current project involves working in toxicogenomics to develop a Toxicoset derived from in-vitro data.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac772c",
+    "image": "ali_madani.jpg",
+    "position": "PhD Student",
+    "name": "Seyed Ali Madani Tonekaboni",
+    "preferredName": "Ali Madani",
+    "status": "alumni",
+    "links": [
+      {
+        "title": "Google Scholar",
+        "link": " https://scholar.google.ca/citations?user=X-BUd5EAAAAJ&hl=en&oi=ao"
+      }
+    ],
+    "bio": "Ali has completed a Bachelor of Science Degree in Mechanical Engineering at University of Tehran with the focus on Computational Biomechanics. Following this, he continued to complete a Master of Science in Mechanical Engineering at University of Waterloo in which he could develop a new methodology in analyzing biological membranes as a better alternative for traditional biophysical approaches. He then decided to focus on cancer research and got his second master at University of Waterloo where he worked on capturing the behavior of tumor initiating cells in hypoxic microenvironment. Before starting his PhD, Ali already published over 10 journal and conference papers. He got several awards and scholarships including Ping Yang Memorial Graduate Scholarship at University of Waterloo and International Connaught Scholarship at University of Toronto. He has started his PhD at University of Toronto and his main focus is on developing a new framework for estimating proper drug combinations as a more efficient and less toxic chemotherapies.",
+    "display": true,
+    "startDate": "2016-01-01",
+    "endDate": "2020-01-01"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7733",
+    "image": "farnoosh_khodakarami.jpg",
+    "position": "Postdoctoral Fellow",
+    "name": "Farnoosh Khodakarami",
+    "status": "alumni",
+    "bio": "Farnoosh received her PhD degree in computer science from Tehran Polytechnic University. Her PhD dissertation was a work in the field of theoretical computer science, in which she introduced and designed novel algorithms in the areas of computational geometry and parameterized algorithms. She is interested in methods and algorithms in data science and machine learning. Using her background in mathematics and computer science, she is currently developing deep learning models to predict head-and-neck cancer patients' survival from radiological images.",
+    "display": true,
+    "startDate": "2018-01-01",
+    "endDate": "2021-12-12"
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac7736",
+    "image": "nicolas_de_jay.jpg",
+    "position": "Undergraduate Student",
+    "name": "Nicolas de Jay",
+    "status": "alumni",
+    "bio": "Nicolas De Jay earned his BSc in Bioinformatics at the Université de Montréal. He has worked with Dr. Sebastien Lemieux at the Institut de recherche en immunologie et cancer on developing a metric for assessing the performance of various DNA microarray normalization algorithms and ordering statistics. He has then worked with Dr. Benjamin Haibe-Kains at the Institut de recherche cliniques de Montréal on developing the mRMRe package, a highly-parallellized ensemble variant of the minimum Redundancy, Maximum Relevance (mRMR) feature selection algorithm. Nicolas De Jay is currently pursuing his MSc in Human Genetics at McGill University under the supervision of Dr. Nada Jabado, in Montreal, Canada. His MSc research project is focused on integrating statistics and biology to the problem of fusion transcript discovery on next-generation sequencing data., more specifically RNA-Seq.",
+    "display": true
+  },
+  {
+    "_id": "6349b56d2a91a29c37ac774c",
+    "name": "Kevin Wang",
+    "display": false,
+    "startDate": "2022-01-01",
+    "endDate": null,
+    "position": "Medical Oncology Fellow",
+    "contactInfo": [
+      {
+        "email": "kevinxin.wang@gmail.com",
+        "type": "Personal",
+        "preferred": true
+      },
+      {
+        "email": "kevinxin.wang@uhn.ca",
+        "type": "UHN",
+        "preferred": false
+      }
+    ]
+  },
+  {
+    "_id": "634d9a413ceb7672062abb02",
+    "display": "false",
+    "name": "Benjamin Haibe-Kains",
+    "position": "Principal Investigator"
+  }
+]

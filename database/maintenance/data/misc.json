@@ -1,0 +1,1050 @@
+[
+  {
+    "title": "DeepCINet",
+    "researchArea": "PGx",
+    "status": "Incomplete and High Risk",
+    "grant": "Development of a deep learning approach to predict noisy biological phenotypes (Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2026-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Multivariate Analysis",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "PMATCH",
+    "grant_status": "Submitted"
+  },
+  {
+    "title": "Prognostic Value in TCGA",
+    "researchArea": "PGx",
+    "status": "Inactive",
+    "grant": "Prognostic Biomarkers and Novel Therapies for Oral Squamous Cell Carcinoma Patients (Ailles L, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Query CMAP",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Genomics-based radiosensitization for HPV-negative squamous cell carcinoma of the aerodigestive tract (Bratman S, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Develop Pipelines (CNVKit)",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Leiomyosarcoma (LMS): New Targets, New Therapies, New Models (Baker L)",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "Data Curation",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PredictIO Development",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "iTNT",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "iTNT - The Immunotherapy Network (Ohashi P, Nelson B, Haibe-Kains B, others)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "BeatAML",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Development of drug combinations in acute myeloid leukemia (Haibe-Kains B, Schimmer A)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "scRNA Drug Response Prediction",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Meta Analysis",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Cervix",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Development of Radiomic Models",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Transfer Learning in DL Models",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Web Application Overhaul",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Management of Pachyderm Layer",
+    "researchArea": "Web Development",
+    "status": "Completed",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "DNF Explorer",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "CBMP",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "DNF  ",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "CoreGx",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ToxicoGx",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PDATK",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "survcomp",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "AnnotationGx",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PGXVision",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "gDR",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Biomarker Analysis Oral SCC",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Prognostic Biomarkers and Novel Therapies for Oral Squamous Cell Carcinoma Patients (Ailles L, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Lymphedema",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "The characterization and therapeutic targeting of aberrant metabolic and inflammatory signaling in chronic lymphedema (Fei-Fei L)",
+    "grant_status": "Active",
+    "grant_deadline": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "title": "Soft Tissue Sarcoma",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Leiomyosarcoma (LMS): New Targets, New Therapies, New Models (Baker L)",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "Data Collection",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Leiomyosarcoma (LMS): New Targets, New Therapies, New Models (Baker L)",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "Sarcoma Paper",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Leiomyosarcoma (LMS): New Targets, New Therapies, New Models (Baker L)",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "Expansion to rTorch",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Integration of RRBS Data",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "scRNA Drug Response Prediction Analysis",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Drug Combination Prioritization",
+    "researchArea": "PGx",
+    "status": "Incomplete",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Hierarchical Clustering",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Predict Cell-Cell Communication",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Pancreatic Cancer",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Head and Neck (H&N)",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "H&N Levels",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Vector Challenge",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ENE Prediction",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Deep-CR MTLR",
+    "researchArea": "Radiomics",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Med-Image Tools",
+    "researchArea": "Radiomics",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Med-Image Net",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ORCESTRA",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Implement New Features and Data Processing Layer",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Development of Web-Application Layer",
+    "researchArea": "Web Development",
+    "status": "Completed",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "PharmacoDB",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "PM Research Stimulus Grant: PharmacoDB + XevaDB",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "Keycloack Integration",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "XevaDB",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "PM Research Stimulus Grant: PharmacoDB + XevaDB",
+    "grant_status": "Active",
+    "grant_deadline": "2022-09-30T00:00:00.000Z"
+  },
+  {
+    "title": "XevaDI",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ToxicoDB/Gx",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Website Maintenance",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Lab Website",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "genefu",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PMATCH",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "PMATCH",
+    "grant_status": "Submitted"
+  },
+  {
+    "title": "Link to cBioPortal",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "PMATCH",
+    "grant_status": "Submitted"
+  },
+  {
+    "title": "Biomarker Analysis",
+    "researchArea": "PGx",
+    "status": "Incomplete and High Risk",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Data Curation",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Novel individualized therapies in JAK/STAT driven T-cell malignancies (Haibe-Kains B, Gunning P)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Consultation-Data Management, Sharing",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Novel individualized therapies in JAK/STAT driven T-cell malignancies (Haibe-Kains B, Gunning P)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Creation of Data Pipelines",
+    "researchArea": "PGx",
+    "status": "Incomplete",
+    "grant": "Novel individualized therapies in JAK/STAT driven T-cell malignancies (Haibe-Kains B, Gunning P)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Immunotherapy",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "AML",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Development of drug combinations in acute myeloid leukemia (Haibe-Kains B, Schimmer A)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Drug Combination",
+    "researchArea": "PGx",
+    "status": "Inactive",
+    "grant": "Development of drug combinations in acute myeloid leukemia (Haibe-Kains B, Schimmer A)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Generalization of Method",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Characterization of Properties",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Toxicogenomics",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ToxicoDB/Gx",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ToxicoMap",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ATAC-Based Biomarkers for Breast Cancer (Cell Lines)",
+    "researchArea": "PGx",
+    "status": "Not Started",
+    "grant": "Alternatively and trans-spliced isoforms as a new class of biomarkers of response to cytotoxic and targeted therapies in metastatic triple-negative breast cancer (Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-08-30T00:00:00.000Z"
+  },
+  {
+    "title": "Cell Line vs Tumour",
+    "researchArea": "PGx",
+    "status": "Incomplete",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Segmentation",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "OAR",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "GTV  ",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ORN Prediction",
+    "researchArea": "Radiomics",
+    "status": "Not Started",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Self-Supervised Learning (BYOL)",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "RADCURE Challenge",
+    "researchArea": "Radiomics",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "LMSARC",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "OCTANE 2.0",
+    "researchArea": "Radiomics",
+    "status": "Not Started",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Image Processing",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Federated Learning",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PredictIO  ",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "SYNERGxDB",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Implementation of New Features",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "CoBE",
+    "grant_status": "CBMP internal funding"
+  },
+  {
+    "title": "Radiomics",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PharmacoGx",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "RadioGx",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "mRMRe",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "SIGN",
+    "researchArea": "Software Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "RLOBICO",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Xeva",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PymRMRe",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "PyKuLGaP",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "MetaGxPancreas",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "MetaGxBreast",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Univariate Analysis",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "PMATCH",
+    "grant_status": "Submitted"
+  },
+  {
+    "title": "Deep Learning: Noisy Data",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Development of a deep learning approach to predict noisy biological phenotypes (Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2026-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "rCI",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Development of a deep learning approach to predict noisy biological phenotypes (Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2026-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "Isoforms",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Inclusion of Datasets in PharmacoGx",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "JAK-STAT",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Novel individualized therapies in JAK/STAT driven T-cell malignancies (Haibe-Kains B, Gunning P)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Initial Website Development",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Novel individualized therapies in JAK/STAT driven T-cell malignancies (Haibe-Kains B, Gunning P)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Brad-Signature Engraft vs Non-Engrafters",
+    "researchArea": "PGx",
+    "status": "Inactive",
+    "grant": "Prognostic Biomarkers and Novel Therapies for Oral Squamous Cell Carcinoma Patients (Ailles L, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2025-01-01T00:00:00.000Z"
+  },
+  {
+    "title": "Radiosensitization: HPV SCC",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Genomics-based radiosensitization for HPV-negative squamous cell carcinoma of the aerodigestive tract (Bratman S, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "RadioGx",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Genomics-based radiosensitization for HPV-negative squamous cell carcinoma of the aerodigestive tract (Bratman S, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Squamous Specific Sig Analysis",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "Genomics-based radiosensitization for HPV-negative squamous cell carcinoma of the aerodigestive tract (Bratman S, Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-11-30T00:00:00.000Z"
+  },
+  {
+    "title": "Roche imCORE/iCAAN",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Roche:RAAN Challenge",
+    "grant_status": "Active",
+    "grant_deadline": "2022-12-30T00:00:00.000Z"
+  },
+  {
+    "title": "CMAP/L1000",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "CMapToolKit Package",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Metric Learning",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Methylation",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "ATAC-Seq/Chromatin Accessibility",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "Alternatively and trans-spliced isoforms as a new class of biomarkers of response to cytotoxic and targeted therapies in metastatic triple-negative breast cancer (Haibe-Kains B)",
+    "grant_status": "Active",
+    "grant_deadline": "2023-08-30T00:00:00.000Z"
+  },
+  {
+    "title": "Data Collection",
+    "researchArea": "PGx",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Drug Pertubation Prediction",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Protease Networks, PDAC",
+    "researchArea": "PGx",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "OAR",
+    "researchArea": "Radiomics",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "GTV Segmentation",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Dosarex",
+    "researchArea": "Radiomics",
+    "status": "Not Started",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Radiomic and Genomic Data Aggregation",
+    "researchArea": "Radiomics",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Data Processing Layer in SnakeMake",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "ORCESTRA - CCS grant",
+    "grant_status": "Active",
+    "grant_deadline": "2023-03-30T00:00:00.000Z"
+  },
+  {
+    "title": "cBioPortal API",
+    "researchArea": "Web Development",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Bug Fixes and Enhancements",
+    "researchArea": "Web Development",
+    "status": "Not Started",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Keycloack Integration",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "Phase I of Web Development",
+    "researchArea": "Web Development",
+    "status": "Completed",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "CCLid",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "QUANNOTATE",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "KuLGaP",
+    "researchArea": "Web Development",
+    "status": "Inactive",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  },
+  {
+    "title": "CoBE",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "CoBE",
+    "grant_status": "CBMP internal funding"
+  },
+  {
+    "title": "Web-App Development",
+    "researchArea": "Web Development",
+    "status": "Ongoing",
+    "grant": "CoBE",
+    "grant_status": "CBMP internal funding"
+  },
+  {
+    "title": "First Iteration of Web-App, Data Release",
+    "researchArea": "Web Development",
+    "status": "Completed",
+    "grant": "CoBE",
+    "grant_status": "CBMP internal funding"
+  },
+  {
+    "title": "CREAM",
+    "researchArea": "Software Development",
+    "status": "Maintenance",
+    "grant": "N/A",
+    "grant_status": "N/A",
+    "grant_deadline": "N/A"
+  }
+]
