@@ -41,7 +41,7 @@ const StyledNavigation = styled.div`
   /* Dropdown content (hidden by default) */
 
   .dropdown-content {
-    margin-top: 25px;
+    margin-top: 22px;
     display: none;
     position: absolute;
     background-color: ${colors.white};
