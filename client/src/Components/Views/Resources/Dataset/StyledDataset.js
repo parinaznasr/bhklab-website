@@ -4,7 +4,9 @@ import colors from "../../../../styles/colors";
 export const StyledDataset = styled.div`
   width: 100%;
   color: black;
+  background-color: rgba(169, 169, 224, 0.13);
   font-size: 16px;
+
   .subject {
     color: black;
     display: flex;
@@ -37,6 +39,7 @@ export const StyledDataset = styled.div`
       text-decoration: none;
     }
   }
+
   .divider {
     margin-bottom: 30px;
     padding-top: 10px;
@@ -56,6 +59,8 @@ export const Container = styled.div`
 
 export const Banner = styled.div`
   width: 100%;
+  height: 200px;
+  background-color: rgba(6, 117, 205, 0.25);
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;

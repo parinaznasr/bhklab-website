@@ -173,6 +173,7 @@ const NavBar= () => (
                 <div className="dropdown-content">
                     <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
                     <a href="https://bhklab.ca/" target='_blank'>Tools</a>
+                    <Link to="/software">Software</Link>
                 </div>
             </div>
             <div className="dropdown">

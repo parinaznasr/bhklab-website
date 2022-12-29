@@ -105,9 +105,6 @@ const Dataset= () => {
 
     return(
         <Layout>
-            <Banner>
-                <img src={banner}/>
-            </Banner>
             <Container>
                 Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
             </Container>
@@ -123,7 +120,6 @@ const Dataset= () => {
                                 className="table -highlight"
                                 defaultPageSize={datasets.length}
                             />
-
                             : ''
                     }
                 </StyledDataset>

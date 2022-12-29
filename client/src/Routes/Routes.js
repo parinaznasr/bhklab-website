@@ -10,6 +10,7 @@ import {
     Research,
     Publications,
     Equipments,
+    Software,
     Contact,
     People,
     Position,
@@ -31,6 +32,7 @@ const PublicRoutes = () => {
             <Route path='/people' element={<People/>}/>
             <Route path='/positions' element={<Position/>}/>
             <Route path='/social' element={<Social/>}/>
+            <Route path='/software' element={<Software/>}/>
             {/* <Route path='/contact' exact component={Contact} /> */}
             {/* <UserRoute path='/pipeline-builder' exact component={BuildPipeline} /> */}
             {/* <UserRoute path='/user/profile' exact component={Profile} /> */}

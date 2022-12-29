@@ -52,11 +52,9 @@ const Research= () => {
                             return (
                                 <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
                                     <text className="subject">{item.title}</text>
-                                    <CustomButton
-                                        className='p-button-sm'
-                                        label='View'
+                                    {/*<CustomLink>*/}
 
-                                    />
+                                    {/*</CustomLink>*/}
                                 </StyledCard>)
                         }):''
                     }
