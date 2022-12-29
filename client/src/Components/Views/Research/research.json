@@ -17,7 +17,7 @@
   {
     "title": "Integrative drug response prediction in preclinical models",
     "description": "Available targeted therapies confer survival usually benefit in a very small proportion of the cancer patients. To identify more personalized anticancer treatment it is essential to find a set of models where multiple drugs could be tested that would reflect a given patient's response. For example, xenograft is a preclinical model, where a piece of a patient's tumor is transplanted and grown in a mouse. Xenografts are an expensive and low throughput way of testing drugs for a given patient. Another type of preclinical models is a cell line, where cells of tumors have been isolated and mutated to divide indefinitely. This is a cheap but a less reliable predictor of a given patients' response to many different drugs. Recently available biotechnologies have made it possible to collect very large databases of different cell lines' response to a variety of drugs. Among these cell lines some may be genomically similar to those of the patients who come in the clinic, as may be the xenografts already generated with the Princess Margaret Cancer Centre.\n\nWe are developing new machine learning approaches to best integrate all these preclinical models with the aim to drastically improve prediction of tumor response to the best therapeutic agents available to date. Our new models, if successfully validated in prospective cohorts of cancer patients, will be a major step forward improvement of current cancer management.",
-    "image": ""
+    "image": "banner-news.png"
   },
   {
     "title": "Tumor epi-stroma crosstalk",

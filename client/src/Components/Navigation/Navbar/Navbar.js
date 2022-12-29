@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from './bhklab-logo-white.png';
+// import logo from './bhklab-logo-white.png';
+import logo from './bhklab-logo.png';
 import BurgerMenu from "./BurgerMenu";
 import {Link} from 'react-router-dom' ;
 import {RiArrowDropDownLine} from 'react-icons/ri';
@@ -89,12 +90,13 @@ const StyledNavigation = styled.div`
   position: fixed;
   width: 100%;
   height: 75px;
-  background: ${colors.blue_background};
+  background: ${colors.navbarBackground};
   z-index: 999;
 
   a {
-    color: ${colors.white};
-    font-family: 'BRC-Medium';
+    color: ${colors.navbarText};
+    //font-family: 'BRC-Medium';
+    font-family: 'Rubik', sans-serif;
     text-decoration: none;
   }
 `;
@@ -117,7 +119,7 @@ const StyledLinks = styled.div`
   flex-direction: row;
   margin-right: 10vw;
   & a {
-    color: ${colors.white}
+    color: ${colors.navbarText}
     text-decoration: none;
     font-weight: normal;
     font-size: calc(0.2vw + 0.7em);

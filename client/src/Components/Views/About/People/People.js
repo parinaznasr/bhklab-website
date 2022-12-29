@@ -45,11 +45,12 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
-const customizedPeople = (item,index, divider) => {
+const customizedPeople = (item,index) => {
     return (
         <StyledPeople key = {index}>
-            <div className='subject'>{item.image}</div>
-            <div className='content'>{item.position , item.name, item.status, item.bio}</div>
+            <img width='30px' height='40px' src={`/images/people/${item.image}`}/>
+            <div className='content'>{item.name}</div>
+            <div className='content'>{item.position}</div>
         </StyledPeople>
     );
 }
@@ -63,7 +64,7 @@ const People= () => {
         window.scrollTo(0, 0)
         const getPeople = async () => {
             const res = await axios.get('/api/data/members');
-            setPeople(res.data.members);
+            setPeople(res.data.members.filter(item=> item.display));
         }
         getPeople();
     }, []);

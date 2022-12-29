@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import "./fonts/br-cobane/Brink-BRCobaneRegular.otf";
+import '../styles/App.css';
 
 const GlobalStyles = createGlobalStyle`
     html, body {
@@ -9,13 +10,15 @@ const GlobalStyles = createGlobalStyle`
     }
     body {
         color: #666666;
-        font-family: "BRC-Regular",'Noto Sans', sans-serif;
-        font-weight: 400;
+        //font-family: "BRC-Regular",'Noto Sans', sans-serif;
+      font-family: 'Rubik';
+      font-weight: 400;
 
         // PrimeReact Component styles
         .p-component {
             font-size: 12px;
-            font-family: "BRC-Regular", 'Noto Sans', sans-serif;
+            //font-family: "BRC-Regular", 'Noto Sans', sans-serif;
+            font-family: 'Rubik';
         }
         .p-dialog {
             .p-dialog-header{

@@ -86,6 +86,16 @@ const Publication= () => {
     return(
         <Layout>
             <Container>
+                {/*<StyledPublication className="individual">*/}
+                {/*    {*/}
+                {/*        publications.length?*/}
+                {/*            <>*/}
+                {/*                {publications.sort((a,b)=> b.date - a.date).map((item,i) =>*/}
+                {/*                    (customizedPublication(item, i, (i !==publications.length-1))))}*/}
+                {/*            </>*/}
+                {/*            : 'Loading'*/}
+                {/*    }*/}
+                {/*</StyledPublication>*/}
                 <StyledPublication className="individual">
                     {
                         publications.length?
@@ -93,7 +103,7 @@ const Publication= () => {
                                 {publications.sort((a,b)=> b.date - a.date).map((item,i) =>
                                     (customizedPublication(item, i, (i !==publications.length-1))))}
                             </>
-                            : 'Loading'
+                            : ''
                     }
                 </StyledPublication>
             </Container>

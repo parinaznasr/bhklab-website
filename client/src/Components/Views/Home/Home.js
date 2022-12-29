@@ -20,15 +20,13 @@ const Home = () => {
             <Container>
                 <header className="App-header">
                     {/*<img src={logo} className="App-logo" alt="logo" />*/}
-                    <p>
-                        Benjamin Haibe-Kains Lab
-                    </p>
-                    <TwitterTimelineEmbed
-                        sourceType="profile"
-                        screenName="bhklab"
-                        options={{ width: 1000, height: 1000}}
-                        tweetLimit={5}
-                    />
+
+                    {/*<TwitterTimelineEmbed*/}
+                    {/*    sourceType="profile"*/}
+                    {/*    screenName="bhklab"*/}
+                    {/*    options={{ width: 1000, height: 1000}}*/}
+                    {/*    tweetLimit={5}*/}
+                    {/*/>*/}
                 </header>
             </Container>
         </Layout>
