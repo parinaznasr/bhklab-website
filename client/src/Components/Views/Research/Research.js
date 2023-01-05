@@ -2,11 +2,8 @@ import Layout from '../../UtilComponents/Layout';
 import React from 'react';
 import styled from "styled-components";
 import research from './research.json';
-// import {Container, StyledPage, StyledCard } from '../../../styles/StyledPage';
-import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
-import CustomButton from "../../UtilComponents/CustomButton";
-
+import HyperLink from "../../UtilComponents/HyperLink";
 
 const StyledCard = styled.div`
   border-color: #ff0000;
@@ -23,6 +20,7 @@ const StyledPage = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   .subject {
     color: black;
     display: flex;
@@ -52,9 +50,9 @@ const Research= () => {
                             return (
                                 <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
                                     <text className="subject">{item.title}</text>
-                                    {/*<CustomLink>*/}
+                                    <HyperLink>
 
-                                    {/*</CustomLink>*/}
+                                    </HyperLink>
                                 </StyledCard>)
                         }):''
                     }

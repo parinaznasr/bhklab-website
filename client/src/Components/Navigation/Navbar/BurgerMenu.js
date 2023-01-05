@@ -92,7 +92,8 @@ const resourceLinks = [
 // software dropdown options
 const softwareLinks = [
   { url: 'https://github.com', name: 'Github' },
-  { url: 'https://www.bhklab.ca', name: 'Tools' }
+  { url: 'https://www.bhklab.ca', name: 'Tools' },
+  { url: '/software', name: 'Software' }
 ];
 
 // about dropdown options

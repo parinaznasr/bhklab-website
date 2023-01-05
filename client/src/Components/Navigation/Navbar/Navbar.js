@@ -152,8 +152,6 @@ const NavBar= () => (
                 <a className="dropbtn">RESOURCES <StyledDropDownIcon/></a>
                 <div className="dropdown-content">
                     <Link to="/datasets">Datasets</Link>
-                    {/*<Link to="/projects">Projects</Link>*/}
-                    {/*<Link to="/publications">Publications</Link>*/}
                     <Link to="/equipments">Equipments</Link>
                     <Link to="/presentations">Presentations</Link>
                 </div>
@@ -171,16 +169,15 @@ const NavBar= () => (
             <div className="dropdown">
                 <a className="dropbtn">SOFTWARE <StyledDropDownIcon/></a>
                 <div className="dropdown-content">
-                    <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
-                    <a href="https://bhklab.ca/" target='_blank'>Tools</a>
                     <Link to="/software">Software</Link>
+                    <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
                 </div>
             </div>
             <div className="dropdown">
                 <Link className="dropbtn">ABOUT <StyledDropDownIcon/></Link>
                 <div className="dropdown-content">
                     <Link to="/people">People</Link>
-                    <Link to="/positions">Positions</Link>
+                    <Link to="/positions">Join Us</Link>
                     <Link to="/contact">Contact</Link>
                     {/*<Link to="/social">Social</Link>*/}
                 </div>

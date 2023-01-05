@@ -1,10 +1,8 @@
 import Layout from '../../UtilComponents/Layout';
 import React from 'react';
 import styled from "styled-components";
-// import {Container, StyledPage, StyledCard } from '../../../styles/StyledPage';
 import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
-import CustomButton from "../../UtilComponents/CustomButton";
 
 const StyledSoftware = styled.div`
   :root {
@@ -13,12 +11,6 @@ const StyledSoftware = styled.div`
   }
 
   body {
-    /* background-image: url("./images/layout-bg.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-wrap: wrap; */
     background: url("./images/bg2.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -75,10 +67,8 @@ const StyledSoftware = styled.div`
     font-weight:bold;
 
   }
-
-
+  
   /* BODY */
-
   #intro {
     position:static;
     margin-top:11vh;
@@ -94,16 +84,6 @@ const StyledSoftware = styled.div`
     justify-content:space-between;
     flex-wrap: wrap;
     margin: 0 0px 20px 0px;
-  }
-
-  .container-slider {
-    width:80vw;
-    min-height:70vh;
-    margin: 0 auto;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    flex-wrap: wrap;
   }
 
   .highlight {
@@ -403,278 +383,277 @@ const Software= () => {
                                 in their pharmacogenomic analysis of cancer model systems.
                             </h1>
                         </div>
-                        <div className="slide-desc left">Web Apps</div>
-                        <div className="slide-desc right">Packages</div>
-                        <div className="container-slider">
+                        <div id="container" className="web-apps">
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/orcestra.png"/>
+                                        <a target="_blank" href="https://www.orcestra.ca/" className="link">Go! </a>
+                                </div>
 
-                            <div id="container" className="web-apps">
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/orcestra.png"/>
-                                            <a target="_blank" href="https://www.orcestra.ca/" className="link">Go! </a>
-                                    </div>
-
-                                    <div className="desc">
-                                        Orchestrate and reproduce pharmacogenomic data processing
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/dnf-logo.png"/>
-                                            <a target="_blank" href="http://drugnetworkfusion.ca/"
-                                               className="link">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Explore multi-layer similarities between chemical compounds
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo up" src="images/toxicodb-logo.png"/>
-                                            <a target="_blank" href="https://www.toxicodb.ca/" className="link">Go! </a>
-                                    </div>
-                                    <div className="desc up">
-                                        Investigate the pathways triggered by exposure to toxic substances
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/xevadb-logo.png"/>
-                                            <a target="_blank" href="http://xevadb.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Visualize and analyze xenographic pharmacogenomic data
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/pharmacodb-logo-web.png"/>
-                                            <a target="_blank" href="http://pharmacodb.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Mine pharmacogenomic profiles of cancer cell lines treated with single agent
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/synergx-logo.png"/>
-                                            <a target="_blank" href="https://www.synergxdb.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Explore synergistic drug combinations in cancer cell lines
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/cclid-logo.png"/>
-                                            <a target="_blank" href="https://cclid.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Authenticate genotype and stability of cancer cell lines
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/quannotate-logo.png"/>
-                                            <a target="_blank" href="https://www.quannotate.com/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Check quality-assurance for radiotherapy target delineation
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/kulgap-logo.png"/>
-                                            <a target="_blank" href="https://www.kulgap.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Quantify therapy response to drug treatment in xenografts
-                                    </div>
-                                </div>
-                                <div id="app">
-                                    <div id="app-container">
-                                        <img className="logo" src="images/predictio-logo.png"/>
-                                            <a target="_blank" href="https://predictio.ca/"
-                                               className="link bottom-row">Go! </a>
-                                    </div>
-                                    <div className="desc">
-                                        Investigate predictive and prognostic values of genes. Predict patient response
-                                        to ICB therapy
-                                    </div>
+                                <div className="desc">
+                                    Orchestrate and reproduce pharmacogenomic data processing
                                 </div>
                             </div>
-
-                            <div id="container" className="packages">
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://bioconductor.org/packages/release/bioc/html/CoreGx.html"
-                                           className="pkg-title">CoreGx</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Core infrastructure which serve as the foundation for other Gx packages
-                                    </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/dnf-logo.png"/>
+                                        <a target="_blank" href="http://drugnetworkfusion.ca/"
+                                           className="link">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="http://www.bioconductor.org/packages/release/bioc/html/PharmacoGx.html"
-                                           className="pkg-title">PharmacoGx</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Analysis of large-scale pharmacogenomic datasets
-                                    </div>
+                                <div className="desc">
+                                    Explore multi-layer similarities between chemical compounds
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://cran.r-project.org/web/packages/RadioGx/index.html"
-                                           className="pkg-title">RadioGx</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Biomarker discovery for Radiation Treatment using in vitro models
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo up" src="images/software/toxicodb-logo.png"/>
+                                        <a target="_blank" href="https://www.toxicodb.ca/" className="link">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://bioconductor.org/packages/3.12/bioc/html/ToxicoGx.html"
-                                           className="pkg-title">ToxicoGx</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Analysis of large-scale toxicogenomic datasets
-                                    </div>
+                                <div className="desc up">
+                                    Investigate the pathways triggered by exposure to toxic substances
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://cran.r-project.org/web/packages/CREAM/index.html"
-                                           className="pkg-title">CREAM</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        <b>C</b>lustering of <b>G</b>enomic <b>RE</b>gions <b>A</b>nalysis <b>M</b>ethod
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/xevadb-logo.png"/>
+                                        <a target="_blank" href="http://xevadb.ca/"
+                                           className="link bottom-row">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://cran.r-project.org/web/packages/mRMRe/index.html"
-                                           className="pkg-title">mRMRe</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Parallelized <b>m</b>inimum <b>R</b>edundancy, <b>M</b>aximum <b>R</b>elevance <b>e</b>nsemble
-                                        feature selection
-                                    </div>
+                                <div className="desc">
+                                    Visualize and analyze xenographic pharmacogenomic data
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://cran.r-project.org/web/packages/SIGN/index.html"
-                                           className="pkg-title">SIGN</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        <b>S</b>imilarity <b>I</b>dentification in <b>G</b>ene <b>E</b>xpression
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/pharmacodb-logo-web.png"/>
+                                        <a target="_blank" href="http://pharmacodb.ca/"
+                                           className="link bottom-row">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank" href="https://github.com/bhklab/RLOBICO"
-                                           className="pkg-title">RLOBICO</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        R implementation of <b>L</b>ogic <b>O</b>ptimization for <b>B</b>inary <b>I</b>nput
-                                        to
-                                        <b>C</b>ontinuous <b>O</b>utput
-                                    </div>
+                                <div className="desc">
+                                    Mine pharmacogenomic profiles of cancer cell lines treated with single agent
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="http://bioconductor.org/packages/release/bioc/html/Xeva.html"
-                                           className="pkg-title">Xeva</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        <b>XE</b>nograft <b>V</b>isualization and <b>A</b>nalysis
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/synergx-logo.png"/>
+                                        <a target="_blank" href="https://www.synergxdb.ca/"
+                                           className="link bottom-row">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://bioconductor.org/packages/devel/bioc/html/PDATK.html"
-                                           className="pkg-title">PDATK</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        <b>P</b>ancreatic <b>D</b>uctal <b>A</b>denocarcinoma <b>T</b>ool-<b>K</b>it
-                                    </div>
+                                <div className="desc">
+                                    Explore synergistic drug combinations in cancer cell lines
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://bioconductor.org/packages/release/bioc/html/genefu.html"
-                                           className="pkg-title">genefu</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Computation of Gene Expression-Based Signatures in Breast Cancer
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/cclid-logo.png"/>
+                                        <a target="_blank" href="https://cclid.ca/"
+                                           className="link bottom-row">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank"
-                                           href="https://www.bioconductor.org/packages/release/bioc/html/survcomp.html"
-                                           className="pkg-title">survcomp</a>
-                                        <img className="lang" src="./images/R-logo.png" title="R package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Assessment and Comparison for Performance of Risk Prediction (Survival) Models
-                                    </div>
+                                <div className="desc">
+                                    Authenticate genotype and stability of cancer cell lines
                                 </div>
-
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank" href="https://pypi.org/project/pymrmr/"
-                                           className="pkg-title">PymRMRe</a>
-                                        <img className="lang" src="./images/python-logo.png" title="Python package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Parallelized <b>m</b>inimum <b>R</b>edundancy, <b>M</b>aximum <b>R</b>elevance <b>e</b>nsemble
-                                        feature selection
-                                    </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/quannotate-logo.png"/>
+                                        <a target="_blank" href="https://www.quannotate.com/"
+                                           className="link bottom-row">Go! </a>
                                 </div>
-                                <div id="app" className="pkg">
-                                    <div id="pkg-container">
-                                        <a target="_blank" href="https://pypi.org/project/pykulgap/"
-                                           className="pkg-title">pyKuLGaP</a>
-                                        <img className="lang" src="./images/python-logo.png" title="Python package"/>
-                                    </div>
-                                    <div className="desc">
-                                        Modelling tumor growth curves using <b>Ku</b>llback-<b>L</b>eibler divergence
-                                        and <b>Ga</b>ussian
-                                        <b>p</b>rocesses
-                                    </div>
+                                <div className="desc">
+                                    Check quality-assurance for radiotherapy target delineation
                                 </div>
-                                <div id="app" className="pkg">
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/kulgap-logo.png"/>
+                                        <a target="_blank" href="https://www.kulgap.ca/"
+                                           className="link bottom-row">Go! </a>
+                                </div>
+                                <div className="desc">
+                                    Quantify therapy response to drug treatment in xenografts
+                                </div>
+                            </div>
+                            <div id="app">
+                                <div id="app-container">
+                                    <img className="logo" src="images/software/predictio-logo.png"/>
+                                        <a target="_blank" href="https://predictio.ca/"
+                                           className="link bottom-row">Go! </a>
+                                </div>
+                                <div className="desc">
+                                    Investigate predictive and prognostic values of genes. Predict patient response
+                                    to ICB therapy
                                 </div>
                             </div>
                         </div>
+                        <div id="intro">
+                            <h1>We're developing <span className="highlight">databases and web applications</span> to
+                                empower the scientific
+                                community
+                                in their pharmacogenomic analysis of cancer model systems.
+                            </h1>
+                        </div>
+                        <div id="container" className="packages">
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://bioconductor.org/packages/release/bioc/html/CoreGx.html"
+                                       className="pkg-title">CoreGx</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Core infrastructure which serve as the foundation for other Gx packages
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="http://www.bioconductor.org/packages/release/bioc/html/PharmacoGx.html"
+                                       className="pkg-title">PharmacoGx</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Analysis of large-scale pharmacogenomic datasets
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://cran.r-project.org/web/packages/RadioGx/index.html"
+                                       className="pkg-title">RadioGx</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Biomarker discovery for Radiation Treatment using in vitro models
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://bioconductor.org/packages/3.12/bioc/html/ToxicoGx.html"
+                                       className="pkg-title">ToxicoGx</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Analysis of large-scale toxicogenomic datasets
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://cran.r-project.org/web/packages/CREAM/index.html"
+                                       className="pkg-title">CREAM</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    <b>C</b>lustering of <b>G</b>enomic <b>RE</b>gions <b>A</b>nalysis <b>M</b>ethod
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://cran.r-project.org/web/packages/mRMRe/index.html"
+                                       className="pkg-title">mRMRe</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Parallelized <b>m</b>inimum <b>R</b>edundancy, <b>M</b>aximum <b>R</b>elevance <b>e</b>nsemble
+                                    feature selection
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://cran.r-project.org/web/packages/SIGN/index.html"
+                                       className="pkg-title">SIGN</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    <b>S</b>imilarity <b>I</b>dentification in <b>G</b>ene <b>E</b>xpression
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank" href="https://github.com/bhklab/RLOBICO"
+                                       className="pkg-title">RLOBICO</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    R implementation of <b>L</b>ogic <b>O</b>ptimization for <b>B</b>inary <b>I</b>nput
+                                    to
+                                    <b>C</b>ontinuous <b>O</b>utput
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="http://bioconductor.org/packages/release/bioc/html/Xeva.html"
+                                       className="pkg-title">Xeva</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    <b>XE</b>nograft <b>V</b>isualization and <b>A</b>nalysis
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://bioconductor.org/packages/devel/bioc/html/PDATK.html"
+                                       className="pkg-title">PDATK</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    <b>P</b>ancreatic <b>D</b>uctal <b>A</b>denocarcinoma <b>T</b>ool-<b>K</b>it
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://bioconductor.org/packages/release/bioc/html/genefu.html"
+                                       className="pkg-title">genefu</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Computation of Gene Expression-Based Signatures in Breast Cancer
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank"
+                                       href="https://www.bioconductor.org/packages/release/bioc/html/survcomp.html"
+                                       className="pkg-title">survcomp</a>
+                                    <img className="lang" src="./images/software/R-logo.png" title="R package"/>
+                                </div>
+                                <div className="desc">
+                                    Assessment and Comparison for Performance of Risk Prediction (Survival) Models
+                                </div>
+                            </div>
 
-
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank" href="https://pypi.org/project/pymrmr/"
+                                       className="pkg-title">PymRMRe</a>
+                                    <img className="lang" src="./images/software/python-logo.png" title="Python package"/>
+                                </div>
+                                <div className="desc">
+                                    Parallelized <b>m</b>inimum <b>R</b>edundancy, <b>M</b>aximum <b>R</b>elevance <b>e</b>nsemble
+                                    feature selection
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                                <div id="pkg-container">
+                                    <a target="_blank" href="https://pypi.org/project/pykulgap/"
+                                       className="pkg-title">pyKuLGaP</a>
+                                    <img className="lang" src="./images/software/python-logo.png" title="Python package"/>
+                                </div>
+                                <div className="desc">
+                                    Modelling tumor growth curves using <b>Ku</b>llback-<b>L</b>eibler divergence
+                                    and <b>Ga</b>ussian
+                                    <b>p</b>rocesses
+                                </div>
+                            </div>
+                            <div id="app" className="pkg">
+                            </div>
+                        </div>
                     </StyledSoftware>
                 </StyledPage>
             </Container>
