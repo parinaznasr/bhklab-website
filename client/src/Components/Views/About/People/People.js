@@ -80,8 +80,10 @@ const member = (item,index) => {
     return (
         <StyledPeople key = {index}>
             <div id="member-container">
-                {/*<Link to={`/people/${item.name.replace(" ","_").lowercase()}_${item._id.slice(-3,-1)}`}>*/}
-                <Link to={`/people/${item.name.replaceAll(" ","_").replace().toLowerCase()}`}>
+                <Link to={{
+                    pathname:`/people/${item.name.toLowerCase().replaceAll(" ","_")}`,
+                    param: { member: item}
+                    }}>
                     <img src={`/images/people/${item.image}`}/>
                     <div className="desc">
                         <div className='name'>{item.name}</div>
@@ -103,7 +105,7 @@ const People= () => {
         window.scrollTo(0, 0)
         const getPeople = async () => {
             const res = await axios.get('/api/data/members');
-            setPeople(res.data.members.filter(item=> item.display));
+            setPeople(res.data.members);
             setReady(true);
         }
         getPeople();

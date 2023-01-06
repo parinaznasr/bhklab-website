@@ -8,6 +8,7 @@ import Equipments from './Views/Resources/Equipments/Equipments';
 import Software from './Views/Software/Software';
 import Contact from './Views/About/Contact/Contact';
 import People from './Views/About/People/People';
+import Member from './Views/About/People/Member';
 import Position from './Views/About/Position/Position';
 import Social from './Views/About/Social/Social';
 
@@ -25,6 +26,7 @@ export {
     Software,
     Contact,
     People,
+    Member,
     Position,
     Social
 }

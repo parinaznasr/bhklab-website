@@ -13,6 +13,7 @@ import {
     Software,
     Contact,
     People,
+    Member,
     Position,
     Social,
 } from '../Components/index';
@@ -30,6 +31,7 @@ const PublicRoutes = () => {
             <Route path='/equipments' element={<Equipments/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/people' element={<People/>}/>
+            <Route path='/people/:token' element={<Member/>}/>
             <Route path='/positions' element={<Position/>}/>
             <Route path='/social' element={<Social/>}/>
             <Route path='/software' element={<Software/>}/>

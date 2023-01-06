@@ -14,6 +14,7 @@ const social = require('./api/data/social');
 // data routes
 router.get('/data/datasets', dataset.getAll);
 router.get('/data/members', member.getAll);
+router.get('/data/member/:token', member.getOne);
 router.get('/data/news', news.getNews);
 router.get('/data/presentations', presentation.getAll);
 router.get('/data/projects', project.getAll);
