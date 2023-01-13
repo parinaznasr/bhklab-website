@@ -6,11 +6,12 @@ import "animate.css/animate.min.css";
 import HyperLink from "../../UtilComponents/HyperLink";
 
 const StyledCard = styled.div`
-  border-color: #ff0000;
+  border-color: #d2d2d2;
+  padding-left: 15px;
   border-width: 1px;
-  height: 80vh;
+  height: 60vh;
   margin: 5px;
-  border-style: none;
+  border-style: solid;
   width: 300px;
   display: flex;
   flex-direction: column;
@@ -21,8 +22,9 @@ const StyledPage = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   .subject {
-    color: black;
+    color: #0b6fcb;
     display: flex;
     align-items: center;
     height: 60px;
@@ -48,6 +50,7 @@ const Research= () => {
                         research.length?
                         research.map( item => {
                             return (
+                                // <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
                                 <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
                                     <text className="subject">{item.title}</text>
                                     <HyperLink>

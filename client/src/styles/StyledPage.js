@@ -14,9 +14,11 @@ export const StyledCard = styled.div`
   display: flex;
   text-align: justify;
   flex-direction: row;
+
   img {
-    max-height: 280px;
+    max-height: 100vh;
     padding: 0px;
+    position: sticky;
   }
 
   .subject {
@@ -32,13 +34,14 @@ export const StyledCard = styled.div`
     padding: 0px 15vw 10px 15vw;
     font-size: 16px;
     font-weight: bold;
+
     a {
       text-decoration: none;
       color: ${colors.navbarLink}
     }
   }
 
-  
+
   .content {
     padding: 0px 15vw 30px 15vw;
     font-size: 15px;
@@ -52,18 +55,18 @@ export const StyledCard = styled.div`
     width: 100%;
     height: auto;
   }
-  
+
   :nth-child(odd) {
     background-color: white;
     color: black;
     align-content: flex-start;
     padding-right: 0;
-    
+
   }
 
   :nth-child(even) {
     color: black;
-    background-color: rgba(216, 221, 223, 0.5);
+    background-color: white;
     align-content: flex-end;
     padding-right: 0;
 

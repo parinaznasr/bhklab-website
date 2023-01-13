@@ -1,26 +1,16 @@
 [
   {
-    "title": "Cancer Molecular Subtyping",
+    "title": "Pharmacogenomics",
     "description": "We now recognize that breast cancer is not a single disease but, instead, is composed of different (sub)types of cancers, which exhibit specific genomic features and importantly, lead to different clinical outcome. Identifying and understanding such genomic heterogeneity is key in the context of personalized medicine, as better therapies could be developed to target specific types of breast cancer. However, if the subtypes of breast cancer are relatively well defined, there is no clear consensus in other cancer types, such as ovarian, which is a molecularly heterogeneous and particularly aggressive type of cancer.\n\nWe are developing new analysis approaches to assess the validity and relevance of current definitions of subtypes in multiple cancer types in order to best inform clinicians in their decision-making process, and potentially guide the development of new therapies, which will ultimately benefit the cancer patients.",
-    "image": "research_network.jpeg"
-  },
-  {
-    "title": "Prognostic and predictive biomarkers",
-    "description": "Identifying multivariate molecular biomarkers, also referred to as signatures, is one of the most challenging tasks in cancer research. It has been recently showed that biomarkers based on random set of gene expressions are significantly associated with patients’ survival in breast cancer. We subsequently showed that this finding was partially confounded by the presence of molecular subtypes, as “random” biomarkers were not significantly prognostic in Basal-like, Luminal B and Luminal A tumors, while this was still the case for HER2+ tumors. We therefore introduced a new methodology to effectively test the prognostic value of new biomarkers against random ones, to avoid proliferation of irrelevant molecular signatures.\n\nIn addition to these considerations, the development of prognostic and predictive biomarkers becomes more and more complex, as several omics data types are now available for the same patients. Such integrative biomarkers have the potential to significantly outperform biomarkers solely based on mutations, gene expressions or proteins.\n\nWe are currently developing advanced computational approaches integrating multiple omics data (mutation, copy number variation, gene expression, etc.) to build robust and performant biomarkers in head and neck cancer.",
     "image": ""
   },
   {
-    "title": "Pharmacogenomics and drug repurposing",
-    "description": "Although thousands of anticancer drugs have been developed to date, the mechanism of action (MoA) for most of them remains largely unclear. Thanks to high-throughput genomics technologies, enormous amount of omics data have now been generated to investigate the MoA of many of these drugs at the genomic level.\n\nWe are developing new tools to (I) better characterize MoA and toxicity of hundreds of anticancer drugs, (II) investigate similarities between drugs, (III) repurpose approved drugs in novel applications, and (IV) identify the most effective drug combinations. We aim at defining a new framework to significantly accelerate drug screening and testing for future pharmaco- and toxicogenomic studies.",
-    "image": ""
-  },
-  {
-    "title": "Integrative drug response prediction in preclinical models",
+    "title": "Radiomics",
     "description": "Available targeted therapies confer survival usually benefit in a very small proportion of the cancer patients. To identify more personalized anticancer treatment it is essential to find a set of models where multiple drugs could be tested that would reflect a given patient's response. For example, xenograft is a preclinical model, where a piece of a patient's tumor is transplanted and grown in a mouse. Xenografts are an expensive and low throughput way of testing drugs for a given patient. Another type of preclinical models is a cell line, where cells of tumors have been isolated and mutated to divide indefinitely. This is a cheap but a less reliable predictor of a given patients' response to many different drugs. Recently available biotechnologies have made it possible to collect very large databases of different cell lines' response to a variety of drugs. Among these cell lines some may be genomically similar to those of the patients who come in the clinic, as may be the xenografts already generated with the Princess Margaret Cancer Centre.\n\nWe are developing new machine learning approaches to best integrate all these preclinical models with the aim to drastically improve prediction of tumor response to the best therapeutic agents available to date. Our new models, if successfully validated in prospective cohorts of cancer patients, will be a major step forward improvement of current cancer management.",
     "image": "banner-news.png"
   },
   {
-    "title": "Tumor epi-stroma crosstalk",
+    "title": "Software Development",
     "description": "In breast cancer, few biomarkers have been developed to predict response to targeted therapies (estrogen receptor for tamoxifen for instance). However, not all patients predicted to respond do so. As the tumor develops, the stromal compartment, i.e., the surrounding normal cells, undergoes changes in response to emerging changes in tumor cells and is now recognized to play a key role in cancer initiation, progression and resistance to therapies.\n\nWe are developing new computational methods to identify and validate targets within breast tumor stroma that would uncouple the stromal support of tumor growth. We will use our tools to understand how to interfere with stromal tumor interactions as a new approach to treat breast cancer.",
     "image": ""
   }

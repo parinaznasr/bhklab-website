@@ -16,6 +16,7 @@ const StyledDropDownIcon = () => {
 }
 const StyledNavigation = styled.div`
   /* The dropdown container */
+
   .dropdown {
     float: right;
     overflow: hidden;
@@ -23,6 +24,7 @@ const StyledNavigation = styled.div`
   }
 
   /* Dropdown button */
+
   .dropdown .dropbtn .header-link {
     font-size: calc(0.8vw);
     border: none;
@@ -92,6 +94,9 @@ const StyledNavigation = styled.div`
   height: 75px;
   background: ${colors.navbarBackground};
   z-index: 999;
+  border-bottom: #d5d5d5;
+  border-bottom-style: solid;
+  border-width: 1px;
 
   a {
     color: ${colors.navbarText};
@@ -146,10 +151,11 @@ const NavBar= () => (
         <BurgerMenu/>
         <StyledLinks className="header-links">
             {/*<div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/news">NEWS</a></div>*/}
-            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/research">RESEARCH</a></div>
-            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/publications">PUBLICATIONS</a></div>
+            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/research">Research</a></div>
+            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/publications">Publications</a></div>
             <div className="dropdown">
-                <a className="dropbtn">RESOURCES <StyledDropDownIcon/></a>
+                {/*<a className="dropbtn">Resources <StyledDropDownIcon/></a>*/}
+                <a className="dropbtn">Resources</a>
                 <div className="dropdown-content">
                     <Link to="/datasets">Datasets</Link>
                     <Link to="/equipments">Equipments</Link>
@@ -167,19 +173,21 @@ const NavBar= () => (
             {/*    </div>*/}
             {/*</div>*/}
             <div className="dropdown">
-                <a className="dropbtn">SOFTWARE <StyledDropDownIcon/></a>
+                {/*<a className="dropbtn">Software<StyledDropDownIcon/></a>*/}
+                <a className="dropbtn">Software</a>
                 <div className="dropdown-content">
                     <Link to="/software">Software</Link>
                     <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
                 </div>
             </div>
             <div className="dropdown">
-                <Link className="dropbtn">ABOUT <StyledDropDownIcon/></Link>
+                {/*<Link className="dropbtn">About<StyledDropDownIcon/></Link>*/}
+                <Link className="dropbtn">About</Link>
                 <div className="dropdown-content">
                     <Link to="/people">People</Link>
+                    <Link to="/social">Collaboration</Link>
                     <Link to="/positions">Join Us</Link>
                     <Link to="/contact">Contact</Link>
-                    {/*<Link to="/social">Social</Link>*/}
                 </div>
             </div>
         </StyledLinks>
