@@ -14,9 +14,9 @@ const StyledDropDownIcon = () => {
         </span>
     )
 }
+
 const StyledNavigation = styled.div`
   /* The dropdown container */
-
   .dropdown {
     float: right;
     overflow: hidden;
@@ -42,7 +42,6 @@ const StyledNavigation = styled.div`
   }
 
   /* Dropdown content (hidden by default) */
-
   .dropdown-content {
     margin-top: 22px;
     display: none;
@@ -55,7 +54,6 @@ const StyledNavigation = styled.div`
   }
 
   /* Links inside the dropdown */
-
   .dropdown-content a {
     float: none;
     color: black;
@@ -83,12 +81,10 @@ const StyledNavigation = styled.div`
   }
 
   /* Show the dropdown menu on hover */
-
   .dropdown:hover .dropdown-content {
     display: block;
   }
-
-    // position: ${(props) => (props.page === 'home' ? 'fixed' : 'absolute')};
+  
   position: fixed;
   width: 100%;
   height: 75px;
@@ -100,7 +96,6 @@ const StyledNavigation = styled.div`
 
   a {
     color: ${colors.navbarText};
-    //font-family: 'BRC-Medium';
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
   }
@@ -152,14 +147,20 @@ const NavBar= () => (
         <StyledLinks className="header-links">
             {/*<div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/news">NEWS</a></div>*/}
             <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/research">Research</a></div>
-            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/publications">Publications</a></div>
+            <div className="dropdown">
+                {/*<a className="dropbtn">Resources <StyledDropDownIcon/></a>*/}
+                <a className="dropbtn">Publications</a>
+                <div className="dropdown-content">
+                    <Link to="/publications">Papers</Link>
+                    <Link to="/presentations">Presentations</Link>
+                </div>
+            </div>
             <div className="dropdown">
                 {/*<a className="dropbtn">Resources <StyledDropDownIcon/></a>*/}
                 <a className="dropbtn">Resources</a>
                 <div className="dropdown-content">
                     <Link to="/datasets">Datasets</Link>
                     <Link to="/equipments">Equipments</Link>
-                    <Link to="/presentations">Presentations</Link>
                 </div>
             </div>
             {/*<div className="dropdown">*/}
