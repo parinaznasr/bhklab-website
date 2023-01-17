@@ -4,7 +4,7 @@ import Layout from '../../UtilComponents/Layout';
 import logo from '../Home/bhklab-logo.png';
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 import colors from "../../../styles/colors";
-import {ResearchTopics} from "./Teams";
+import {ResearchTopics} from "./ResearchTeams";
 
 
 const Container = styled.div`

@@ -7,6 +7,7 @@ const StyledSection = styled.div`
   border-top-color: #e0e0e0;
   border-top-style: solid;
   border-top-width: 1px;
+
   min-height: 280px;
 
   h1 {

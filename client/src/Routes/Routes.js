@@ -8,12 +8,13 @@ import {
     Dataset,
     Presentation,
     Research,
-    Publications,
+    Papers,
     Equipments,
     Software,
     Contact,
     People,
     Member,
+    Collaboration,
     JoinUs,
     Social,
 } from '../Components/index';
@@ -27,11 +28,12 @@ const PublicRoutes = () => {
             <Route path='/datasets' element={<Dataset/>}/>
             <Route path='/presentations' element={<Presentation/>}/>
             <Route path='/research' element={<Research/>}/>
-            <Route path='/publications' element={<Publications/>}/>
+            <Route path='/publications' element={<Papers/>}/>
             <Route path='/equipments' element={<Equipments/>}/>
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/people' element={<People/>}/>
             <Route path='/people/:token' element={<Member/>}/>
+            <Route path='/collaboration' element={<Collaboration/>}/>
             <Route path='/positions' element={<JoinUs/>}/>
             <Route path='/social' element={<Social/>}/>
             <Route path='/software' element={<Software/>}/>

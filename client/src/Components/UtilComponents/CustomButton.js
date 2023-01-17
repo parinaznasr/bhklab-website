@@ -1,22 +1,16 @@
 import React from 'react';
 import { Button } from 'primereact/button';
 import styled from 'styled-components';
+// import {StyleClassModule} from 'primeng/styleclass';
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 const StyledButton = styled(Button)`
-  padding: 10px;
-  background-color: rgba(76, 110, 134, 0.1);
-  border-style: solid;
-  border-color: ghostwhite;
-  width: 50px;
   .p-button-label {
-    font-size: ${props => props.fontSize ? props.fontSize : '12px'};
+    font-size: ${props => props.fontSize ? props.fontSize : '10px'};
   }
-
   .pi {
-    font-size: ${props => props.fontSize ? props.fontSize : '12px'};
+    font-size: ${props => props.fontSize ? props.fontSize : '10px'};
   }
-
-
 `;
 
 const CustomButton = (props) => {

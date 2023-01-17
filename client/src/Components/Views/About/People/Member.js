@@ -27,13 +27,13 @@ const Member= (props) => {
             <Container>
                 {
                     member.ready &&
-                        <StyledMember>
-                            <img src ={`/images/people/${member.data.image}`}/>
-                            <div className="desc">
-                                <div className = "name">{member.data.position}: {member.data.name}</div>
-                                <div className='member-title'>{member.data.bio}</div>
-                            </div>
-                        </StyledMember>
+                    <StyledMember>
+                        <img src ={`/images/people/${member.data.image}`}/>
+                        <div className="desc">
+                            <div className = "name">{member.data.position}: {member.data.name}</div>
+                            <div className='member-title'>{member.data.bio}</div>
+                        </div>
+                    </StyledMember>
                 }
             </Container>
         </Layout>

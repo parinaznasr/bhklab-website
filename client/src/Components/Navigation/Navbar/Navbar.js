@@ -187,7 +187,7 @@ const NavBar= () => (
                 <Link className="dropbtn">About</Link>
                 <div className="dropdown-content">
                     <Link to="/people">People</Link>
-                    <Link to="/social">Collaboration</Link>
+                    <Link to="/collaboration">Collaboration</Link>
                     <Link to="/positions">Join Us</Link>
                     <Link to="/contact">Contact</Link>
                 </div>

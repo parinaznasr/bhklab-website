@@ -1,9 +1,9 @@
-import Layout from '../../UtilComponents/Layout';
+import Layout from '../../../UtilComponents/Layout';
 import React, {useEffect, useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from "axios";
 import styled from "styled-components";
-import colors from "../../../styles/colors";
+import colors from "../../../../styles/colors";
 
 const StyledPublication = styled.div`
     width: 80%;
@@ -56,7 +56,7 @@ const customizedPublication = (item,index, divider) => {
     );
 }
 
-const Publication= () => {
+const Papers= () => {
     const [ready, setReady] = useState(false);
     const [publications, setPublication] = useState({});
     const history = useNavigate();
@@ -111,4 +111,4 @@ const Publication= () => {
     );
 }
 
-export default Publication;
+export default Papers;
