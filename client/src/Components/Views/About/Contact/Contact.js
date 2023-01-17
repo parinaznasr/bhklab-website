@@ -4,8 +4,6 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import {FaLinkedin, FaTwitterSquare, FaYoutubeSquare} from 'react-icons/fa';
 import colors from "../../../../styles/colors";
 import {ContactForm} from "./ContactForm";
-import { InputText } from 'primereact/inputtext';
-import {useState} from "react";
 
 const StyledEmail = styled.div`
   width: fit-content;
@@ -44,12 +42,14 @@ const StyledContact = styled.div`
     text-decoration: none;
     color: black;
   }
+  
   .heading {
     height: 60px;
     font-size: 24px;
     font-weight: normal;
     margin-top: 250px;
   }
+  
   .content {
     font-size: 15px;
     line-height: 20px;

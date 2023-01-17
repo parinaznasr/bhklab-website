@@ -4,7 +4,7 @@ import colors from "../../../../styles/colors";
 export const StyledDataset = styled.div`
   width: 100%;
   color: black;
-  background-color: rgba(169, 169, 224, 0.13);
+  background-color: rgb(255, 255, 255);
   font-size: 16px;
 
   .subject {
@@ -38,11 +38,6 @@ export const StyledDataset = styled.div`
       color: ${colors.navbarLink};
       text-decoration: none;
     }
-  }
-
-  .divider {
-    margin-bottom: 30px;
-    padding-top: 10px;
   }
 `;
 

@@ -4,6 +4,20 @@ import styled from "styled-components";
 import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
 
+const StyledLogo = styled.div`{
+  //background-color: rgba(248, 248, 255, 0.67);
+  //position: fixed;
+  flex-grow: 1;
+  img {
+    max-height: 100px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}`
+
+
 const StyledSoftware = styled.div`
   :root {
     --main-color: #02577b;
@@ -361,6 +375,9 @@ const StyledPage = styled.div`
     font-weight: normal;
     margin-top: 30px;
   }
+  .logo {
+    
+  }
 `
 
 const Container = styled.div`
@@ -373,6 +390,14 @@ const Container = styled.div`
 const Software= () => {
     return(
         <Layout>
+            <StyledLogo>
+                <a target="_blank" href="http://github.com/bhklab"
+                   className="link">
+                    <img className="logo" src="images/software/GitHub_Logo.png"/>
+                    {/*<img className="logo" src="images/software/github-mark.png"/>*/}
+                    <div>Checkout BHK Lab Github Page</div>
+                </a>
+            </StyledLogo>
             <Container>
                 <StyledPage className="static">
                     <StyledSoftware>

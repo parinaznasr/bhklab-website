@@ -14,7 +14,7 @@ import {
     Contact,
     People,
     Member,
-    Position,
+    JoinUs,
     Social,
 } from '../Components/index';
 
@@ -32,7 +32,7 @@ const PublicRoutes = () => {
             <Route path='/contact' element={<Contact/>}/>
             <Route path='/people' element={<People/>}/>
             <Route path='/people/:token' element={<Member/>}/>
-            <Route path='/positions' element={<Position/>}/>
+            <Route path='/positions' element={<JoinUs/>}/>
             <Route path='/social' element={<Social/>}/>
             <Route path='/software' element={<Software/>}/>
             {/* <Route path='/contact' exact component={Contact} /> */}

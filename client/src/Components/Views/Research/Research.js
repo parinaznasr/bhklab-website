@@ -9,6 +9,7 @@ const StyledCard = styled.div`
   border-color: #d2d2d2;
   padding-left: 15px;
   border-width: 1px;
+  border-radius: 3px;
   height: 60vh;
   margin: 5px;
   border-style: solid;

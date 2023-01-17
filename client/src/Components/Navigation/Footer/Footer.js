@@ -3,73 +3,89 @@ import styled from 'styled-components';
 import colors from '../../../styles/colors';
 
 const StyledFooter = styled.div`
-  position: relative;
-  bottom: 0%;
-  width: 100vw;
-  height: 100px;
+  width: 100%;
+  border-top: #d5d5d5;
+  border-top-width: 1px;
+  border-top-style: solid;
+  bottom:0px;
+  right:0px;
   display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  white-space:nowrap;
+  font-size: calc(0.8em + 0.2vw);
+  height: 120px;
   align-items: center;
-  background-color: ${colors.gray_footer};
+  justify-content: center;
+  color: black;
+
+  .logo {
+    float:left;
+
+    & img {
+      width: 90px;
+      margin-right:10px;
+    }
+  }
+
+
+  .links {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    & * {
+      flex-basis: 33%;
+      color: black;
+      text-decoration: none;
+      font-size: calc(0.2vw + 0.8em);
+      margin: 5px 0px;
+      letter-spacing: 0px;
+      font-family: 'Lato', sans-serif;
+    }
+  }
+
+  .links a:hover {
+    color: ${colors.navbarLink};
+  }
+
+  .link-container {
+    display:flex;
+    margin: 0px 50px;
+    align-items:flex-start;
+    flex-direction: column;
+  }
 `
 
-const FooterContent = styled.div`
-    width: 80vw;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-`
-
-const FooterItem = styled.div`
-    display: flex;
-    align-items: center;
-    color: ${colors.gray_light};
-    font-size: 10px;
-    a {
-        color: ${colors.gray_light};
-        text-decoration: none;
-    }
-    .divider {
-        margin: 0px 10px;
-    }
-    .logo-sm {
-        img {
-            width: 100%;
-        }
-        margin-right: 30px;
-    }
-`
 
 const Footer = () => {
     return (
         <StyledFooter>
-            <FooterContent>
-                <FooterItem>
-                    <span className='link'><a href='/'>Home</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/research'>Research</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/publications'>Publications</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/datasets'>Datasets</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/equipments'>Resources</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/presentations'>Presentations</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='https://www.bhklab.ca'>Software</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/positions'>Positions</a></span>
-                    <span className='divider'>|</span>
-                    <span className='link'><a href='/contact'>Contact</a></span>
+            <div className="links">
+                <div className="link-container">
+                    <a href="/research">Research</a>
+                    <a href="/collaboration">Collaboration</a>
+                    <a href="/software">Software</a>
+                </div>
 
-                </FooterItem>
-                <FooterItem>
-                    <span>BHKLAB &#169; 2022</span>
-                </FooterItem>
-            </FooterContent>
+                <div className="link-container">
+                    <a href="/publications">Publications</a>
+                    <a href="/presentations">Presentations</a>
+                </div>
+
+                <div className="link-container">
+                    <a href="/resources">Resources</a>
+                    <a href="/datasets">Datasets</a>
+                </div>
+
+                <div className="link-container">
+                    <a href="/contact">Contact Us</a>
+                    <a href="/positions">Join Us</a>
+                    <a href="/people">People</a>
+                </div>
+            </div>
         </StyledFooter>
     );
 }

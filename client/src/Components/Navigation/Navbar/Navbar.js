@@ -173,14 +173,15 @@ const NavBar= () => (
             {/*        <Link to="/presentations">Presentations</Link>*/}
             {/*    </div>*/}
             {/*</div>*/}
-            <div className="dropdown">
-                {/*<a className="dropbtn">Software<StyledDropDownIcon/></a>*/}
-                <a className="dropbtn">Software</a>
-                <div className="dropdown-content">
-                    <Link to="/software">Software</Link>
-                    <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
-                </div>
-            </div>
+            {/*<div className="dropdown">*/}
+            {/*    /!*<a className="dropbtn">Software<StyledDropDownIcon/></a>*!/*/}
+            {/*    <a className="dropbtn">Software</a>*/}
+            {/*    <div className="dropdown-content">*/}
+            {/*        <Link to="/software">Software</Link>*/}
+            {/*        <a href="https://github.com/bhklab" target='_blank'>GitHub</a>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+            <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/software">Software</a></div>
             <div className="dropdown">
                 {/*<Link className="dropbtn">About<StyledDropDownIcon/></Link>*/}
                 <Link className="dropbtn">About</Link>

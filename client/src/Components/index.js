@@ -9,7 +9,7 @@ import Software from './Views/Software/Software';
 import Contact from './Views/About/Contact/Contact';
 import People from './Views/About/People/People';
 import Member from './Views/About/People/Member';
-import Position from './Views/About/Position/Position';
+import JoinUs from './Views/About/Join/JoinUs';
 import Social from './Views/About/Social/Social';
 
 // import { lazy } from 'react';
@@ -27,6 +27,6 @@ export {
     Contact,
     People,
     Member,
-    Position,
+    JoinUs,
     Social
 }

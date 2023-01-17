@@ -9,6 +9,7 @@ const presentation = require('./api/data/presentation');
 const project = require('./api/data/project');
 const publication = require('./api/data/publication');
 const social = require('./api/data/social');
+const email = require('./api/mail/sendGrid');
 
 
 // data routes
@@ -21,4 +22,5 @@ router.get('/data/projects', project.getAll);
 router.get('/data/publications', publication.getAll);
 router.get('/data/socials', social.getAll);
 
+router.post('/mail/send', email.sendEmail );
 module.exports = router;

@@ -3,11 +3,9 @@ import React, {useEffect, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import axios from "axios";
 import parse from 'html-react-parser';
-import banner from "./banner-dataset-pgx2.png";
 import {StyledDataset, Container, Banner } from "./StyledDataset";
 import ReactTable from 'react-table-6';
 import 'react-table-6/react-table.css';
-import LoadingComponent from "../../../UtilComponents/Loading";
 
 
 const accessions = (items) => {
@@ -115,10 +113,11 @@ const Dataset= () => {
                             <ReactTable
                                 data={datasets}
                                 columns={columns}
-                                filterable
+                                // filterable
                                 defaultFilterMethod={filterCaseInsensitive}
-                                className="table -highlight"
+                                className="table-highlight"
                                 defaultPageSize={datasets.length}
+                                showPagination={false}
                             />
                             : ''
                     }
