@@ -6,7 +6,10 @@ const JoinUs= () => {
     return(
         <Layout>
             {
-                positions.map(item => {return(<StyledPosition position = {item}/>)})
+                positions.map((item, index)=>
+                {
+                    return(<StyledPosition key={index} position = {item}/>)
+                })
             }
         </Layout>
     );

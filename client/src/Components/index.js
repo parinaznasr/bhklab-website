@@ -11,6 +11,7 @@ import People from './Views/About/People/People';
 import Member from './Views/About/People/Member';
 import Collaboration from './Views/About/Collaboration/Collaboration';
 import JoinUs from './Views/About/Join/JoinUs';
+import Position from './Views/About/Join/Position';
 import Social from './Views/About/Social/Social';
 
 // import { lazy } from 'react';
@@ -30,5 +31,6 @@ export {
     Member,
     Collaboration,
     JoinUs,
+    Position,
     Social
 }

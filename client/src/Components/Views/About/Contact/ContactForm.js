@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { InputText } from 'primereact/inputtext';
+import { InputTextarea } from 'primereact/inputtextarea';
 import { Button } from 'primereact/button';
+import * as PropTypes from "prop-types";
 
 const StyledLabel = (props) => {
     const {title}= props;
@@ -11,6 +13,29 @@ const StyledLabel = (props) => {
     )
 }
 
+function InputTextProps(props) {
+    return null;
+}
+
+InputTextProps.propTypes = {
+    rows: PropTypes.string,
+    onChange: PropTypes.func,
+    cols: PropTypes.string,
+    name: PropTypes.string,
+    value: PropTypes.string
+};
+
+function InputTextArea(props) {
+    return null;
+}
+
+InputTextArea.propTypes = {
+    rows: PropTypes.string,
+    onChange: PropTypes.func,
+    cols: PropTypes.string,
+    name: PropTypes.string,
+    value: PropTypes.string
+};
 export const ContactForm = () => {
     // States for contact form fields
     const [fullName, setFullName] = useState("");
@@ -125,10 +150,11 @@ export const ContactForm = () => {
                     />
 
                     <StyledLabel title="Message"/>
-                    <textarea
+                    <InputTextarea
                         rows="5"
                         cols="60"
                         name="message"
+                        autoResize
                         value={message}
                         onChange={(e) => {
                             setMessage(e.target.value);
@@ -136,7 +162,7 @@ export const ContactForm = () => {
                     />
 
                     <div>
-                        <Button label="Send Message" className="p-button-info"/>
+                        <Button label="Send Message" className="p-button-rounded p-button-info"/>
                     </div>
                 </form>
             </div>

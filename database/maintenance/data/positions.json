@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "63c826feb0e3420e80ccec26",
+    "title": "Software Developer",
+    "description": "<p>We are looking for a talented software developer to develop databases integrating compendiums of pharmacogenomic datasets and web-applications to help explore and analyze these valuable data.</p>",
+    "pref_qualifications": "<ol style=\"list-style-type:disc\">\n\t<li>Experience working with Microsoft Azure cloud computing services</li>\n\t<li>Practical experience of Agile and test-driven approaches to development.</li>\n\t<li>Experience with version control tools (e.g. git), and project management tools (e.g. Trello).</li>\n\t<li>Skills in other programming languages such as Ruby or Go is a plus</li>\n\t<li>Knowledge of Swagger to create and document RESTful web services</li>\n\t<li>Experience in some or all of the following fields: clinical genomics, knowledge-based systems, web and information science, and oncology</li>\n</ol>",
+    "responsibilities": "The software developer will be responsible for:</p>\n\n<ol style=\"list-style-type:disc\">\n\t<li>Developing web-based computational approaches for large-scale interpretation and visualization to facilitate cataloging and exploring pharmacogenomic data</li>\n\t<li>Developing programmatic approaches to link genomic and pharmacological data generated in the Haibe-Kains lab, in the Patient-Derived Model Core and the Cancer Genomics Program, as part of the above activities</li>\n\t<li>Integrating imaging data: Radiomics, Cell Painting, ...</li>\n\t<li>Writing and contributing to research articles, and communicating results to the research community</li>\n\t<li>Facilitating other projects in the Haibe-Kains lab that require expertise in software development</li>\n</ol>",
+    "apply": "<p><strong>HOW TO APPLY</strong> Apply via the <a href=\"https://www.recruitingsite.com/csbsites/uhncareers/JobDescription.asp?SiteID=10031&amp;JobNumber=793967\" target=\"_blank\">UHN Recruiting Website </a>, Job Posting #793967 or submit a CV, a copy of your most relevant paper, and the names, email addresses, and phone numbers of three references to benjamin.haibe.kains@utoronto.ca. The subject line of your email should start with “SOFTWARE DEVELOPER BHKLAB”. All documents should be provided in PDF.</p>",
+    "active": true,
+    "date": "2022-07-05T18:24:58.809Z",
+    "__v": 0
+  },
+  {
+    "_id": "63c826feb0e3420e80ccec27",
+    "title": "Postdoctoral Fellowships",
+    "description": "<p>We seek postdoctoral fellows for several projects in cancer computational biology. Selected projects include:</p>\n<ol style=\"list-style-type:disc\">\n        <li>Single-cell RNA-sequencing analysis for drug repurposing.</li>\n\t<li>Integrative analysis of multiple <em>omics</em> data types (DNA, mRNA, epigenetics) to develop the next generation of multivariate biomarkers predictive of drug response in breast cancer.</li>\n</ol>",
+    "pref_qualifications": "<p>Hands-on experience in high performance computing, especially for parallelizing code in C/C++ (openMP) and/or R in a cluster environment (Sun Grid Engine or Torque).</p>",
+    "responsibilities": "",
+    "apply": "<p>We will accept applications until the position is filled. Please submit a CV, a copy of your most relevant paper, and the names, email addresses, and phone numbers of three references to <a href=\"mailto:benjamin.haibe.kains@utoronto.ca\">benjamin.haibe.kains@utoronto.ca</a>. The subject line of your email should start with “POSTDOC BHKLAB”. All documents should be provided in PDF.</p></br>",
+    "active": true,
+    "date": "2022-08-05T18:24:58.809Z",
+    "__v": 0
+  },
+  {
+    "_id": "63c826feb0e3420e80ccec28",
+    "title": "Graduate Students",
+    "description": "<p>Multiple positions for graduate students are available for the study of pharmacogenomic datasets in order to better model the tumor heterogeneity at the transcriptomic level and its impact on drug response.</p>",
+    "pref_qualifications": "<p>Hands-on experience in high performance computing, especially for parallelizing code in C/C++ (openMP) and/or R in a cluster environment (Sun Grid Engine).</p>",
+    "responsibilities": "",
+    "apply": "We will accept applications until the position is filled. Please submit a CV, a copy of your most relevant paper, and the names, email addresses, and phone numbers of three references to  <a href=\"mailto:benjamin.haibe.kains@utoronto.ca\">benjamin.haibe.kains@utoronto.ca. </a> The subject line of your email should start with “PHD BHKLAB”. All documents should be provided in PDF.</p></br>",
+    "active": true,
+    "date": "2022-08-05T18:24:58.809Z",
+    "__v": 0
+  },
+  {
+    "_id": "63c826feb0e3420e80ccec29",
+    "title": "Undergraduate Students",
+    "description": "<p>We always welcome undergraduate students for a summer/winter internship or coop experience. Do not hesitate to send us an email with subject line starting with “UNDERGRAD BHKLAB”. All documents should be provided in PDF.</p>",
+    "pref_qualifications": "",
+    "responsibilities": "",
+    "apply": "",
+    "active": true,
+    "date": "2022-08-05T18:24:58.809Z",
+    "__v": 0
+  }
+]

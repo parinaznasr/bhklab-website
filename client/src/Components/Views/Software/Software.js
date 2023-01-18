@@ -3,6 +3,7 @@ import React from 'react';
 import styled from "styled-components";
 import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
+import { TabView, TabPanel } from 'primereact/tabview';
 
 const StyledLogo = styled.div`{
   //background-color: rgba(248, 248, 255, 0.67);

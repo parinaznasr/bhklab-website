@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import CustomButton from "../../../UtilComponents/CustomButton";
+import { useState} from "react";
 import {StyledLink} from "../../../../styles/StyledLink";
 
 
@@ -37,23 +38,55 @@ export const Card = styled.div`
   }
 `;
 
+
+const footer = (
+    <div>
+        <CustomButton label="Yes" icon="pi pi-check" onClick={'displayBasic'} />
+        <CustomButton label="No" icon="pi pi-times" onClick={'displayBasic'} />
+    </div>
+);
+
+const myIcon = (
+        <button className="p-dialog-titlebar-icon p-link">
+            <span className="pi pi-search"></span>
+        </button>
+    )
+
+
 const StyledPosition = (props) => {
     const {position} = props;
+    const [display, setDisplay] = useState(false)
+
     return(
         <Card>
             <div className="title">{position.title}</div>
             <div>{position.description}</div>
             <div>{position.duties? position.duties : ''}</div>
+            {
+                display &&
+                <div>More info More info More info More info</div>
+            }
+            <span style={{display:'flex', justifyContent:'flex-end'}}>
+                <CustomButton
+                    label="Read more (this?)"
+                    className="p-button-text p-button-rounded"
+                    icon="pi p-button-secondary"
+                    iconPos="right"
+                    onClick={() => setDisplay(!display)}
+                />
+            </span>
+
             <StyledLink to={{pathname: `${position.title.toLowerCase()
                     .replace(/ /g,'-')
                     .replace(/[^\w-]+/g,'')}`}}
                         target='_blank'>
                 <span style={{display:'flex', justifyContent:'flex-end'}}>
                     <CustomButton
-                        label="Read more"
+                        label="Read more (or this?)"
                         className="p-button-text p-button-rounded"
                         icon="pi p-button-secondary"
                         iconPos="right">
+                        onClick={() => setDisplay(!display)}
                     </CustomButton>
                 </span>
             </StyledLink>

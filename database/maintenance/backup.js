@@ -17,6 +17,7 @@ const Member = require("../models/member");
 const News = require("../models/news");
 const Otheraccom = require("../models/otheraccom");
 const Poster = require("../models/poster");
+const Position = require("../models/position");
 const Project = require("../models/project");
 const Presentation = require("../models/presentation");
 const Publication = require("../models/publication");
@@ -65,6 +66,8 @@ const backup = async (output, Model) => {
         // // // backup lab posters
         // await backup("./data/posters.json", Poster);
         //
+        // // backup lab positions
+        await backup("./data/positions.json", Position);
         //
         // // backup lab presentations
         // await backup("./data/presentations.json", Presentation);
