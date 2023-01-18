@@ -64,8 +64,8 @@ const restore = async (file, Model) => {
         // console.log("poster done");
         //
         // // insert position
-        await restore("./data/positions.json", Position);
-        console.log("position done");
+        // await restore("./data/positions.json", Position);
+        // console.log("position done");
         //
         // // insert other accomplishments
         // await restore("./data/otheraccoms.json", Otheraccom);

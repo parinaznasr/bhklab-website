@@ -67,7 +67,7 @@ const backup = async (output, Model) => {
         // await backup("./data/posters.json", Poster);
         //
         // // backup lab positions
-        await backup("./data/positions.json", Position);
+        // await backup("./data/positions.json", Position);
         //
         // // backup lab presentations
         // await backup("./data/presentations.json", Presentation);
@@ -82,7 +82,7 @@ const backup = async (output, Model) => {
         // await backup("./data/socials.json", Social);
         //
         // // // backup lab socials
-        await backup("./data/supervisions.json", Supervision);
+        // await backup("./data/supervisions.json", Supervision);
 
     } catch (err) {
         console.log(err);

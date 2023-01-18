@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 const positionSchema = new Schema({
     title: String,
     description: String,
-    min_qualifications: String,
+    req_qualifications: String,
     pref_qualifications: String,
     responsibilities: String,
     apply: String,
