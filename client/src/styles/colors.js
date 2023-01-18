@@ -7,6 +7,7 @@ const colors = {
     white_background: 'white',
     // blue_background: '#2d3957',
     // blue_background: '#35444f',
+    gray_divider: '#c6c6c6',
     white: '#FFFFFF',
     gray_light: '#BDC3C7',
     // gray_footer: '#1a2235',
