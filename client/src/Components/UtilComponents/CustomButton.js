@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from 'primereact/button';
 import styled from 'styled-components';
-// import {StyleClassModule} from 'primeng/styleclass';
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 const StyledButton = styled(Button)`
