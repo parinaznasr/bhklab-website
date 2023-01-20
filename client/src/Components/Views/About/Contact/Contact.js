@@ -33,7 +33,7 @@ const StyledContact = styled.div`
   align-items: center;
   .address {
     z-index: 10;
-    //height: 200px;
+    height: 200px;
     top: 50px;
     position: absolute;
     width: 100vw;
@@ -73,6 +73,7 @@ const StyledContact = styled.div`
     }
   }
 `
+
 
 
 

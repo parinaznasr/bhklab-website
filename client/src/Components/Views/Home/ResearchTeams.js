@@ -130,7 +130,7 @@ export const ResearchTopics = () => {
                     </a>
                 </div>
                 <div className="box">
-                    <a href="/research/clinical-deployment-and-assessment">
+                    <a href="/software">
 
                         <span className="title">Software Development</span>
                         <img alt="transition" src={'./images/projects/software.png'}/>

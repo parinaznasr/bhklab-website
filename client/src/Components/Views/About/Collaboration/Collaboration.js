@@ -1,42 +1,8 @@
 import Layout from '../../../UtilComponents/Layout';
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from "axios";
 import styled from "styled-components";
-import colors from "../../../../styles/colors";
-import ImageGallery from 'react-image-gallery';
-
-const StyledSocial= styled.div`
-    width: 80%;
-    .subject {
-        color: red;
-        display: flex;
-        align-items: center;
-        height: 60px;
-        font-size: 20px;
-        font-weight: normal;
-        margin-top: 30px;
-    }
-    .date{
-        color: darkred;
-        display: flex;
-        align-items: center;
-        height: 30px;
-        font-size: 12px;
-        font-weight: normal;
-    }
-    .content {
-        font-size: 15px;
-        line-height: 25px;
-        font-weight: normal;
-        width: 75%;
-        color: mediumvioletred;
-    }
-    .divider {
-        margin-bottom: 30px;
-        padding-top: 10px;
-    }
-`;
+import CollaborationMap from "./CollaborationMap";
 
 
 const Container = styled.div`
@@ -44,36 +10,20 @@ const Container = styled.div`
   margin: 0px 20px;
   display: flex;
   flex-direction: column;
+
+  html {
+    font-family: system-ui, sans-serif;
+    font-size: 1.25rem;
+  }
+
+  body {
+    margin: 0;
+    padding: 0 1.5rem;
+  }
 `;
 
-// const customizedSocial = (item,index, divider) => {
-//     return (
-//         <StyledSocial key = {index}>
-//             <div className='subject'>{item.image}</div>
-//             <div className='content'>{ item.date}</div>
-//         </StyledSocial>
-//     );
-// }
-
-const images = (socials) => {
-    const imageList =[];
-    // socials.forEach(item => item.)
-    return imageList;
-}
-
 const Collaboration = () => {
-    const [ready, setReady] = useState(false);
-    const [socials, setSocial] = useState({});
     const history = useNavigate();
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-        const getSocial = async () => {
-            const res = await axios.get('/api/data/socials');
-            setSocial(res.data.socials);
-        }
-        getSocial();
-    }, []);
 
     useEffect(() => {
         return(() => {
@@ -91,18 +41,7 @@ const Collaboration = () => {
     return(
         <Layout>
             <Container>
-                <StyledSocial className="individual">
-                    {
-                        socials.length?
-                            // <ImageGallery items={images} />
-                            ''
-                            // <>
-                            //     {socials.sort((a,b)=> b.date - a.date).map((item,i) =>
-                            //             (customizedSocial(item, i, (i !==socials.length-1))))}
-                            // </>
-                            : 'Loading'
-                    }
-                </StyledSocial>
+                <CollaborationMap/>
             </Container>
         </Layout>
     );

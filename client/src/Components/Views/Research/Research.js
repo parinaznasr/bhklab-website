@@ -4,66 +4,218 @@ import styled from "styled-components";
 import research from './research.json';
 import "animate.css/animate.min.css";
 import HyperLink from "../../UtilComponents/HyperLink";
+//
+// const StyledCard = styled.div`
+//   border-color: #d2d2d2;
+//   padding-left: 15px;
+//   border-width: 1px;
+//   border-radius: 3px;
+//   height: 60vh;
+//   margin: 5px;
+//   border-style: solid;
+//   width: 300px;
+//   display: flex;
+//   flex-direction: column;
+// `
+//
+// const StyledPage = styled.div`
+//   width: 100%;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+//
+//   .subject {
+//     color: #0b6fcb;
+//     display: flex;
+//     align-items: center;
+//     height: 60px;
+//     font-size: 20px;
+//     font-weight: normal;
+//     margin-top: 30px;
+//   }
+// `
+//
+// const Container = styled.div`
+//   width: 80%;
+//   margin: 0px 20px;
+//   display: flex;
+//   flex-direction: row;
+// `;
+//
+// const Research= () => {
+//     return(
+//         <Layout>
+//             <Container>
+//                 <StyledPage className="static">
+//                     {
+//                         research.length?
+//                         research.map( item => {
+//                             return (
+//                                 // <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
+//                                 <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
+//                                     <text className="subject">{item.title}</text>
+//                                     <HyperLink>
+//
+//                                     </HyperLink>
+//                                 </StyledCard>)
+//                         }):''
+//                     }
+//                 </StyledPage>
+//             </Container>`````
+//         </Layout>
+//     );
+// }
+//
+// export default Research;
 
-const StyledCard = styled.div`
-  border-color: #d2d2d2;
-  padding-left: 15px;
-  border-width: 1px;
-  border-radius: 3px;
-  height: 60vh;
-  margin: 5px;
-  border-style: solid;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-`
+import colors from "../../../styles/colors";
 
-const StyledPage = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 
-  .subject {
-    color: #0b6fcb;
-    display: flex;
-    align-items: center;
-    height: 60px;
-    font-size: 20px;
-    font-weight: normal;
-    margin-top: 30px;
+const StyledSection = styled.div`
+  border-top-color: #e0e0e0;
+  border-top-style: solid;
+  border-top-width: 1px;
+
+  min-height: 280px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000000;
+    text-align: center;
   }
-`
 
-const Container = styled.div`
-  width: 80%;
-  margin: 0px 20px;
-  display: flex;
-  flex-direction: row;
+  .container {
+    width: 100%;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    background-color: white;
+    flex-basis: 22%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    //align-items: center;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 30px;
+    min-height: 240px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.3);
+    line-height: 120%;
+
+    .title {
+      font-weight: bold;
+      font-size: 20px;
+      height: 40px;
+      color: ${colors.navbarLink};
+    }
+
+    .description {
+      height: 200px;
+      
+      ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+      }
+    }
+
+    a {
+      color: #2A2A2AFF;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 400;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px 5px;
+    }
+
+
+    a:hover {
+      transition: 0.3s;
+    }
+
+    & img {
+      height: 45px;
+      max-width: 60px;
+    }
+
+    & span {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: normal;
+      color: #575757;
+    }
+
+    & a:hover {
+      color: #d5d5d5;
+    }
+  }
 `;
 
-const Research= () => {
-    return(
-        <Layout>
-            <Container>
-                <StyledPage className="static">
-                    {
-                        research.length?
-                        research.map( item => {
-                            return (
-                                // <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
-                                <StyledCard className="research-card" style={{backgroundImage: 'url(' + require("./images/research_network.jpeg") + ')' }}>
-                                    <text className="subject">{item.title}</text>
-                                    <HyperLink>
 
-                                    </HyperLink>
-                                </StyledCard>)
-                        }):''
-                    }
-                </StyledPage>
-            </Container>
+const Research = () => {
+    return (
+        <Layout>
+        <StyledSection>
+            <h1>Research Teams</h1>
+            <div className="container">
+                <div className="box">
+                    <a href="/research/biomarker-discovery">
+                        <span className="title">Pharmacogenomics</span>
+                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Integration of preclinical/clinical data</li>
+                                <li>Drug classification/repurposing</li>
+                            </ul>
+                        </span>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/research/segmentation">
+                        <span className="title">Radiomics</span>
+                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Segmentation/Deduction</li>
+                                <li>Radiomics for prognosis and prediction</li>
+                                <li>Validation using clinical radiogenomics</li>
+                            </ul>
+                    </span>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/software">
+
+                        <span className="title">Software Development</span>
+                        <img alt="transition" src={'./images/projects/software.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Software</li>
+                                <li>Packages</li>
+                                <li>Eco-systems</li>
+                            </ul>
+                    </span>
+                    </a>
+                </div>
+            </div>
+        </StyledSection>
         </Layout>
-    );
+    )
 }
 
 export default Research;

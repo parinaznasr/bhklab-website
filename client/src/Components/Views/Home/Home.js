@@ -28,8 +28,6 @@ const Container = styled.div`
 `;
 
 
-
-
 const Home = () => {
     return(
         <Layout page="home">

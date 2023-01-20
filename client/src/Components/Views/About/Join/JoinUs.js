@@ -12,7 +12,6 @@ const JoinUs= () => {
     useEffect(() => {
         const getPositions = async () => {
             const res = await axios.get('/api/data/positions');
-            console.log(res.data.positions)
             setPositions(res.data.positions);
             setReady(true);
         }
