@@ -13,43 +13,59 @@ import { Card } from 'primereact/card';
 import Moment from 'moment';
 import { Button } from 'primereact/button';
 import StyledGroupAvatar from "../../../UtilComponents/StyledGroupAvatar";
+import CustomDropdown from "../../../UtilComponents/CustomDropdown";
 
 
 const StyledPresentation = styled.div`
-    width: 80%;
-   .event-title {
-      font-size: 16px;
-      margin: 0px 0px 10px 10px;
-    }
-  
-    #p-card-subtitle{
-        color: ${colors.gray_text};
-        display: flex;
-        align-items: center;
-        height: 30px;
-        font-size: 12px;
-        font-weight: normal;
-    }
-  
-    #content {
-        font-size: 15px;
-        line-height: 25px;
-        font-weight: normal;
-        width: 75%;
-        color: ${colors.gray_text};
-    }
-    #p-timeline-event-opposite {
-      width: 0px;
-    }
-    a {
-      text-decoration: none;
-      color: ${colors.navbarLink}
-    }
+  width: 80%;
+
+  .event-title {
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .pi-circle-fill {
+    color: ${colors.navbarLink};
+  }
+
+  #p-card-subtitle {
+    color: ${colors.gray_text};
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  #content {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: normal;
+    width: 75%;
+    color: ${colors.gray_text};
+  }
+
+  #p-timeline-event-opposite {
+    width: 0px;
+  }
+
+  .p-timeline-event-connector {
+    background-color: #e82222;
+  }
+
+  .p-timeline-event-separator {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${colors.navbarLink}
+  }
 `;
 
 const customizedMarker = () => {
     return (
-        <i color= 'black' className='pi pi-circle-fill'></i>
+        <i color= 'blue' className='pi pi-circle-fill'></i>
     );
 };
 
@@ -57,8 +73,9 @@ const customizedMarker = () => {
 const StyledCard =  styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   .column {
-    
+    flex-direction: column;
   }
 `
 
@@ -70,18 +87,23 @@ const customizedContent = (item) => {
         >
             <StyledCard>
                 <div className="column">
+                    <div className="event-title">
+                        { item.title && item.event && `Event: ${item.event}`}
+                        {/*{ item.url &&*/}
+                        {/*<a className="link" href={item.url} target='_blank'>*/}
+                        {/*    <Button label={item.format} icon="pi pi-external-link" className="p-button-text"  iconPos="right"/>*/}
+                        {/*</a>*/}
+                        {/*}*/}
+                    </div>
+                    { item.members && <StyledGroupAvatar members={item.members}/>}
+                </div>
+                <div className="column">
                     <a href={item.url || null} target="_blank">
                         {
-                            item.image ?
+                            item.image &&
                                 <img src={`images/presentations/${item.image}`}
-                                     onError={(e) => e.target.src='images/presentations/presentation-board.png'}
+                                     onError={(e) => e.target.src='images/presentations/presentation-alt.png'}
                                      alt={item.name}
-                                     width={150}
-                                     height={100}
-                                     className="shadow-1"
-                                /> :
-                                <img src={`images/presentations/presentation-board.png`}
-                                     alt="image is unavailable."
                                      width={150}
                                      height={100}
                                      className="shadow-1"
@@ -89,19 +111,9 @@ const customizedContent = (item) => {
                         }
                     </a>
                 </div>
-                <div className="column">
-                    <div className="event-title">
-                        { item.title && item.event && `Event: ${item.event}`}
-                    </div>
-                    { item.members && <StyledGroupAvatar members={item.members}/>}
-                </div>
-                { item.url &&
-                    <a href={item.url} target='_blank'>
-                        <Button label={item.format} icon="pi pi-external-link" className="p-button-text"  iconPos="right"/>
-                    </a>
-                }
             </StyledCard>
         </Card>
+
     );
 };
 
@@ -111,15 +123,30 @@ const Container = styled.div`
   margin: 0px 20px;
   display: flex;
   flex-direction: column;
+
   .p-timeline-event-opposite {
     display: none;
   }
+
   .p-card-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .p-card-subtitle {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  
+  .p-card {
+    border-style: none;
+  }
+  
+  .p-card:hover {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    border-color: lightgray;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
   }
 `;
 
@@ -155,6 +182,20 @@ const Presentation= () => {
     return(
         <Layout>
             <Container>
+                <CustomDropdown
+                    className="dropdown-pipelines"
+                    value={"hello"}
+                    options={["BHK", "Minoru", "Sisira"]}
+                    onChange={(e) =>
+                        console.log(e)
+                        // setPipelineDropdown((prev) => ({
+                        //     ...prev,
+                        //     selected: e.value,
+                        // }))
+                    }
+                    filter={true}
+                    placeholder="Highlight..."
+                />
                 {
                     ready &&
                     <StyledPresentation>

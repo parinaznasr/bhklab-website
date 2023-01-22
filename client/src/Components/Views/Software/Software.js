@@ -6,8 +6,6 @@ import "animate.css/animate.min.css";
 import { TabView, TabPanel } from 'primereact/tabview';
 
 const StyledLogo = styled.div`{
-  //background-color: rgba(248, 248, 255, 0.67);
-  //position: fixed;
   flex-grow: 1;
   img {
     max-height: 100px;
@@ -53,7 +51,6 @@ const StyledSoftware = styled.div`
   }
 
   /* NAV */
-
   #nav {
     position:static;
     height:40px;
@@ -404,16 +401,14 @@ const Software= () => {
                     <StyledSoftware>
                         <div id="intro">
                             <h1>We're developing <span className="highlight">databases and web applications</span> to
-                                empower the scientific
-                                community
-                                in their pharmacogenomic analysis of cancer model systems.
+                                empower the scientific community in their pharmacogenomic analysis of cancer model systems.
                             </h1>
                         </div>
                         <div id="container" className="web-apps">
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/orcestra.png"/>
-                                        <a target="_blank" href="https://www.orcestra.ca/" className="link">Go! </a>
+                                    <a target="_blank" href="https://www.orcestra.ca/" className="link">Go! </a>
                                 </div>
 
                                 <div className="desc">
@@ -423,8 +418,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/dnf-logo.png"/>
-                                        <a target="_blank" href="http://drugnetworkfusion.ca/"
-                                           className="link">Go! </a>
+                                    <a target="_blank" href="http://drugnetworkfusion.ca/" className="link">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Explore multi-layer similarities between chemical compounds
@@ -433,7 +427,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo up" src="images/software/toxicodb-logo.png"/>
-                                        <a target="_blank" href="https://www.toxicodb.ca/" className="link">Go! </a>
+                                    <a target="_blank" href="https://www.toxicodb.ca/" className="link">Go! </a>
                                 </div>
                                 <div className="desc up">
                                     Investigate the pathways triggered by exposure to toxic substances
@@ -442,8 +436,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/xevadb-logo.png"/>
-                                        <a target="_blank" href="http://xevadb.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="http://xevadb.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Visualize and analyze xenographic pharmacogenomic data
@@ -452,8 +445,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/pharmacodb-logo-web.png"/>
-                                        <a target="_blank" href="http://pharmacodb.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="http://pharmacodb.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Mine pharmacogenomic profiles of cancer cell lines treated with single agent
@@ -462,8 +454,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/synergx-logo.png"/>
-                                        <a target="_blank" href="https://www.synergxdb.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="https://www.synergxdb.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Explore synergistic drug combinations in cancer cell lines
@@ -472,8 +463,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/cclid-logo.png"/>
-                                        <a target="_blank" href="https://cclid.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="https://cclid.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Authenticate genotype and stability of cancer cell lines
@@ -482,8 +472,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/quannotate-logo.png"/>
-                                        <a target="_blank" href="https://www.quannotate.com/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="https://www.quannotate.com/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Check quality-assurance for radiotherapy target delineation
@@ -492,8 +481,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/kulgap-logo.png"/>
-                                        <a target="_blank" href="https://www.kulgap.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="https://www.kulgap.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Quantify therapy response to drug treatment in xenografts
@@ -502,8 +490,7 @@ const Software= () => {
                             <div id="app">
                                 <div id="app-container">
                                     <img className="logo" src="images/software/predictio-logo.png"/>
-                                        <a target="_blank" href="https://predictio.ca/"
-                                           className="link bottom-row">Go! </a>
+                                    <a target="_blank" href="https://predictio.ca/" className="link bottom-row">Go! </a>
                                 </div>
                                 <div className="desc">
                                     Investigate predictive and prognostic values of genes. Predict patient response
@@ -513,9 +500,7 @@ const Software= () => {
                         </div>
                         <div id="intro">
                             <h1>We're developing <span className="highlight">databases and web applications</span> to
-                                empower the scientific
-                                community
-                                in their pharmacogenomic analysis of cancer model systems.
+                                empower the scientific community in their pharmacogenomic analysis of cancer model systems.
                             </h1>
                         </div>
                         <div id="container" className="packages">
