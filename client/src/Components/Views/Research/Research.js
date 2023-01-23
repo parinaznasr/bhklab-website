@@ -72,11 +72,6 @@ import colors from "../../../styles/colors";
 
 
 const StyledSection = styled.div`
-  border-top-color: #e0e0e0;
-  border-top-style: solid;
-  border-top-width: 1px;
-
-  min-height: 280px;
 
   h1 {
     font-size: 30px;
@@ -119,7 +114,7 @@ const StyledSection = styled.div`
     }
 
     .description {
-      height: 200px;
+      height: 150px;
       
       ul {
         display: flex;
@@ -171,29 +166,54 @@ const Research = () => {
     return (
         <Layout>
         <StyledSection>
-            <h1>Research Teams</h1>
+            <h1>Pharmacogenomics</h1>
             <div className="container">
                 <div className="box">
                     <a href="/research/biomarker-discovery">
-                        <span className="title">Pharmacogenomics</span>
+                        <span className="title">Integration of preclinical/clinical data</span>
                         <img alt="transition" src={'./images/projects/biomarker.png'}/>
                         <span className="description">
                             <ul>
-                                <li>Integration of preclinical/clinical data</li>
-                                <li>Drug classification/repurposing</li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </span>
                     </a>
                 </div>
                 <div className="box">
                     <a href="/research/segmentation">
-                        <span className="title">Radiomics</span>
+                        <span className="title">Drug classification/repurposing</span>
                         <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
                         <span className="description">
                             <ul>
-                                <li>Segmentation/Deduction</li>
-                                <li>Radiomics for prognosis and prediction</li>
-                                <li>Validation using clinical radiogenomics</li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                    </span>
+                    </a>
+                </div>
+            </div>
+            <h1>Radiomics</h1>
+            <div className="container">
+                <div className="box">
+                    <a href="/research/biomarker-discovery">
+                        <span className="title">Segmentation/Deduction</span>
+                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Integration of preclinical/clinical data</li>
+                            </ul>
+                        </span>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/research/segmentation">
+                        <span className="title">Radiomics for prognosis and prediction</span>
+                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li></li>
+                                <li></li>
                             </ul>
                     </span>
                     </a>
@@ -201,13 +221,50 @@ const Research = () => {
                 <div className="box">
                     <a href="/software">
 
-                        <span className="title">Software Development</span>
+                        <span className="title">Validation using clinical radiogenomics</span>
                         <img alt="transition" src={'./images/projects/software.png'}/>
                         <span className="description">
                             <ul>
-                                <li>Software</li>
-                                <li>Packages</li>
-                                <li>Eco-systems</li>
+
+                            </ul>
+                    </span>
+                    </a>
+                </div>
+            </div>
+            <h1>Software Development</h1>
+            <div className="container">
+                <div className="box">
+                    <a href="/research/biomarker-discovery">
+                        <span className="title">Software</span>
+                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Description 1</li>
+                                <li>Description 2</li>
+                            </ul>
+                        </span>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/research/segmentation">
+                        <span className="title">Package</span>
+                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Description 1</li>
+                                <li>Description 1</li>
+                            </ul>
+                    </span>
+                    </a>
+                </div>
+                <div className="box">
+                    <a href="/software">
+
+                        <span className="title">Eco-system</span>
+                        <img alt="transition" src={'./images/projects/software.png'}/>
+                        <span className="description">
+                            <ul>
+                                <li>Meta-webapp</li>
                             </ul>
                     </span>
                     </a>

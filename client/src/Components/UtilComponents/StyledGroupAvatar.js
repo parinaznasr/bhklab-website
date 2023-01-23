@@ -6,8 +6,8 @@ import React from "react";
 const StyledGroupAvatar = (props) => {
     const {members} = props;
     return (
-        <div className="flex align-items-center px-3 grid col-12 md:col-4" style={{ cursor: 'pointer' }}>
-            <AvatarGroup className="mb-3">
+        <div className="flex px-3 grid col-12" style={{ cursor: 'pointer' }}>
+            <AvatarGroup >
                 {
                     members && members.map((member, index) => {
                         return (

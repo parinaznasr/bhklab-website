@@ -14,59 +14,19 @@ import Moment from 'moment';
 import { Button } from 'primereact/button';
 import StyledGroupAvatar from "../../../UtilComponents/StyledGroupAvatar";
 import CustomDropdown from "../../../UtilComponents/CustomDropdown";
+import {CustomFilter, FilterElement} from "./CustomFilter";
 
 
 const StyledPresentation = styled.div`
   width: 80%;
 
-  .event-title {
-    font-size: 14px;
-    margin: 0px 0px 5px 0px;
-  }
-
-  .pi-circle-fill {
-    color: ${colors.navbarLink};
-  }
-
-  #p-card-subtitle {
-    color: ${colors.gray_text};
-    display: flex;
-    align-items: center;
-    height: 30px;
-    font-size: 12px;
-    font-weight: normal;
-  }
-
-  #content {
-    font-size: 14px;
-    line-height: 25px;
-    font-weight: normal;
-    width: 75%;
-    color: ${colors.gray_text};
-  }
-
-  #p-timeline-event-opposite {
-    width: 0px;
-  }
-
-  .p-timeline-event-connector {
-    background-color: #e82222;
-  }
-
-  .p-timeline-event-separator {
-    display: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: ${colors.navbarLink}
-  }
+  
 `;
 
 const customizedMarker = () => {
-    return (
-        <i color= 'blue' className='pi pi-circle-fill'></i>
-    );
+    // return (
+    //     <i color= 'blue' className='pi pi-circle-fill'></i>
+    // );
 };
 
 
@@ -122,7 +82,7 @@ const Container = styled.div`
   width: 80%;
   margin: 0px 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   .p-timeline-event-opposite {
     display: none;
@@ -134,6 +94,14 @@ const Container = styled.div`
 
   .p-card-subtitle {
     font-size: 14px;
+  }
+
+  .p-card-content {
+    padding: 0px;
+  }
+  
+  .p-avatar-group {
+    margin-buttom: 0px;
   }
   
   .p-card {
@@ -148,6 +116,50 @@ const Container = styled.div`
     border-style: solid;
     background-color: white;
   }
+
+  .event-title {
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .pi-circle-fill {
+    color: ${colors.navbarLink};
+  }
+
+  #p-card-subtitle {
+    color: ${colors.gray_text};
+    display: flex;
+    align-items: center;
+    height: 30px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  #content {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: normal;
+    width: 75%;
+    color: ${colors.gray_text};
+  }
+
+  #p-timeline-event-opposite {
+    width: 0px;
+  }
+
+  .p-timeline-event-connector {
+    background-color: #e82222;
+  }
+
+  .p-timeline-event-separator {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: ${colors.navbarLink}
+  }
+  
 `;
 
 
@@ -182,32 +194,19 @@ const Presentation= () => {
     return(
         <Layout>
             <Container>
-                <CustomDropdown
-                    className="dropdown-pipelines"
-                    value={"hello"}
-                    options={["BHK", "Minoru", "Sisira"]}
-                    onChange={(e) =>
-                        console.log(e)
-                        // setPipelineDropdown((prev) => ({
-                        //     ...prev,
-                        //     selected: e.value,
-                        // }))
-                    }
-                    filter={true}
-                    placeholder="Highlight..."
-                />
-                {
-                    ready &&
-                    <StyledPresentation>
-                        <Timeline
-                            value={presentations.sort((a,b) => new Date(a)-new Date(b))}
-                            align="left"
-                            className="customized-timeline"
-                            marker={customizedMarker}
-                            content={customizedContent}
-                        />
-                    </StyledPresentation>
+                {   ready &&
+                    <Timeline
+                        value={presentations.sort((a,b) => new Date(a)-new Date(b))}
+                        align="left"
+                        className="customized-timeline"
+                        marker={customizedMarker}
+                        content={customizedContent}
+                        style={{width: '80%'}}
+                    />
                 }
+                <FilterElement>
+                    <CustomFilter/>
+                </FilterElement>
             </Container>
         </Layout>
     );

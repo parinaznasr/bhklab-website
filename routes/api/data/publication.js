@@ -2,7 +2,7 @@ const Publication = require('../../../database/models/publication');
 
 const getAll = async (req, res) => {
     let result = {
-        publication: [],
+        publications: [],
     };
     try{
         // Get publications in the database

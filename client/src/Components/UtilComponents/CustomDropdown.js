@@ -37,6 +37,7 @@ import styled from 'styled-components';
 import colors from '../../styles/colors';
 
 const StyledDropdown = styled(Dropdown)`
+    min-width: 200px;
     .pi {
         font-size: 0.7rem;
     }

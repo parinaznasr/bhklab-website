@@ -87,7 +87,7 @@ const StyledNavigation = styled.div`
   
   position: fixed;
   width: 100%;
-  height: 75px;
+  height: 65px;
   background: ${colors.navbarBackground};
   z-index: 999;
   border-bottom: #d5d5d5;
