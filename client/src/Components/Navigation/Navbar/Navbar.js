@@ -4,16 +4,7 @@ import styled from 'styled-components';
 import logo from './bhklab-logo.png';
 import BurgerMenu from "./BurgerMenu";
 import {Link} from 'react-router-dom' ;
-import {RiArrowDropDownLine} from 'react-icons/ri';
 import colors from "../../../styles/colors";
-
-const StyledDropDownIcon = () => {
-    return (
-        <span style={{ verticalAlign: 'middle' }}>
-            <RiArrowDropDownLine style={{ fontSize: '24px' }}/>
-        </span>
-    )
-}
 
 const StyledNavigation = styled.div`
   /* The dropdown container */
@@ -97,6 +88,7 @@ const StyledNavigation = styled.div`
   a {
     color: ${colors.navbarText};
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
     text-decoration: none;
   }
 `;
@@ -121,7 +113,6 @@ const StyledLinks = styled.div`
   & a {
     color: ${colors.navbarText}
     text-decoration: none;
-    font-weight: normal;
     font-size: calc(0.2vw + 0.7em);
     margin: 0px 20px;
     letter-spacing: 1px;

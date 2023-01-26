@@ -3,7 +3,7 @@ import colors from "../../../styles/colors";
 
 const StyledPublication = styled.div`
   width: 80%;
-  margin: 0px 20px;
+  margin: 0px;
   display: flex;
   flex-direction: row;
 
@@ -33,11 +33,10 @@ const StyledPublication = styled.div`
   }
 
   .p-card:hover {
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
     z-index: 10;
-    border-color: lightgray;
-    border-width: 1px;
-    border-style: solid;
+    .p-card-title {
+      color: ${colors.navbarLink};
+    }
     background-color: white;
   }
 

@@ -27,10 +27,6 @@ const CustomFilter = (props) => {
                 options={["BHK", "Minoru", "Sisira"]}
                 onChange={(e) =>
                     console.log(e)
-                    // setPipelineDropdown((prev) => ({
-                    //     ...prev,
-                    //     selected: e.value,
-                    // }))
                 }
                 filter={true}
                 placeholder="Presenter..."
