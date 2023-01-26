@@ -18,15 +18,21 @@ const FilterElement = styled.div`
 `;
 
 const CustomFilter = (props) => {
+    const {presentations} =props;
+    console.log(presentations)
     return(
         <>
             <span className="label">Filter by:</span>
             <CustomDropdown
                 className="dropdown-presentations"
                 value={"hello"}
-                options={["BHK", "Minoru", "Sisira"]}
+                options={[... new Set(presentations.map(item=>item.members.map(member => member.name)))]}
                 onChange={(e) =>
                     console.log(e)
+                    // setPipelineDropdown((prev) => ({
+                    //     ...prev,
+                    //     selected: e.value,
+                    // }))
                 }
                 filter={true}
                 placeholder="Presenter..."
@@ -34,7 +40,7 @@ const CustomFilter = (props) => {
             <CustomDropdown
                 className="dropdown-presentations"
                 value={"Year"}
-                options={["2022", "2023", "2021"]}
+                options={[... new Set(presentations.map(item=> new Date(item.date).getFullYear()))]}
                 onChange={(e) =>
                     console.log(e)
                     // setPipelineDropdown((prev) => ({
@@ -48,7 +54,7 @@ const CustomFilter = (props) => {
             <CustomDropdown
                 className="dropdown-presentations"
                 value={"hello"}
-                options={["Slide", "Poster"]}
+                options={[... new Set(presentations.map(item=>item.format))]}
                 onChange={(e) =>
                     console.log(e)
                     // setPipelineDropdown((prev) => ({
