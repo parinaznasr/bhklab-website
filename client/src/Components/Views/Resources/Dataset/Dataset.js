@@ -3,10 +3,9 @@ import React, {useEffect, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import axios from "axios";
 import parse from 'html-react-parser';
-import {StyledDataset, Container, Banner } from "./StyledDataset";
+import {StyledDataset, Container, Banner } from "../../../../styles/StyledDataset";
 import ReactTable from 'react-table-6';
 import 'react-table-6/react-table.css';
-
 
 const accessions = (items) => {
     return (
@@ -103,9 +102,9 @@ const Dataset= () => {
 
     return(
         <Layout>
-            <Container>
+            <Banner>
                 Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
-            </Container>
+            </Banner>
             <Container>
                 <StyledDataset>
                     {
@@ -113,7 +112,6 @@ const Dataset= () => {
                             <ReactTable
                                 data={datasets}
                                 columns={columns}
-                                // filterable
                                 defaultFilterMethod={filterCaseInsensitive}
                                 className="table-highlight"
                                 defaultPageSize={datasets.length}

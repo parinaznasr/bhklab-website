@@ -2,8 +2,6 @@ import Layout from '../../../UtilComponents/Layout';
 import React, {useEffect, useState} from 'react';
 import { useNavigate} from 'react-router-dom';
 import axios from "axios";
-import styled from "styled-components";
-import colors from "../../../../styles/colors";
 import { Timeline } from 'primereact/timeline';
 import 'primeicons/primeicons.css';
 import 'primereact/resources/themes/lara-light-indigo/theme.css';
@@ -11,9 +9,9 @@ import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 import { Card } from 'primereact/card';
 import Moment from 'moment';
-import StyledGroupAvatar from "../../../UtilComponents/StyledGroupAvatar";
 import {CustomFilter, FilterElement} from "./CustomFilter";
 import {StyledPublication, StyledCard} from "../StyledPublication";
+import GroupAvatar from "../../../UtilComponents/GroupAvatar";
 
 
 const customizedMarker = () => {
@@ -37,7 +35,7 @@ const customizedContent = (item) => {
                         {/*</a>*/}
                         {/*}*/}
                     </div>
-                    { item.members && <StyledGroupAvatar members={item.members}/>}
+                    { item.members && <GroupAvatar members={item.members}/>}
                 </div>
                 <div className="column">
                     <a href={item.url || null} target="_blank">
