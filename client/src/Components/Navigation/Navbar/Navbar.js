@@ -145,10 +145,8 @@ const NavBar= () => (
         </LogoContainer>
         <BurgerMenu/>
         <StyledLinks className="header-links">
-            {/*<div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/news">NEWS</a></div>*/}
             <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/research">Research</a></div>
             <div className="dropdown">
-                {/*<a className="dropbtn">Resources <StyledDropDownIcon/></a>*/}
                 <a className="dropbtn">Publications</a>
                 <div className="dropdown-content">
                     <Link to="/publications">Papers</Link>
@@ -156,34 +154,14 @@ const NavBar= () => (
                 </div>
             </div>
             <div className="dropdown">
-                {/*<a className="dropbtn">Resources <StyledDropDownIcon/></a>*/}
                 <a className="dropbtn">Resources</a>
                 <div className="dropdown-content">
                     <Link to="/datasets">Datasets</Link>
                     <Link to="/equipments">Equipments</Link>
                 </div>
             </div>
-            {/*<div className="dropdown">*/}
-            {/*    <a className="dropbtn">RESEARCH <StyledDropDownIcon/></a>*/}
-            {/*    <div className="dropdown-content">*/}
-            {/*        <Link to="/datasets">Datasets</Link>*/}
-            {/*        <Link to="/projects">Projects</Link>*/}
-            {/*        <Link to="/publications">Publications</Link>*/}
-            {/*        <Link to="/resources">Resources</Link>*/}
-            {/*        <Link to="/presentations">Presentations</Link>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            {/*<div className="dropdown">*/}
-            {/*    /!*<a className="dropbtn">Software<StyledDropDownIcon/></a>*!/*/}
-            {/*    <a className="dropbtn">Software</a>*/}
-            {/*    <div className="dropdown-content">*/}
-            {/*        <Link to="/software">Software</Link>*/}
-            {/*        <a href="https://github.com/bhklab" target='_blank'>GitHub</a>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
             <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="/software">Software</a></div>
             <div className="dropdown">
-                {/*<Link className="dropbtn">About<StyledDropDownIcon/></Link>*/}
                 <Link className="dropbtn">About</Link>
                 <div className="dropdown-content">
                     <Link to="/people">People</Link>

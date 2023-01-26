@@ -1,5 +1,4 @@
 import Home from './Views/Home/Home';
-import News from './Views/News/News';
 import Dataset from './Views/Resources/Dataset/Dataset';
 import Presentation from './Views/Publications/Presentation/Presentation';
 import Research from './Views/Research/Research';
@@ -19,7 +18,6 @@ import Social from './Views/About/Social/Social';
 
 export {
     Home,
-    News,
     Dataset,
     Presentation,
     Research,

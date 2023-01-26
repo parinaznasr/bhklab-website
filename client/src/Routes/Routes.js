@@ -25,7 +25,6 @@ const PublicRoutes = () => {
     <Router>
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path='/news' element={<News/>} />
             <Route path='/datasets' element={<Dataset/>}/>
             <Route path='/presentations' element={<Presentation/>}/>
             <Route path='/research' element={<Research/>}/>
