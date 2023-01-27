@@ -63,7 +63,6 @@ const StyledSection = styled.div`
 
     a {
       color: #2A2A2AFF;
-      text-decoration: none;
       transition: 0.3s;
       font-weight: 400;
       cursor: pointer;

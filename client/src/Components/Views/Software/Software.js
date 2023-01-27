@@ -4,6 +4,9 @@ import styled from "styled-components";
 import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
 import { TabView, TabPanel } from 'primereact/tabview';
+import {LogoContainer, NavLinks, StyledNavigation} from "../../../styles/StyledNavigation";
+import {Link} from "react-router-dom";
+import BurgerMenu from "../../Navigation/Navbar/BurgerMenu";
 
 const StyledLogo = styled.div`{
   flex-grow: 1;
@@ -11,7 +14,6 @@ const StyledLogo = styled.div`{
     max-height: 100px;
   }
   a {
-    text-decoration: none;
     color: black;
   }
 }`
@@ -388,14 +390,22 @@ const Container = styled.div`
 const Software= () => {
     return(
         <Layout>
-            <StyledLogo>
-                <a target="_blank" href="http://github.com/bhklab"
-                   className="link">
-                    <img className="logo" src="images/software/GitHub_Logo.png"/>
-                    {/*<img className="logo" src="images/software/github-mark.png"/>*/}
-                    <div>Checkout BHK Lab Github Page</div>
-                </a>
-            </StyledLogo>
+            <div>
+                <div className="header-links">
+                    <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="">Web Apps</a></div>
+                    <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="">Packages</a></div>
+                    <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="http://github.com/bhklab" target="_blank">Github</a></div>
+                    <div className="dropdown" style={{ verticalAlign: 'middle'}}><a  href="https://cbioportal.pmgenomics.ca/auth/realms/cbio-uhn/login-actions/authenticate?client_id=cbioportal" target="_blank">cBioPortal</a></div>
+                </div>
+            </div>
+            {/*<StyledLogo>*/}
+            {/*    <a target="_blank" href="http://github.com/bhklab"*/}
+            {/*       className="link">*/}
+            {/*        <img className="logo" src="images/software/GitHub_Logo.png"/>*/}
+            {/*        /!*<img className="logo" src="images/software/github-mark.png"/>*!/*/}
+            {/*        <div>Checkout BHK Lab Github Page</div>*/}
+            {/*    </a>*/}
+            {/*</StyledLogo>*/}
             <Container>
                 <StyledPage className="static">
                     <StyledSoftware>

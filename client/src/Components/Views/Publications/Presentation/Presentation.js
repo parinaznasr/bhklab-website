@@ -9,9 +9,10 @@ import 'primereact/resources/primereact.css';
 import 'primeflex/primeflex.css';
 import { Card } from 'primereact/card';
 import Moment from 'moment';
-import {CustomFilter, FilterElement} from "./CustomFilter";
+import { FilterElement} from "../CustomFilter";
 import {StyledPublication, StyledCard} from "../StyledPublication";
 import GroupAvatar from "../../../UtilComponents/GroupAvatar";
+import CustomDropdown from "../../../UtilComponents/CustomDropdown";
 
 
 const customizedMarker = () => {
@@ -23,7 +24,7 @@ const customizedContent = (item) => {
     return (
         <Card
             title={item.title? item.title : `Event: ${item.event || ""}`}
-            subTitle={item.date && Moment(item.date).format("MMM Do, YYYY")}
+            // subTitle={item.date && Moment(item.date).format("MMM Do, YYYY")}
         >
             <StyledCard>
                 <div className="column">
@@ -100,7 +101,37 @@ const Presentation= () => {
                     />
                 }
                 <FilterElement>
-                    <CustomFilter/>
+                    <span className="label">Filter by:</span>
+                    <CustomDropdown
+                        className="dropdown-presentations"
+                        value={"hello"}
+                        options={[... new Set(presentations.map(item=>item.members.map(member => member.name)))]}
+                        onChange={(e) =>
+                            console.log(e)
+                        }
+                        filter={true}
+                        placeholder="Presenter..."
+                    />
+                    <CustomDropdown
+                        className="dropdown-presentations"
+                        value={"Year"}
+                        options={[... new Set(presentations.map(item=> new Date(item.date).getFullYear()))]}
+                        onChange={(e) =>
+                            console.log(e)
+                        }
+                        filter={true}
+                        placeholder="Year..."
+                    />
+                    <CustomDropdown
+                        className="dropdown-presentations"
+                        value={"hello"}
+                        options={[... new Set(presentations.map(item=>item.format))]}
+                        onChange={(e) =>
+                            console.log(e)
+                        }
+                        filter={true}
+                        placeholder="Format..."
+                    />
                 </FilterElement>
             </StyledPublication>
         </Layout>

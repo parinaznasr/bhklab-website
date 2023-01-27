@@ -39,7 +39,6 @@ const StyledContact = styled.div`
     width: 100vw;
   }
   a{
-    text-decoration: none;
     color: black;
   }
   
@@ -68,7 +67,6 @@ const StyledContact = styled.div`
       color: black;
       &:hover {
         color: var(--light-gray);
-        text-decoration: none;
       }
     }
   }

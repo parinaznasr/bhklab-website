@@ -2,7 +2,6 @@ const colors = {
     navbarLink: '#4796F5',
     navbarBackground: "#FFFFFF",
     navbarText: "#292d3e",
-    // blue_background: '#1d2053',
     blue_background: '#292d3e',
     white_background: 'white',
     // blue_background: '#2d3957',

@@ -29,7 +29,6 @@ const StyledPeople = styled.div`
   }
 
   a {
-    text-decoration: none;
     //background-color: blue;
     color: ${colors.gray_footer};
   }

@@ -39,7 +39,6 @@ const StyledFooter = styled.div`
     & * {
       flex-basis: 33%;
       color: black;
-      text-decoration: none;
       font-size: calc(0.2vw + 0.8em);
       margin: 5px 0px;
       letter-spacing: 0px;

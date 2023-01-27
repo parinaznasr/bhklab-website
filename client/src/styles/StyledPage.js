@@ -36,7 +36,6 @@ export const StyledCard = styled.div`
     font-weight: bold;
 
     a {
-      text-decoration: none;
       color: ${colors.navbarLink}
     }
   }

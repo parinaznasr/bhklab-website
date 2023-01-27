@@ -36,7 +36,6 @@ export const StyledDataset = styled.div`
 
     a {
       color: ${colors.navbarLink};
-      text-decoration: none;
     }
   }
 `;

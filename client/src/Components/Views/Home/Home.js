@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import Layout from '../../UtilComponents/Layout';
-import logo from '../Home/bhklab-logo.png';
 import {TwitterTimelineEmbed} from "react-twitter-embed";
 import colors from "../../../styles/colors";
 import {ResearchTopics} from "./ResearchTeams";
@@ -36,7 +35,7 @@ const Home = () => {
                 <div className="header">
                     <div>Welcome to the Bioinformatics and Computational Genomics Laboratory of
                         Benjamin Haibe-Kains</div>
-                    <img src={logo} alt="logo" />
+                    <img src={'/images/Logo/bhklab-logo.png'} alt="logo" />
                     {/*<img src={logo} className="App-logo" alt="logo" />*/}
 
                     {/*<TwitterTimelineEmbed*/}

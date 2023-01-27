@@ -5,6 +5,5 @@ import colors from "./colors";
 
 export const StyledLink = styled(Link)`
     color: ${colors.navbarLink};
-    text-decoration: none;
     target: "_blank";
 `;

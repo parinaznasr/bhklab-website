@@ -45,6 +45,9 @@ const GlobalStyles = createGlobalStyle`
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    a {
+      text-decoration: none;
+    }
 `;
 
 export default GlobalStyles;

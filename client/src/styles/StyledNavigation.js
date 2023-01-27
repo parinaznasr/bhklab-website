@@ -18,7 +18,6 @@ const StyledNavigation = styled.div`
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
     margin: 10px; /* Important for vertical align on mobile phones */
-    text-decoration: none;
     display: block;
     text-align: left;
   }
@@ -36,7 +35,7 @@ const StyledNavigation = styled.div`
     width: 180px;
     border-radius: 1px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 999;
   }
 
   /* Links inside the dropdown */
@@ -84,7 +83,6 @@ const StyledNavigation = styled.div`
     color: ${colors.navbarText};
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    text-decoration: none;
   }
 `;
 

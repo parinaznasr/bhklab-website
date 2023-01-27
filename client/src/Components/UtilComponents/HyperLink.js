@@ -4,7 +4,6 @@ import colors from '../../styles/colors';
 
 const StyledAnchor = styled.a`
     color: ${colors.hyperlink};
-    text-decoration: none;
 `;
 
 const HyperLink= (props) => {
