@@ -53,9 +53,15 @@ export const Container = styled.div`
 
 export const Banner = styled.div`
   width: 100%;
-  height: 200px;
-  background-color: rgb(35, 48, 62);
-  padding-bottom: 30px;
+  height: 150px;
+  background-color: white;
+  padding: 50px 150px;
   display: flex;
   flex-direction: column;
+
+  .text {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
 `;

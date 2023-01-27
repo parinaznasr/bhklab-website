@@ -16,7 +16,7 @@ export const StyledCard = styled.div`
   flex-direction: row;
 
   img {
-    max-height: 100vh;
+    max-height: 40vh;
     padding: 0px;
     position: sticky;
   }
@@ -65,7 +65,7 @@ export const StyledCard = styled.div`
 
   :nth-child(even) {
     color: black;
-    background-color: #bf1919;
+    background-color: rgba(245, 245, 245, 0.45);
     align-content: flex-end;
     padding-right: 0;
 

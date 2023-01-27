@@ -103,8 +103,10 @@ const Dataset= () => {
     return(
         <Layout>
             <Banner>
-                Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
-            </Banner>
+                <div className="text">
+                    Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
+                </div>
+                </Banner>
             <Container>
                 <StyledDataset>
                     {
