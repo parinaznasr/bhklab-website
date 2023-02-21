@@ -1,40 +1,53 @@
 import styled from "styled-components";
+import colors from "../../../../styles/colors";
 
 export const Container = styled.div`
-  width: 90%;
-  margin: 0px 20px 0px 200px;
+  margin: 50px;
   display: flex;
-  flex: 1 1 24%;
+  flex: 1 0 21%;
   flex-direction: column;
   text-align: center;
+  flex-wrap: wrap;
   .header {
-    font-size:calc(0.6vw + 0.8em);
+    font-size: 1.4em;
     font-weight: bold;
-    margin : 100px 0px 20px 0px;
   }
 `;
 
 export const StyledMember = styled.div`
   display: flex;
   flex-direction: row;
+  background-color: ${colors.white};
+  border-radius: 10px;
   img {
-    border-radius: 2px;
     width: 300px;
     height: auto;
     object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: ${colors.white};
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
-  .desc {
-    .name {
-      font-size:calc(0.3vw + 0.6em);
-      font-weight: bold;
-    }
+
+  .LabMember-info {
+    display: flex;
+    flex-direction: column;
+    //justify-content: flex-start;
     color: black;
     line-height: 25px;
-    margin-left: 20px;
-    padding: 0px 10px;
-    width: 60%;
+    padding: 0 10px;
+    width: 90%;
     text-align: justify;
   }
-  .social-logo {
+
+  .LabMember-name {
+    font-weight: bold;
+    margin-bottom: 10px;
   }
-`;
+
+  .LabMember-title {
+    font-style: italic;
+    color: #999;
+    margin-bottom: 20px;
+  }
+` ;

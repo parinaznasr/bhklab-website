@@ -5,7 +5,20 @@ import {FaLinkedin, FaTwitterSquare, FaYoutubeSquare} from 'react-icons/fa';
 import colors from "../../../../styles/colors";
 import {ContactForm} from "./ContactForm";
 
-const StyledEmail = styled.div`
+const MapContainer = styled.div`
+  width: 100%;
+  height: 250px;
+  margin-bottom: 2em;
+`;
+
+
+const MapFrame = styled.iframe`
+  width: 100%;
+  height: 100%;
+  border: 0;
+`;
+
+const StyledEmail = styled.a`
   width: fit-content;
   display: flex;
   align-items: center;
@@ -15,7 +28,7 @@ const StyledEmail = styled.div`
   color: black;
   margin-bottom: 10%;
   &:hover {
-    color: ${colors.navbarLink};
+    color: ${colors.header_deep_blue};
   }
 `;
 
@@ -23,6 +36,7 @@ const StyledSection = styled.div`
   display: flex;
   margin: 20px 30px;
   flex-direction: column;
+  align-items: center;
 `
 
 const StyledContact = styled.div`
@@ -41,37 +55,31 @@ const StyledContact = styled.div`
   a{
     color: black;
   }
-  
+
   .heading {
     height: 60px;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: normal;
     margin-top: 250px;
+    text-align: center;
   }
-  
+
   .content {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 20px;
     font-weight: normal;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .email-container {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
-    a {
-      text-decoration: none;
-      color: black;
-      &:hover {
-        color: var(--light-gray);
-      }
-    }
+    justify-content: center;
   }
 `
-
 
 
 
@@ -80,10 +88,13 @@ const Contact= () => {
         <Layout>
             <StyledContact>
                 <div className="address">
-                    <iframe width="100%" height="100%" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"  title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.43444669756!2d-79.39085344846093!3d43.65993365990993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b632b77689%3A0x901c210dff19e5a4!2s101%20College%20St%2C%20Toronto%2C%20ON%20M5G%201L7!5e0!3m2!1sen!2sca!4v1581544280286!5m2!1sen!2sca" />
+                    <MapContainer>
+                        <MapFrame
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.43444669756!2d-79.39085344846093!3d43.65993365990993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b632b77689%3A0x901c210dff19e5a4!2s101%20College%20St%2C%20Toronto%2C%20ON%20M5G%201L7!5e0!3m2!1sen!2sca!4v1581544280286!5m2!1sen!2sca"
+                        />
+                    </MapContainer>
                 </div>
                 <div className="content">
-
                 </div>
                 <div className="content">
                     <StyledSection>

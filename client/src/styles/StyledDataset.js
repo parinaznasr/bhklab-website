@@ -5,7 +5,7 @@ export const StyledDataset = styled.div`
   width: 100%;
   color: black;
   background-color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 14px;
 
   .subject {
     color: black;
@@ -33,10 +33,6 @@ export const StyledDataset = styled.div`
     font-weight: normal;
     width: 75%;
     color: black;
-
-    a {
-      color: ${colors.navbarLink};
-    }
   }
 `;
 
@@ -47,7 +43,7 @@ export const Container = styled.div`
   padding-bottom: 30px;
   margin: 0px 20px;
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   flex-direction: column;
 `;
 

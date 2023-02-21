@@ -16,7 +16,7 @@ const Container = styled.div`
     padding: 50px 5%;
     color: black;
     height: 60vh;
-    font-size: 40px;
+    font-size: 24px;
     text-align: center;
     img {
       margin-top: 50px;
@@ -33,8 +33,7 @@ const Home = () => {
             <Container>
                 {/*<header className="App-header">*/}
                 <div className="header">
-                    <div>Welcome to the Bioinformatics and Computational Genomics Laboratory of
-                        Benjamin Haibe-Kains</div>
+                    <div>Bioinformatics and Computational Genomics Laboratory</div>
                     <img src={'/images/Logo/bhklab-logo.png'} alt="logo" />
                     {/*<img src={logo} className="App-logo" alt="logo" />*/}
 

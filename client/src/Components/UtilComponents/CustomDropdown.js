@@ -45,7 +45,6 @@ const StyledDropdown = styled(Dropdown)`
         color: ${colors.gray_text};
     }
     .p-dropdown-label, .p-dropdown-item {
-        font-family: 'Noto Sans', sans-serif;
         font-size: 12px;
     }
 `;

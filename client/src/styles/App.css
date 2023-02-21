@@ -38,6 +38,26 @@
   }
 }
 
+/*@font-face {*/
+/*  font-family: 'Segoe UI';*/
+/*  src: url('../styles/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');*/
+/*  font-weight: 400;*/
+/*  font-style: normal;*/
+/*}*/
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('../styles/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BRC-Regular";
+  src: local("Brink-BRCobaneRegular"),
+  url("../styles/fonts/br-cobane/Brink-BRCobaneRegular.otf") format("truetype");
+}
+
 @font-face {
   font-family: "BRC-Regular";
   src: local("Brink-BRCobaneRegular"),

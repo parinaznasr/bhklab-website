@@ -6,13 +6,13 @@ const StyledNavigation = styled.div`
   .dropdown {
     float: right;
     overflow: hidden;
-    padding: 25px 0px;
+    padding: 20px 0px;
   }
 
   /* Dropdown button */
 
   .dropdown .dropbtn .header-link {
-    font-size: calc(0.8vw);
+    font-size: calc(0.6vw);
     border: none;
     outline: none;
     background-color: inherit;
@@ -28,7 +28,7 @@ const StyledNavigation = styled.div`
 
   /* Dropdown content (hidden by default) */
   .dropdown-content {
-    margin-top: 22px;
+    margin-top: 18px;
     display: none;
     position: absolute;
     background-color: ${colors.white};
@@ -53,10 +53,8 @@ const StyledNavigation = styled.div`
   }
 
   /* Add a grey background color to dropdown links on hover */
-
   .dropdown-content a:hover {
-    background-color: #f1f0f0;
-    //padding-left: 25px;
+    background-color: ${colors.white_background};
     border-radius: 1px;
     color: ${colors.navbarLink};
   }
@@ -80,8 +78,8 @@ const StyledNavigation = styled.div`
   border-width: 1px;
 
   a {
-    color: ${colors.navbarText};
-    font-family: 'Rubik', sans-serif;
+    color: ${colors.header_deep_blue};
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
     font-weight: bold;
   }
 `;
@@ -95,7 +93,7 @@ const NavLinks = styled.div`
   & a {
     color: ${colors.navbarText}
     text-decoration: none;
-    font-size: calc(0.2vw + 0.7em);
+    font-size: calc(0.2vw + 0.6em);
     margin: 0px 20px;
     letter-spacing: 1px;
     border-bottom: 2px solid transparent;
@@ -159,7 +157,7 @@ const BurgerNav = styled.div`
   .bm-menu {
     background: rgba(255, 255, 255, 0.3);
     padding: 30px 10px 20px 10px;
-    font-size: 16px;
+    font-size: 12px;
     nav {
       display: flex;
       flex-direction: column;

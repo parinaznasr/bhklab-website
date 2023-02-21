@@ -3,7 +3,7 @@ const colors = {
     navbarBackground: "#FFFFFF",
     navbarText: "#292d3e",
     blue_background: '#292d3e',
-    white_background: 'white',
+    white_background: '#f1f1f1',
     // blue_background: '#2d3957',
     // blue_background: '#35444f',
     gray_divider: '#c6c6c6',
@@ -17,7 +17,20 @@ const colors = {
     card_content: '#000000',
     card_date: '#151515',
     card_url: '#4796F5',
-    card_background: '#FFFFFF'
+    card_background: '#FFFFFF',
+
+    header_blue_green : '#00BFA5',
+    header_deep_blue: '#0D47A1',
+    text_soft_yellow: '#FB8C00',
+    text_light_gray: '#BDBDBD',
+    main: '#FFFFFF',
+
+    text_black: '#000000',
+    main_dark_blue: '#263238',
+    light_blue: '#90CAF9',
+    deep_green: '#1B5E20',
+    soft_green: '#A5D6A7',
+    deep_orange: '#FF5722',
 }
 
 export default colors;

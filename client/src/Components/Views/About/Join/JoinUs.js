@@ -1,33 +1,33 @@
 import Layout from '../../../UtilComponents/Layout';
 import StyledPosition from "./PositionCard";
-import {useEffect, useState} from "react";
-import {useNavigate} from "react-router-dom";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
-const JoinUs= () => {
-    const [ready, setReady] = useState(false);
-    const [positions, setPositions] = useState({});
-    const history = useNavigate();
+const JoinUs = () => {
+    const [isLoading, setLoading] = useState(false);
+    const [positions, setPositions] = useState([]);
 
     useEffect(() => {
-        const getPositions = async () => {
-            const res = await axios.get('/api/data/positions');
-            setPositions(res.data.positions);
-            setReady(true);
-        }
-        getPositions();
+        const fetchPositions = async () => {
+            setLoading(true);
+            const { data } = await axios.get("/api/data/positions");
+            setPositions(data.positions);
+            setLoading(false);
+        };
+        fetchPositions();
     }, []);
 
-    return(
+    return (
         <Layout>
-            {
-                ready && positions.map((item, index)=>
-                {
-                    return(<StyledPosition key={index} position = {item}/>)
-                })
-            }
+            {isLoading ? (
+                <div>Loading...</div>
+            ) : (
+                positions.map((position, index) => (
+                    <StyledPosition key={index} position={position} />
+                ))
+            )}
         </Layout>
     );
-}
+};
 
 export default JoinUs;

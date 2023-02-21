@@ -2,13 +2,19 @@ import React from 'react';
 import { Button } from 'primereact/button';
 import styled from 'styled-components';
 import "primereact/resources/themes/lara-light-indigo/theme.css";
+import colors from "../../styles/colors";
 
 const StyledButton = styled(Button)`
+    bottom: 20px;
+    z-index: 1;
   .p-button-label {
     font-size: ${props => props.fontSize ? props.fontSize : '10px'};
   }
   .pi {
     font-size: ${props => props.fontSize ? props.fontSize : '10px'};
+  }
+  .icon{
+    color: ${colors.header_deep_blue};
   }
 `;
 

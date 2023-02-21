@@ -42,12 +42,12 @@ const StyledFooter = styled.div`
       font-size: calc(0.2vw + 0.8em);
       margin: 5px 0px;
       letter-spacing: 0px;
-      font-family: 'Lato', sans-serif;
+      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
     }
   }
 
   .links a:hover {
-    color: ${colors.navbarLink};
+    color: ${colors.header_deep_blue};
   }
 
   .link-container {

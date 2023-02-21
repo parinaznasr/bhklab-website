@@ -6,6 +6,37 @@ import styled from "styled-components";
 import colors from "../../../../styles/colors";
 import {Container, StyledMember} from './StyledIndivMember';
 
+const StyledCard = styled.div`
+  width: 245px;
+  height: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: ${colors.white};
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+`;
+
+const StyledImage = styled.img`
+  width: 245px;
+  height: 320px;
+  object-fit: cover;
+`;
+
+const StyledName = styled.h2`
+  font-size: 14px;
+  font-weight: normal;
+  margin: 10px 10px;
+  text-align: center;
+`;
+
+const StyledTitle = styled.p`
+  font-size: 12px;
+  font-style: italic;
+  color: ${colors.gray_footer};
+  margin: 10px 10px;
+  text-align: center;
+`;
+
+
 const StyledPeople = styled.div`
   display: flex;
   flex-flow: row wrap;
@@ -13,44 +44,38 @@ const StyledPeople = styled.div`
   word-wrap: break-word;
   gap: 40px 30px;
 
-  img {
+  .pi-photo {
     border-radius: 2px;
-    width: 240px;
-    height: 320px;
+    width: 300px;
+    height: auto;
     object-fit: cover;
-    transition: linear 0.2s;
-  }
-
-  .member-container {
-    width: 100px;
-    height: 100px;
-    flex: 0 0 32%;
-    margin: 1% 0;
-  }
-
-  a {
-    //background-color: blue;
-    color: ${colors.gray_footer};
   }
 `;
 
 
+const MemberCard = ({ title, description, imageUrl }) => {
+    return (
+        <StyledCard>
+            <StyledImage src={imageUrl} alt={title} PlaceholderSrc={'./images/Logo/bhklab-logo.png'}/>
+            <StyledName>{title}</StyledName>
+            <StyledTitle>{description}</StyledTitle>
+        </StyledCard>
+    );
+};
+
 const member = (item,index) => {
     return (
-        <StyledPeople key = {index}>
-            <div id="member-container">
+            <div key = {index}>
                 <Link to={{
                     pathname:`/people/${item.name.toLowerCase().replaceAll(" ","_")}`,
                     param: { member: item}
                     }}>
-                    <img src={`/images/people/${item.image}`}/>
-                    <div className="desc">
-                        <div className='name'>{item.name}</div>
-                        <div>{item.position.split('/')[0]}</div>
-                    </div>
+                    <MemberCard
+                        description={item.position}
+                        title = {item.name}
+                        imageUrl={`/images/people/${item.image}`}/>
                 </Link>
             </div>
-        </StyledPeople>
     );
 }
 
@@ -103,6 +128,7 @@ const People= () => {
             const res = await axios.get('/api/data/members');
             setPeople(res.data.members);
             setReady(true);
+            console.log(people)
         }
         getPeople();
     }, []);
@@ -128,10 +154,11 @@ const People= () => {
                         <>
                             <div className="header">Principal Investigator</div>
                             <StyledMember>
-                                <img src={'/images/people/bhk.jpg'}/>
-                                <div className="desc">
-                                    <div className='name'>Benjamin Haibe-Kains</div>
-                                    <div className='member-title'>Trained as a computer scientist, Dr. Benjamin Haibe-Kains earned his PhD in Bioinformatics at the Université Libre de Bruxelles (Belgium). He was a postdoc in the Quackenbush group at the Dana-farber Cancer Institute and Harvard School of Public Health (USA). Dr. Haibe-Kains started his own laboratory at the Institut de Recherches Cliniques de Montréal (Canada) and he is now Principal Investigator at the Princess Margaret Cancer Centre. His research focuses on the integration of high-throughput data from various sources to simultaneously analyze multiple facets of diseases, with a particular emphasis on cancer. Dr. Haibe-Kains and his team are using publicly available genomic datasets and data generated through his collaborations to better understand the biology underlying carcinogenesis and to develop new predictive models in order to significantly improve disease management. Dr. Haibe-Kains' main scientific contributions include several prognostic gene signatures in breast cancer, subtype classification models for ovarian and breast cancers, as well as genomic predictors of drug response in cancer cell lines.</div>
+                                <img className='pi-photo' src={'/images/people/bhk.jpg'}/>
+                                <div className="LabMember-info">
+                                    <div className='LabMember-name'>Benjamin Haibe-Kains</div>
+                                    <div className='LabMember-title'>Principal Investigator</div>
+                                    <div className='LabMember-info'>Trained as a computer scientist, Dr. Benjamin Haibe-Kains earned his PhD in Bioinformatics at the Université Libre de Bruxelles (Belgium). He was a postdoc in the Quackenbush group at the Dana-farber Cancer Institute and Harvard School of Public Health (USA). Dr. Haibe-Kains started his own laboratory at the Institut de Recherches Cliniques de Montréal (Canada) and he is now Principal Investigator at the Princess Margaret Cancer Centre. His research focuses on the integration of high-throughput data from various sources to simultaneously analyze multiple facets of diseases, with a particular emphasis on cancer. Dr. Haibe-Kains and his team are using publicly available genomic datasets and data generated through his collaborations to better understand the biology underlying carcinogenesis and to develop new predictive models in order to significantly improve disease management. Dr. Haibe-Kains' main scientific contributions include several prognostic gene signatures in breast cancer, subtype classification models for ovarian and breast cancers, as well as genomic predictors of drug response in cancer cell lines.</div>
                                 </div>
                             </StyledMember>
                             <div className="header">Current Members</div>
@@ -157,7 +184,6 @@ const People= () => {
                                 }
                             </StyledPeople>
                         </>
-
                 }
             </Container>
         </Layout>

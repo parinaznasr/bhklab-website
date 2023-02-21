@@ -8,10 +8,8 @@ import colors from "../../styles/colors";
 const Main = styled.main`
   display: flex;
   background-color: ${colors.white_background};
-  //background-color: white;
-  //background-color: linear-gradient(angle, ${colors.blue_background}, ${colors.navbarLink};
   min-height: 100vh;
-  padding-top: 75px;
+  padding-top: 60px;
   flex-direction: column;
   align-items: center;
 `;

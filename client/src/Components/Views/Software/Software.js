@@ -266,7 +266,7 @@ const StyledSoftware = styled.div`
     top:49%;
     position:fixed;
     color:var(--main-color);
-    font-size:15px;
+    font-size:14px;
   }
 
   .left {
@@ -371,7 +371,7 @@ const StyledPage = styled.div`
     display: flex;
     align-items: center;
     height: 60px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: normal;
     margin-top: 30px;
   }

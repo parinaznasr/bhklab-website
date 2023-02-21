@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import colors from "../../../styles/colors";
+import {ResearchCard} from "../../UtilComponents/CustomCard";
 
 
 const StyledSection = styled.div`
@@ -11,7 +12,7 @@ const StyledSection = styled.div`
   min-height: 280px;
 
   h1 {
-    font-size: 30px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 30px;
     color: #000000;
@@ -45,9 +46,9 @@ const StyledSection = styled.div`
 
     .title {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 14px;
       height: 40px;
-      color: ${colors.navbarLink};
+      color: ${colors.header_deep_blue};
     }
 
     .description {
@@ -82,11 +83,12 @@ const StyledSection = styled.div`
     & img {
       height: 45px;
       max-width: 60px;
+      object-fit: scale-down;
     }
 
     & span {
       margin-top: 20px;
-      font-size: 20px;
+      font-size: 14px;
       font-weight: normal;
       color: #575757;
     }
@@ -103,45 +105,38 @@ export const ResearchTopics = () => {
         <StyledSection>
             <h1>Research Teams</h1>
             <div className="container">
-                <div className="box">
-                    <a href="/research/biomarker-discovery">
-                        <span className="title">Pharmacogenomics</span>
-                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Integration of preclinical/clinical data</li>
-                                <li>Drug classification/repurposing</li>
-                            </ul>
-                        </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/research/segmentation">
-                        <span className="title">Radiomics</span>
-                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Segmentation/Deduction</li>
-                                <li>Radiomics for prognosis and prediction</li>
-                                <li>Validation using clinical radiogenomics</li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/software">
-
-                        <span className="title">Software Development</span>
-                        <img alt="transition" src={'./images/projects/software.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Software</li>
-                                <li>Packages</li>
-                                <li>Eco-systems</li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
+                <ResearchCard
+                    title = "Pharmacogenomics"
+                    description= {
+                        <ul>
+                            <li>Integration of preclinical/clinical data</li>
+                            <li>Drug classification/repurposing</li>
+                        </ul>
+                    }
+                    image="./images/projects/biomarker.png"
+                />
+                <ResearchCard
+                    title = "Radiomics"
+                    description= {
+                        <ul>
+                            <li>Segmentation/Deduction</li>
+                            <li>Radiomics for prognosis and prediction</li>
+                            <li>Validation using clinical radiogenomics</li>
+                        </ul>
+                    }
+                    image="./images/projects/segmentation_liver.png"
+                />
+                <ResearchCard
+                    title = "Software Development"
+                    description= {
+                        <ul>
+                            <li>Software</li>
+                            <li>Packages</li>
+                            <li>Eco-systems</li>
+                        </ul>
+                    }
+                    image="./images/projects/software.png"
+                />
             </div>
         </StyledSection>
     )

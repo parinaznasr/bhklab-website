@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import {
     Home,
-    News,
     Dataset,
     Presentation,
     Research,
@@ -16,8 +15,8 @@ import {
     Member,
     Collaboration,
     JoinUs,
-    Position,
     Social,
+    Admin
 } from '../Components/index';
 
 const PublicRoutes = () => {
@@ -35,9 +34,9 @@ const PublicRoutes = () => {
             <Route path='/people/:token' element={<Member/>}/>
             <Route path='/collaboration' element={<Collaboration/>}/>
             <Route path='/positions' element={<JoinUs/>}/>
-            <Route path='/positions/:token' element={<Position/>}/>
             <Route path='/social' element={<Social/>}/>
             <Route path='/software' element={<Software/>}/>
+            <Route path='/admin' element={<Admin/>}/>
             {/* <Route path='/contact' exact component={Contact} /> */}
             {/* <UserRoute path='/pipeline-builder' exact component={BuildPipeline} /> */}
             {/* <UserRoute path='/user/profile' exact component={Profile} /> */}

@@ -1,9 +1,7 @@
 import Layout from '../../UtilComponents/Layout';
 import React from 'react';
-import styled from "styled-components";
 import research from './research.json';
 import {Container, StyledPage, StyledCard } from '../../../styles/StyledPage';
-import colors from "../../../styles/colors";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 

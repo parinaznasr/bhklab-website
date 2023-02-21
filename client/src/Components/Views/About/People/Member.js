@@ -2,8 +2,38 @@ import Layout from '../../../UtilComponents/Layout';
 import React, {useEffect, useState} from 'react';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 import axios from "axios";
-import {Container, StyledMember} from './StyledIndivMember';
+import {Container} from './StyledIndivMember';
+import MemberCard from "./MemberCard";
 
+//
+// const StyledCard = styled.div`
+//   width: 280px;
+//   height: 400px;
+//   border-radius: 10px;
+//   overflow: hidden;
+//   background-color: ${colors.white};
+//   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+// `;
+//
+// const StyledImage = styled.img`
+//   width: 280px;
+//   height: 320px;
+//   object-fit: cover;
+// `;
+//
+// const StyledTitle = styled.h2`
+//   font-size: 14px;
+//   font-weight: normal;
+//   margin: 10px 10px;
+//   text-align: center;
+// `;
+//
+// const StyledDescription = styled.p`
+//   font-size: 12px;
+//   color: ${colors.gray_footer};
+//   margin: 10px 10px;
+//   text-align: center;
+// `;
 
 
 const Member= (props) => {
@@ -15,25 +45,23 @@ const Member= (props) => {
         window.scrollTo(0, 0)
         const getMember = async () => {
             const res = await axios.get(`/api/data/member/${token}`);
-            console.log(res)
             setMember({data: res.data.member, ready: true})
         }
         getMember();
     }, []);
-
+    const {image, position, bio, name} = member.data;
 
     return(
         <Layout>
             <Container>
                 {
                     member.ready &&
-                    <StyledMember>
-                        <img src ={`/images/people/${member.data.image}`}/>
-                        <div className="desc">
-                            <div className = "name">{member.data.position}: {member.data.name}</div>
-                            <div className='member-title'>{member.data.bio}</div>
-                        </div>
-                    </StyledMember>
+                    <MemberCard
+                        photo={`/images/people/${image}`}
+                        name={name}
+                        title={position}
+                        bio={bio}
+                    />
                 }
             </Container>
         </Layout>

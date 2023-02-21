@@ -6,17 +6,18 @@ const StyledPublication = styled.div`
   margin: 0px;
   display: flex;
   flex-direction: row;
+  background-color: red;
 
   .p-timeline-event-opposite {
     display: none;
   }
 
   .p-card-title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .p-card-subtitle {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .p-card-content {
@@ -35,13 +36,13 @@ const StyledPublication = styled.div`
   .p-card:hover {
     z-index: 10;
     .p-card-title {
-      color: ${colors.navbarLink};
+      color: ${colors.header_deep_blue};
     }
     background-color: white;
   }
 
   .event-title {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0px 0px 5px 0px;
   }
 
@@ -79,9 +80,10 @@ const StyledPublication = styled.div`
   }
 
   a {
-    color: ${colors.navbarLink}
+    color: ${colors.header_deep_blue}
   }
 `;
+
 
 const StyledCard =  styled.div`
   display: flex;

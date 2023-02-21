@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import "./fonts/br-cobane/Brink-BRCobaneRegular.otf";
 import '../styles/App.css';
+import colors from "./colors";
 
 const GlobalStyles = createGlobalStyle`
     html, body {
@@ -10,15 +11,13 @@ const GlobalStyles = createGlobalStyle`
     }
     body {
         color: #666666;
-        //font-family: "BRC-Regular",'Noto Sans', sans-serif;
-      font-family: 'Rubik';
-      font-weight: 400;
+        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
+        font-weight: 400;
 
         // PrimeReact Component styles
         .p-component {
             font-size: 12px;
-            //font-family: "BRC-Regular", 'Noto Sans', sans-serif;
-            font-family: 'Rubik';
+            font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
         }
         .p-dialog {
             .p-dialog-header{
@@ -47,6 +46,7 @@ const GlobalStyles = createGlobalStyle`
     }
     a {
       text-decoration: none;
+      color: ${colors.header_deep_blue};
     }
 `;
 

@@ -12,7 +12,6 @@ const Container = styled.div`
   flex-direction: column;
 
   html {
-    font-family: system-ui, sans-serif;
     font-size: 1.25rem;
   }
 

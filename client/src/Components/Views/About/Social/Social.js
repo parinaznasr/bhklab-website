@@ -13,7 +13,7 @@ const StyledSocial= styled.div`
         display: flex;
         align-items: center;
         height: 60px;
-        font-size: 20px;
+        font-size: 14px;
         font-weight: normal;
         margin-top: 30px;
     }

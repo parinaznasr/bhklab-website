@@ -82,7 +82,7 @@ const Container = styled.div`
   }
 
   path {
-    fill: ${colors.navbarLink};
+    fill: ${colors.header_deep_blue};
   }
 `;
 
