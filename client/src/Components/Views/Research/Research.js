@@ -149,101 +149,60 @@ const Research = () => {
         <StyledSection>
             <h1>Pharmacogenomics</h1>
             <div className="container">
-                <a href="/research/biomarker-discovery">
-                    <ResearchCard
-                        title = "Integration of preclinical/clinical data"
-                        description="Hi1"
-                        image="./images/projects/biomarker.png"/>
-                </a>
-                <div className="box">
-                    <a href="/research/segmentation">
-                        <span className="title">Drug classification/repurposing</span>
-                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Integration of preclinical/clinical data"
+                    description="Hi1"
+                    image="./images/projects/biomarker.png"
+                />
+                <ResearchCard
+                    path = "/research/segmentation"
+                    title = "Drug classification/repurposing"
+                    description="Hi2"
+                    image="./images/projects/segmentation_liver.png"
+                />
             </div>
             <h1>Radiomics</h1>
             <div className="container">
-                <div className="box">
-                    <a href="/research/biomarker-discovery">
-                        <span className="title">Segmentation/Deduction</span>
-                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Integration of preclinical/clinical data</li>
-                            </ul>
-                        </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/research/segmentation">
-                        <span className="title">Radiomics for prognosis and prediction</span>
-                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/software">
-
-                        <span className="title">Validation using clinical radiogenomics</span>
-                        <img alt="transition" src={'./images/projects/software.png'}/>
-                        <span className="description">
-                            <ul>
-
-                            </ul>
-                    </span>
-                    </a>
-                </div>
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Segmentation/Deduction"
+                    description="Integration of preclinical/clinical data"
+                    image="./images/projects/biomarker.png"
+                />
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Radiomics for prognosis and prediction"
+                    description="list"
+                    image="./images/projects/segmentation_liver.png"
+                />
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Validation using clinical radiogenomics"
+                    description="Integration of preclinical/clinical data"
+                    image="./images/projects/software.png"
+                />
             </div>
             <h1>Software Development</h1>
             <div className="container">
-                <div className="box">
-                    <a href="/research/biomarker-discovery">
-                        <span className="title">Software</span>
-                        <img alt="transition" src={'./images/projects/biomarker.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Description 1</li>
-                                <li>Description 2</li>
-                            </ul>
-                        </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/research/segmentation">
-                        <span className="title">Package</span>
-                        <img alt="transition" src={'./images/projects/segmentation_liver.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Description 1</li>
-                                <li>Description 1</li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
-                <div className="box">
-                    <a href="/software">
-
-                        <span className="title">Eco-system</span>
-                        <img alt="transition" src={'./images/projects/software.png'}/>
-                        <span className="description">
-                            <ul>
-                                <li>Meta-webapp</li>
-                            </ul>
-                    </span>
-                    </a>
-                </div>
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Software"
+                    description=""
+                    image="./images/projects/biomarker.png"
+                />
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Package"
+                    description=""
+                    image="./images/projects/segmentation_liver.png"
+                />
+                <ResearchCard
+                    path = "/research/biomarker-discovery"
+                    title = "Eco-system"
+                    description=""
+                    image="./images/projects/segmentation_liver.png"
+                />
             </div>
         </StyledSection>
         </Layout>

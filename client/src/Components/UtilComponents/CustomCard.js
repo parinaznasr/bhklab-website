@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import React from "react";
+import colors from "../../styles/colors";
 
 const StyledCard = styled.div`
-  width: 300px;
-  height: 400px;
+  width: 210px;
+  height: 280px;
   border-radius: 5px;
   margin: 5px;
   background-color: white;
@@ -13,14 +14,15 @@ const StyledCard = styled.div`
 
 const StyledImage = styled.img`
   width: 100%;
-  height: 200px;
+  height: 100px;
   object-fit: contain;
 `;
 
 const StyledTitle = styled.h2`
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
   margin: 10px 20px;
+  color: ${colors.navbarLink};
   text-align: center;
 `;
 
@@ -31,12 +33,14 @@ const StyledDescription = styled.p`
 `;
 
 
-export const ResearchCard = ({ title, description, image }) => {
+export const ResearchCard = ({ title, description, image, path }) => {
     return (
         <StyledCard>
-            <StyledImage src={image} alt={title} />
-            <StyledTitle>{title}</StyledTitle>
-            <StyledDescription>{description}</StyledDescription>
+            <a href={path}>
+                <StyledImage src={image} alt={title} />
+                <StyledTitle>{title}</StyledTitle>
+                <StyledDescription>{description}</StyledDescription>
+            </a>
         </StyledCard>
     );
 };
