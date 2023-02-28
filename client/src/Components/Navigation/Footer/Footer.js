@@ -1,89 +1,81 @@
-import React from 'react';
 import styled from 'styled-components';
-import colors from '../../../styles/colors';
+import React from "react";
+import colors from "../../../styles/colors";
+
 
 const StyledFooter = styled.div`
-  width: 100%;
-  border-top: #d5d5d5;
-  border-top-width: 1px;
-  border-top-style: solid;
-  bottom:0px;
-  right:0px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 0;
-  white-space:nowrap;
-  font-size: calc(0.8em + 0.2vw);
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  color: black;
-
-  .logo {
-    float:left;
-
-    & img {
-      width: 90px;
-      margin-right:10px;
-    }
-  }
-
-
+  background-color: ${colors.white};
+  padding: 40px 20px;
+  margin: 0px 50px;
+  font-size: 14px;
   .links {
-    width: 40%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    & * {
-      flex-basis: 33%;
-      color: black;
-      font-size: calc(0.2vw + 0.8em);
-      margin: 5px 0px;
-      letter-spacing: 0px;
-      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
-    }
-  }
-
-  .links a:hover {
-    color: ${colors.header_deep_blue};
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
   }
 
   .link-container {
-    display:flex;
-    margin: 0px 50px;
-    align-items:flex-start;
+    display: flex;
     flex-direction: column;
+  }
+
+  .link-container a {
+    color: ${colors.blue_footer};
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  
+  }
+
+  .link-container a:hover {
+    color: ${colors.navbarLink};
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-info p {
+    color: ${colors.blue_footer};
+    margin-bottom: 10px;
   }
 `
 
-
-const Footer = () => {
+function Footer() {
     return (
         <StyledFooter>
             <div className="links">
                 <div className="link-container">
                     <a href="/research">Research</a>
+                    <a href="/people">People</a>
                     <a href="/collaboration">Collaboration</a>
-                    <a href="/software">Software</a>
+
                 </div>
 
                 <div className="link-container">
                     <a href="/publications">Publications</a>
                     <a href="/presentations">Presentations</a>
+                    <a href="/software">Software</a>
                 </div>
 
                 <div className="link-container">
                     <a href="/resources">Resources</a>
                     <a href="/datasets">Datasets</a>
+                    <a href="https://www.pmgenomics.ca/bhklab/">Github</a>
+                    <a href="https://cbioportal.ca">cBioPortal</a>
+
                 </div>
 
                 <div className="link-container">
                     <a href="/contact">Contact Us</a>
                     <a href="/positions">Join Us</a>
-                    <a href="/people">People</a>
+
                 </div>
+            </div>
+
+            <div className="footer-info">
+                <p>BHKLab © 2023</p>
             </div>
         </StyledFooter>
     );

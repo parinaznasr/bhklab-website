@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import PrivateRoute from './PrivateRoute';
+import React, {useContext} from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { AuthContext } from '../hooks/Contexts';
 
 import {
     Home,
@@ -19,7 +19,9 @@ import {
     Admin
 } from '../Components/index';
 
+
 const PublicRoutes = () => {
+    // const { user, loading } = useContext(AuthContext);
   return(
     <Router>
         <Routes>
@@ -37,9 +39,13 @@ const PublicRoutes = () => {
             <Route path='/social' element={<Social/>}/>
             <Route path='/software' element={<Software/>}/>
             <Route path='/admin' element={<Admin/>}/>
-            {/* <Route path='/contact' exact component={Contact} /> */}
-            {/* <UserRoute path='/pipeline-builder' exact component={BuildPipeline} /> */}
-            {/* <UserRoute path='/user/profile' exact component={Profile} /> */}
+            <React.Fragment>
+                {
+                    true &&
+                    <Route path = '/administration' element = {<Admin/>}/>
+                }
+            </React.Fragment>
+            <Route path='/administration' element={<Admin/>} />
             {/* <UserRoute path='/edit/:type/:id' component={EditMain} /> */}
         </Routes>
     </Router>

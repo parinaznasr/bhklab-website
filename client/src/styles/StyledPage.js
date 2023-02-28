@@ -65,7 +65,7 @@ export const StyledCard = styled.div`
 
   :nth-child(even) {
     color: black;
-    background-color: rgba(245, 245, 245, 0.45);
+    background-color: rgba(255, 255, 255, 0.45);
     align-content: flex-end;
     padding-right: 0;
 
