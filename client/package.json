@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,7 +19,7 @@
     "interweave": "^13.0.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
-    "npm": "^9.1.1",
+    "npm": "^9.5.1",
     "primeflex": "^3.3.0",
     "primeicons": "^6.0.1",
     "primereact": "^8.7.3",
@@ -38,6 +40,7 @@
     "react-scripts": "5.0.1",
     "react-simple-maps": "^3.0.0",
     "react-social-media-embed": "^2.2.9",
+    "react-swipeable-views": "^0.14.0",
     "react-twitter-embed": "^4.0.4",
     "reactjs-navbar": "^1.0.2",
     "save": "^2.9.0",
@@ -71,6 +74,7 @@
     ]
   },
   "devDependencies": {
+    "@mui/material": "^5.11.11",
     "react-loading": "^2.0.3",
     "react-paginate": "^8.1.4",
     "react-table-6": "^6.11.0"
