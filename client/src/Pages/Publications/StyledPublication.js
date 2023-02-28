@@ -2,7 +2,7 @@ import styled from "styled-components";
 import colors from "../../styles/colors";
 
 
-const StyledPaperCard =  styled.div`
+const StyledPublicationCard =  styled.div`
   border-radius: 4px;
   padding: 20px;
   position: relative;
@@ -19,6 +19,6 @@ const Container = styled.div`
 
 
 export {
-    StyledPaperCard,
+    StyledPublicationCard,
     Container
 };

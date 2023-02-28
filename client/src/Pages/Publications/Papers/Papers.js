@@ -4,16 +4,15 @@ import axios from "axios";
 import Moment from 'moment';
 import { Button } from 'primereact/button';
 import {FilterElement} from "../CustomFilter";
-import {StyledPaperCard } from "../StyledPublication";
+import {StyledPublicationCard } from "../StyledPublication";
 import CustomDropdown from "../../../Components/Utils/CustomDropdown";
 import CustomButton from "../../../Components/Utils/CustomButton";
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import Pagination from "react-js-pagination";
+import {PaginatedPublications} from "../PaginatedPublications";
+
 
 const customizedContent = (item, index) => {
     return (
-        <StyledPaperCard key = {index} className="paper-details">
+        <StyledPublicationCard key = {index} className="paper-details">
             <h4>{item.title}</h4>
             <a href={item.url || null} target="_blank">
                 {
@@ -36,10 +35,9 @@ const customizedContent = (item, index) => {
                 </a>
             }
             <span className="material-symbols-outlined" >delete</span>
-        </StyledPaperCard>
+        </StyledPublicationCard>
     );
 };
-
 
 
 const Papers= () => {
@@ -58,7 +56,12 @@ const Papers= () => {
 
     return(
         <Layout>
-            {   ready && publications.map((item, index)=> customizedContent(item, index))}
+            { ready &&
+                <PaginatedPublications
+                    customizedContent={customizedContent}
+                    publications= {publications}
+                    itemsPerPage={10}
+                />}
             {/*<FilterElement>*/}
             {/*    <CustomDropdown*/}
             {/*        className="dropdown-presentations"*/}
@@ -95,8 +98,7 @@ const Papers= () => {
             {/*        placeholder="Category..."*/}
             {/*    />*/}
             {/*</FilterElement>*/}
-
-            }
+            {/*}*/}
         </Layout>
     );
 }
