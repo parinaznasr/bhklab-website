@@ -1,17 +1,15 @@
 import Layout from '../../../Components/Utils/Layout';
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
-// import 'primeicons/primeicons.css';
-// import 'primereact/resources/themes/lara-light-indigo/theme.css';
-// import 'primereact/resources/primereact.css';
-// import 'primeflex/primeflex.css';
 import Moment from 'moment';
 import { Button } from 'primereact/button';
 import {FilterElement} from "../CustomFilter";
-import {StyledPublication, StyledPaperCard } from "../StyledPublication";
+import {StyledPaperCard } from "../StyledPublication";
 import CustomDropdown from "../../../Components/Utils/CustomDropdown";
 import CustomButton from "../../../Components/Utils/CustomButton";
-
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Pagination from "react-js-pagination";
 
 const customizedContent = (item, index) => {
     return (
@@ -60,47 +58,45 @@ const Papers= () => {
 
     return(
         <Layout>
-            <StyledPublication>
-                {   ready && publications.map((item, index)=> customizedContent(item, index))}
-                <FilterElement>
-                    <CustomDropdown
-                        className="dropdown-presentations"
-                        value={"hello"}
-                        options={[... new Set(publications.map(item=>item.publisher))]}
-                        onChange={(e) =>
-                            console.log(e)
-                        }
-                        filter={true}
-                        placeholder="Publisher..."
-                    />
-                    <CustomDropdown
-                        className="dropdown-presentations"
-                        value={"Year"}
-                        options={[... new Set(publications.map(item=>item.year))]}
-                        onChange={(e) =>
-                            console.log(e)
-                            // setPipelineDropdown((prev) => ({
-                            //     ...prev,
-                            //     selected: e.value,
-                            // }))
-                        }
-                        filter={true}
-                        placeholder="Year..."
-                    />
-                    <CustomDropdown
-                        className="dropdown-presentations"
-                        value={"Year"}
-                        options={["Pharmacogenomics", "Radiomics", "Software Development"]}
-                        onChange={(e) =>
-                            console.log(e)
-                        }
-                        filter={true}
-                        placeholder="Category..."
-                    />
-                </FilterElement>
+            {   ready && publications.map((item, index)=> customizedContent(item, index))}
+            {/*<FilterElement>*/}
+            {/*    <CustomDropdown*/}
+            {/*        className="dropdown-presentations"*/}
+            {/*        value={"hello"}*/}
+            {/*        options={[... new Set(publications.map(item=>item.publisher))]}*/}
+            {/*        onChange={(e) =>*/}
+            {/*            console.log(e)*/}
+            {/*        }*/}
+            {/*        filter={true}*/}
+            {/*        placeholder="Publisher..."*/}
+            {/*    />*/}
+            {/*    <CustomDropdown*/}
+            {/*        className="dropdown-presentations"*/}
+            {/*        value={"Year"}*/}
+            {/*        options={[... new Set(publications.map(item=>item.year))]}*/}
+            {/*        onChange={(e) =>*/}
+            {/*            console.log(e)*/}
+            {/*            // setPipelineDropdown((prev) => ({*/}
+            {/*            //     ...prev,*/}
+            {/*            //     selected: e.value,*/}
+            {/*            // }))*/}
+            {/*        }*/}
+            {/*        filter={true}*/}
+            {/*        placeholder="Year..."*/}
+            {/*    />*/}
+            {/*    <CustomDropdown*/}
+            {/*        className="dropdown-presentations"*/}
+            {/*        value={"Year"}*/}
+            {/*        options={["Pharmacogenomics", "Radiomics", "Software Development"]}*/}
+            {/*        onChange={(e) =>*/}
+            {/*            console.log(e)*/}
+            {/*        }*/}
+            {/*        filter={true}*/}
+            {/*        placeholder="Category..."*/}
+            {/*    />*/}
+            {/*</FilterElement>*/}
 
-                }
-            </StyledPublication>
+            }
         </Layout>
     );
 }
