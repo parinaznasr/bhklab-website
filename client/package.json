@@ -77,7 +77,6 @@
   "devDependencies": {
     "@mui/material": "^5.11.11",
     "react-loading": "^2.0.3",
-    "react-paginate": "^8.1.4",
-    "react-table-6": "^6.11.0"
+    "react-paginate": "^8.1.4"
   }
 }

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { InputText } from 'primereact/inputtext';
 import { Button } from 'primereact/button';
-import * as PropTypes from "prop-types";
 import TextField from '@mui/material/TextField';
 import Box from "@mui/material/Box";
 

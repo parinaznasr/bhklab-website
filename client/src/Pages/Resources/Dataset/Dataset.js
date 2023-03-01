@@ -3,9 +3,16 @@ import React, {useEffect, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import axios from "axios";
 import parse from 'html-react-parser';
-import {StyledDataset, Container, Banner } from "../../../styles/StyledDataset";
-import ReactTable from 'react-table-6';
-import 'react-table-6/react-table.css';
+import {Container, Banner } from "../../../styles/StyledDataset";
+
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
 
 const accessions = (items) => {
     return (
@@ -19,64 +26,11 @@ const accessions = (items) => {
     )
 }
 
-const filterCaseInsensitive = (filter, row) => {
-    const id = filter.pivotId || filter.id;
-
-    switch (typeof row[id]) {
-        case 'object':
-            // checks for metastasis label
-            if (row[id] && row[id].origin) {
-                return String('metastasis').includes(filter.value.toLowerCase());
-            }
-            // checks for disease name (additional check is to filter out null values)
-            return row[id] && row[id].name
-                ? String(row[id].name.toLowerCase()).includes(filter.value.toLowerCase())
-                : false;
-        // handles age filtering
-        case 'number':
-            return row[id].toString().includes(filter.value);
-        case 'string':
-            console.log(row[id])
-            return String(row[id].toLowerCase()).includes(filter.value.toLowerCase());
-        default:
-            return false;
-    }
-};
 
 const Dataset= () => {
     const [ready, setReady] = useState(false);
     const [datasets, setDataset] = useState({});
     const history = useNavigate();
-    const columns = [
-            {
-            Header: 'Accession',
-            accessor: 'accession',
-            sortable: true,
-            maxWidth:220,
-            style: { 'whiteSpace': 'unset' },
-            Cell: (row) => accessions(row.value),
-        },
-        {
-            Header: 'Title',
-            accessor: 'title',
-            sortable: true,
-            minWidth:400,
-            style: { 'whiteSpace': 'unset' },
-            Cell: (row) => {return(<div className="content">{parse(row.value)}</div>)}
-        },
-        {
-            Header: '#',
-            accessor: 'samples',
-            sortable: true,
-            maxWidth:100,
-            Cell: (row) => row.value
-        },
-        {
-            Header: 'Release',
-            accessor: 'release',
-            maxWidth:100,
-            sortable: true,
-        }];
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -100,6 +54,7 @@ const Dataset= () => {
         });
     }, [history]);
 
+    console.log(datasets)
     return(
         <Layout>
             <Banner>
@@ -108,20 +63,36 @@ const Dataset= () => {
                 </div>
                 </Banner>
             <Container>
-                <StyledDataset>
-                    {
-                        ready?
-                            <ReactTable
-                                data={datasets}
-                                columns={columns}
-                                defaultFilterMethod={filterCaseInsensitive}
-                                className="table-highlight"
-                                defaultPageSize={datasets.length}
-                                showPagination={false}
-                            />
-                            : ''
-                    }
-                </StyledDataset>
+                {
+                    ready &&
+                        <TableContainer component={Paper}>
+                            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                                <TableHead>
+                                    <TableRow>
+                                        <TableCell>Accession</TableCell>
+                                        <TableCell align="left">Title</TableCell>
+                                        <TableCell align="right">#</TableCell>
+                                        <TableCell align="right">Release</TableCell>
+                                    </TableRow>
+                                </TableHead>
+                                <TableBody>
+                                    {datasets.map((row) => (
+                                        <TableRow
+                                            key={row.id}
+                                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                        >
+                                            <TableCell component="th" scope="row">
+                                                {accessions(row.accession)}
+                                            </TableCell>
+                                            <TableCell align="left">{parse(row.title)}</TableCell>
+                                            <TableCell align="right">{row.samples}</TableCell>
+                                            <TableCell align="right">{row.release}</TableCell>
+                                        </TableRow>
+                                    ))}
+                                </TableBody>
+                            </Table>
+                        </TableContainer>
+                }
             </Container>
         </Layout>
     );
