@@ -4,6 +4,9 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import {FaLinkedin, FaTwitterSquare, FaYoutubeSquare} from 'react-icons/fa';
 import colors from "../../../styles/colors";
 import {ContactForm} from "./ContactForm";
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const MapContainer = styled.div`
   width: 100%;
@@ -125,13 +128,13 @@ const Contact= () => {
                     <ContactForm/>
                     <div className="social">
                         <a href="https://www.youtube.com/@bhklab2945">
-                            <FaYoutubeSquare style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
+                            <YouTubeIcon style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
                         </a>
                         <a href="https://www.twitter.com/bhklab">
-                            <FaTwitterSquare style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
+                            <TwitterIcon style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
                         </a>
                         <a href="https://www.linkedin.com/in/bhklab/">
-                            <FaLinkedin style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
+                            <LinkedInIcon style={{color: 'gray', fontSize: '30px', padding: '5px'}}/>
                         </a>
                     </div>
                 </div>

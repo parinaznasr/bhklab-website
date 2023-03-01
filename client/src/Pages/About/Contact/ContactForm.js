@@ -1,41 +1,32 @@
 import React, { useState } from "react";
 import { InputText } from 'primereact/inputtext';
-import { InputTextarea } from 'primereact/inputtextarea';
 import { Button } from 'primereact/button';
 import * as PropTypes from "prop-types";
+import TextField from '@mui/material/TextField';
+import Box from "@mui/material/Box";
+
 
 const StyledLabel = (props) => {
     const {title}= props;
     return(
-        <div style={{marginTop: '10px'}}>
+        <div>
             <label>{title}<span style={{color: 'red'}}>*</span></label>
         </div>
     )
-}
-
-function InputTextProps(props) {
-    return null;
-}
-
-InputTextProps.propTypes = {
-    rows: PropTypes.string,
-    onChange: PropTypes.func,
-    cols: PropTypes.string,
-    name: PropTypes.string,
-    value: PropTypes.string
 };
 
-function InputTextArea(props) {
-    return null;
+function MarginBar() {
+    return (
+        <Box
+            sx={{
+                height: 20,
+                backgroundColor: 'rgba(255,255,255,0)'
+            }}
+        />
+    );
 }
 
-InputTextArea.propTypes = {
-    rows: PropTypes.string,
-    onChange: PropTypes.func,
-    cols: PropTypes.string,
-    name: PropTypes.string,
-    value: PropTypes.string
-};
+
 export const ContactForm = () => {
     // States for contact form fields
     const [fullName, setFullName] = useState("");
@@ -117,54 +108,59 @@ export const ContactForm = () => {
     };
     return (
         <main>
-            <div style={{display: 'flex', flexDirection: 'column'}}>
+            <Box
+                component="form"
+                sx={{
+                    '& > :not(style)': { m: 2, width: '40ch'},
+                }}
+                autoComplete="off"
+            >
                 <form onSubmit={handleSubmit}>
-                    <StyledLabel title="Your name"/>
-                    <InputText
-                        type="text"
+                    <TextField
+                        id="outlined-basic"
+                        label={<StyledLabel title="Your Name"/>}
+                        variant="outlined"
                         value={fullName}
                         onChange={(e) => {
                             setFullName(e.target.value);
                         }}
-                        name="fullName"
                     />
-
-                    <StyledLabel title="E-mail"/>
-                    <InputText
-                        type="email"
-                        name="email"
+                    <MarginBar/>
+                    <TextField
+                        id="outlined-basic"
+                        label={<StyledLabel title="Email"/>}
+                        variant="outlined"
                         value={email}
                         onChange={(e) => {
                             setEmail(e.target.value);
                         }}
                     />
-                    <StyledLabel title="Subject"/>
-                    <InputText
-                        type="text"
-                        name="subject"
+                    <MarginBar/>
+                    <TextField
+                        id="outlined-basic"
+                        label={<StyledLabel title="Subject"/>}
+                        variant="outlined"
                         value={subject}
                         onChange={(e) => {
                             setSubject(e.target.value);
                         }}
                     />
-
-                    <StyledLabel title="Message"/>
-                    <InputTextarea
-                        rows="5"
-                        cols="60"
-                        name="message"
-                        autoResize
-                        value={message}
+                    <MarginBar/>
+                    <TextField
+                        id="outlined-multiline-static"
+                        label={<StyledLabel title="Message"/>}
+                        multiline
+                        rows={4}
                         onChange={(e) => {
                             setMessage(e.target.value);
                         }}
                     />
-
+                    <MarginBar/>
                     <div>
                         <Button label="Send Message" className="p-button-rounded p-button-info"/>
                     </div>
                 </form>
-            </div>
+            </Box>
         </main>
     );
 }

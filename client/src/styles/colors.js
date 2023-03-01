@@ -31,7 +31,7 @@ const colors = {
     navbarBackground: "#FFFFFF",
     navbarText: "#292d3e",
     // gray_footer: '#1a2235',
-    blue_footer: '#274784',
+    blue_footer: '#2E3B55',
     gray_footer: '#31343e',
 
     //Collaboration Map

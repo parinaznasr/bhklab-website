@@ -75,7 +75,7 @@ function Footer() {
             </div>
 
             <div className="footer-info">
-                <p>BHKLab © 2023</p>
+                <p style={{fontWeight: 'lighter'}}>BHKLab © 2023</p>
             </div>
         </StyledFooter>
     );
