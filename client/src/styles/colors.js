@@ -40,7 +40,6 @@ const colors = {
 
     //Pagination
     pagination: '#4796F5',
-    paginationButton: '#2E3B55',
     paginationHover: '#4796F5',
     paginationHoverBG: '#FFFFFF'
 }

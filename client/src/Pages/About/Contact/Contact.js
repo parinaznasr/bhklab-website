@@ -2,17 +2,12 @@ import Layout from '../../../Components/Utils/Layout';
 import styled from "styled-components";
 import { MdOutlineMailOutline } from 'react-icons/md';
 import colors from "../../../styles/colors";
-import {ContactForm} from "./ContactForm";
+import {ContactForm} from "../../../Components/Utils/ContactForm";
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Container from "@mui/material/Container";
 
-const MapContainer = styled.div`
-  width: 100%;
-  height: 250px;
-  margin-bottom: 2em;
-`;
 
 
 const MapFrame = styled.iframe`
@@ -75,7 +70,6 @@ const StyledContact = styled.div`
     font-weight: normal;
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .email-container {

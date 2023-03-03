@@ -11,6 +11,8 @@ const publication = require('./api/data/publication');
 const social = require('./api/data/social');
 const email = require('./api/mail/sendGrid');
 const positions = require('./api/data/positions');
+const auth = require('./api/admin/auth');
+const admin = require('./api/admin/admin');
 
 
 // data routes
@@ -25,4 +27,10 @@ router.get('/data/publications', publication.getAll);
 router.get('/data/socials', social.getAll);
 
 router.post('/mail/send', email.sendEmail );
+
+// admin authentication and management
+
+router.post('/admin/login', admin.login);
+router.post('/admin/logout', admin.logout);
+
 module.exports = router;

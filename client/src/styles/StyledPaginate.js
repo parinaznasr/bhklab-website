@@ -2,7 +2,6 @@ import styled from "styled-components";
 import colors from "./colors";
 
 export const StyledPaginate = styled.div`
-  font-family: 'Roboto Slab', serif;
 
   .paginationBttns {
     width: 80%;
@@ -28,8 +27,7 @@ export const StyledPaginate = styled.div`
 
   .paginationActive a {
     border-radius: 7px;
-    border-width: 3px;
-    border: solid ${colors.pagination};
+    border: 2px solid ${colors.pagination};
     color: ${colors.pagination};
   }
 ;
