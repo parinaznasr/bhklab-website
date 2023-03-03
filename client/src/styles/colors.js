@@ -1,7 +1,7 @@
 const colors = {
 
     blue_background: '#292d3e',
-    white_background: '#f1f1f1',
+    white_background: '#f8f8f8',
 
     gray_divider: '#c6c6c6',
     white: '#FFFFFF',
@@ -39,10 +39,10 @@ const colors = {
     map_dots: '#cdcb8e',
 
     //Pagination
-    pagination: '#FF5722',
+    pagination: '#4796F5',
     paginationButton: '#2E3B55',
     paginationHover: '#4796F5',
-    paginationHoverBG: '#1B5E20'
+    paginationHoverBG: '#FFFFFF'
 }
 
 export default colors;

@@ -1,40 +1,8 @@
 import React, {useEffect, useState} from "react";
 import ReactPaginate from "react-paginate";
-import styled from "styled-components";
-import colors from "../../styles/colors";
-
-
-const StyledPaginatedPublications = styled.div`
-  .paginationBttns {
-    width: 80%;
-    height: 20px;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-  }
-  
-  .paginationBttns a {
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    color: ${colors.pagination};
-    cursor: pointer;
-  }
-  .paginationBttns a:hover {
-    color: ${colors.paginationHover};
-    background-color: ${colors.deep_green};
-  }
-  .paginationActive a {
-    color: ${colors.paginationHover};
-    background-color: ${colors.pagination}
-    };
-  }
-  .paginationDisabled a {
-    visibility: hidden;
-    background-color: white;
-  }
-`
+import {StyledPaginate} from "../../../styles/StyledPaginate";
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 function Items({ currentItems }) {
     return (
@@ -68,13 +36,13 @@ function PaginatedPublications({ customizedContent, publications, itemsPerPage }
     };
 
     return (
-        <StyledPaginatedPublications>
+        <StyledPaginate>
             <Items currentItems={currentItems} />
             <ReactPaginate
                 pageCount={pageCount}
                 onPageChange={handlePageClick}
-                previousLabel={"previous"}
-                nextLabel={"next"}
+                previousLabel={<ArrowBackIosIcon fontSize="20"/>}
+                nextLabel={<ArrowForwardIosIcon fontSize="20"/>}
                 containerClassName={"paginationBttns"}
                 previousLinkClassName={"previousBttn"}
                 nextLinkClassName={"nextBttn"}
@@ -84,9 +52,9 @@ function PaginatedPublications({ customizedContent, publications, itemsPerPage }
                 pageRangeDisplayed={5}
                 renderOnZeroPageCount={null}
             />
-        </StyledPaginatedPublications>
+        </StyledPaginate>
     );
-}
+};
 
 export {
     PaginatedPublications

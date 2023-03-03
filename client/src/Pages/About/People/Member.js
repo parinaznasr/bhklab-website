@@ -2,9 +2,8 @@ import Layout from '../../../Components/Utils/Layout';
 import React, {useEffect, useState} from 'react';
 import {Link, useNavigate, useParams} from 'react-router-dom';
 import axios from "axios";
-import {Container} from './MemberComponents/StyledIndivMember';
 import MemberCard from "./MemberComponents/MemberCard";
-
+import Container from '@mui/material/Container';
 //
 // const StyledCard = styled.div`
 //   width: 280px;
@@ -53,7 +52,7 @@ const Member= (props) => {
 
     return(
         <Layout>
-            <Container>
+            <Container fixed>
                 {
                     member.ready &&
                     <MemberCard

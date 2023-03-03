@@ -7,6 +7,7 @@ import {
     Dataset,
     Presentation,
     Research,
+    IndivResearch,
     Papers,
     Equipments,
     Software,
@@ -29,6 +30,7 @@ const PublicRoutes = () => {
             <Route path='/datasets' element={<Dataset/>}/>
             <Route path='/presentations' element={<Presentation/>}/>
             <Route path='/research' element={<Research/>}/>
+            <Route path='/research/:token' element={<IndivResearch/>}/>
             <Route path='/publications' element={<Papers/>}/>
             <Route path='/equipments' element={<Equipments/>}/>
             <Route path='/contact' element={<Contact/>}/>

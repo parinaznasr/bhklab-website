@@ -12,6 +12,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import styled from "styled-components";
+import Container from '@mui/material/Container';
 
 const Banner = styled.div`
   width: 100%;
@@ -72,10 +73,13 @@ const Dataset= () => {
     return(
         <Layout>
             <Banner>
+                <Container>
                 <div className="text">
                     Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
                 </div>
+                </Container>
             </Banner>
+            <Container>
             {
                 ready &&
                     <TableContainer component={Paper}>
@@ -106,6 +110,7 @@ const Dataset= () => {
                         </Table>
                     </TableContainer>
             }
+            </Container>
         </Layout>
     );
 }

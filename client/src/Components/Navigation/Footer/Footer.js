@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import React from "react";
 import colors from "../../../styles/colors";
+import Container from "@mui/material/Container";
 
 
 const StyledFooter = styled.div`
@@ -44,40 +45,42 @@ const StyledFooter = styled.div`
 
 function Footer() {
     return (
-        <StyledFooter>
-            <div className="links">
-                <div className="link-container">
-                    <a href="/research">Research</a>
-                    <a href="/people">People</a>
-                    <a href="/collaboration">Collaboration</a>
+        <Container>
+            <StyledFooter>
+                <div className="links">
+                    <div className="link-container">
+                        <a href="/research">Research</a>
+                        <a href="/people">People</a>
+                        <a href="/collaboration">Collaboration</a>
 
+                    </div>
+
+                    <div className="link-container">
+                        <a href="/publications">Publications</a>
+                        <a href="/presentations">Presentations</a>
+                        <a href="/software">Software</a>
+                    </div>
+
+                    <div className="link-container">
+                        <a href="/resources">Resources</a>
+                        <a href="/datasets">Datasets</a>
+                        <a href="https://www.pmgenomics.ca/bhklab/">Github</a>
+                        <a href="https://cbioportal.ca">cBioPortal</a>
+
+                    </div>
+
+                    <div className="link-container">
+                        <a href="/contact">Contact Us</a>
+                        <a href="/positions">Join Us</a>
+
+                    </div>
                 </div>
 
-                <div className="link-container">
-                    <a href="/publications">Publications</a>
-                    <a href="/presentations">Presentations</a>
-                    <a href="/software">Software</a>
+                <div className="footer-info">
+                    <p style={{fontWeight: 'lighter'}}>BHKLab © 2023</p>
                 </div>
-
-                <div className="link-container">
-                    <a href="/resources">Resources</a>
-                    <a href="/datasets">Datasets</a>
-                    <a href="https://www.pmgenomics.ca/bhklab/">Github</a>
-                    <a href="https://cbioportal.ca">cBioPortal</a>
-
-                </div>
-
-                <div className="link-container">
-                    <a href="/contact">Contact Us</a>
-                    <a href="/positions">Join Us</a>
-
-                </div>
-            </div>
-
-            <div className="footer-info">
-                <p style={{fontWeight: 'lighter'}}>BHKLab © 2023</p>
-            </div>
-        </StyledFooter>
+            </StyledFooter>
+        </Container>
     );
 }
 

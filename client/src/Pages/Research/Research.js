@@ -5,6 +5,7 @@ import research from './research.json';
 import "animate.css/animate.min.css";
 import colors from "../../styles/colors";
 import {ResearchCard} from "../../Components/Utils/CustomCard";
+import slugGeneratorHelper from "../../Components/Utils/slugGeneratorHelper";
 // import {StyledCard, StyledDescription, StyledImage, StyledTitle} from '../../../styles/StyledCard';
 
 // import styled from "styled-components";
@@ -165,19 +166,19 @@ const Research = () => {
             <h1>Radiomics</h1>
             <div className="container">
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path = {`/research/${slugGeneratorHelper("Integration of preclinical/clinical data")}`}
                     title = "Segmentation/Deduction"
                     description="Integration of preclinical/clinical data"
                     image="./images/projects/biomarker.png"
                 />
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path = {`/research/${slugGeneratorHelper("Radiomics for prognosis and prediction")}`}
                     title = "Radiomics for prognosis and prediction"
                     description="list"
                     image="./images/projects/segmentation_liver.png"
                 />
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path = {`/research/${slugGeneratorHelper("Validation using clinical radiogenomics")}`}
                     title = "Validation using clinical radiogenomics"
                     description="Integration of preclinical/clinical data"
                     image="./images/projects/software.png"
@@ -186,19 +187,19 @@ const Research = () => {
             <h1>Software Development</h1>
             <div className="container">
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path = {`/software`}
                     title = "Software"
                     description=""
                     image="./images/projects/biomarker.png"
                 />
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path = {`/software`}
                     title = "Package"
                     description=""
                     image="./images/projects/segmentation_liver.png"
                 />
                 <ResearchCard
-                    path = "/research/biomarker-discovery"
+                    path ={`/research/${slugGeneratorHelper("Eco-system")}`}
                     title = "Eco-system"
                     description=""
                     image="./images/projects/segmentation_liver.png"

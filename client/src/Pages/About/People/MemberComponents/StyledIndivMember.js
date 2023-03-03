@@ -1,18 +1,6 @@
 import styled from "styled-components";
 import colors from "../../../../styles/colors";
 
-export const Container = styled.div`
-  margin: 50px;
-  display: flex;
-  flex: 1 0 21%;
-  flex-direction: column;
-  text-align: center;
-  flex-wrap: wrap;
-  .header {
-    font-size: 1.4em;
-    font-weight: bold;
-  }
-`;
 
 export const StyledMember = styled.div`
   display: flex;

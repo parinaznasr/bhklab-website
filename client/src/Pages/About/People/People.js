@@ -4,8 +4,9 @@ import {Link, useNavigate} from 'react-router-dom';
 import axios from "axios";
 import styled from "styled-components";
 import colors from "../../../styles/colors";
-import {Container, StyledMember} from './MemberComponents/StyledIndivMember';
+import {StyledMember} from './MemberComponents/StyledIndivMember';
 import slugGeneratorHelper from "../../../Components/Utils/slugGeneratorHelper";
+import Container from '@mui/material/Container';
 
 const StyledCard = styled.div`
   width: 245px;
@@ -149,7 +150,7 @@ const People= () => {
 
     return(
         <Layout>
-            <Container>
+            <Container fixed>
                 {
                     ready &&
                         <>

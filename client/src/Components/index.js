@@ -2,6 +2,7 @@ import Home from '../Pages/Home/Home';
 import Dataset from '../Pages/Resources/Dataset/Dataset';
 import Presentation from '../Pages/Publications/Presentation/Presentation';
 import Research from '../Pages/Research/Research';
+import IndivResearch from '../Pages/Research/IndivResearch';
 import Papers from '../Pages/Publications/Papers/Papers';
 import Equipments from '../Pages/Resources/Equipments/Equipments';
 import Software from '../Pages/Software/Software';
@@ -21,6 +22,7 @@ export {
     Dataset,
     Presentation,
     Research,
+    IndivResearch,
     Papers,
     Equipments,
     Software,

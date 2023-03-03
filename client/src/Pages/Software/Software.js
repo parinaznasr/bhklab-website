@@ -12,6 +12,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
 
 
 function TabPanel(props) {
@@ -676,35 +677,37 @@ const Software= () => {
     };
     return(
         <Layout>
-            <Box sx={{ bgcolor: `${colors.white}`, width: '100%' }}>
-                <AppBar position="static" style={{ background: '#2E3B55'}}>
-                    <Tabs
-                        value={value}
-                        onChange={handleChange}
-                        indicatorColor={`"orange"`}
-                        textColor="#00ff00"
-                        variant="fullWidth"
+            <Container fixed>
+                <Box sx={{ bgcolor: `${colors.white}`, width: '100%' }}>
+                    <AppBar position="static" style={{ background: '#2E3B55'}}>
+                        <Tabs
+                            value={value}
+                            onChange={handleChange}
+                            indicatorColor={`"orange"`}
+                            textColor="#00ff00"
+                            variant="fullWidth"
+                        >
+                            <Tab label="Web Apps" {...a11yProps(0)} />
+                            <Tab label="Packages" {...a11yProps(1)} />
+                            <a target="_blank" href="http://github.com/bhklab" className="link">
+                                <GitHubIcon fontSize='large' style={{ color: 'white', margin: '7px 100px 0px 0px'}}/>
+                            </a>
+                        </Tabs>
+                    </AppBar>
+                    <SwipeableViews
+                        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+                        index={value}
+                        onChangeIndex={handleChangeIndex}
                     >
-                        <Tab label="Web Apps" {...a11yProps(0)} />
-                        <Tab label="Packages" {...a11yProps(1)} />
-                        <a target="_blank" href="http://github.com/bhklab" className="link">
-                            <GitHubIcon fontSize='large' style={{ color: 'white', margin: '7px 100px 0px 0px'}}/>
-                        </a>
-                    </Tabs>
-                </AppBar>
-                <SwipeableViews
-                    axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-                    index={value}
-                    onChangeIndex={handleChangeIndex}
-                >
-                    <TabPanel value={value} index={0} dir={theme.direction}>
-                        <BHKLabWebapps/>
-                    </TabPanel>
-                    <TabPanel value={value} index={1} dir={theme.direction}>
-                        <BHKLabPackages/>
-                    </TabPanel>
-                </SwipeableViews>
-            </Box>
+                        <TabPanel value={value} index={0} dir={theme.direction}>
+                            <BHKLabWebapps/>
+                        </TabPanel>
+                        <TabPanel value={value} index={1} dir={theme.direction}>
+                            <BHKLabPackages/>
+                        </TabPanel>
+                    </SwipeableViews>
+                </Box>
+            </Container>
         </Layout>
     );
 }

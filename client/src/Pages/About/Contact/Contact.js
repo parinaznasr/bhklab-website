@@ -1,12 +1,12 @@
 import Layout from '../../../Components/Utils/Layout';
 import styled from "styled-components";
 import { MdOutlineMailOutline } from 'react-icons/md';
-import {FaLinkedin, FaTwitterSquare, FaYoutubeSquare} from 'react-icons/fa';
 import colors from "../../../styles/colors";
 import {ContactForm} from "./ContactForm";
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Container from "@mui/material/Container";
 
 const MapContainer = styled.div`
   width: 100%;
@@ -48,6 +48,7 @@ const StyledContact = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  
   .address {
     z-index: 10;
     height: 200px;
@@ -55,6 +56,7 @@ const StyledContact = styled.div`
     position: absolute;
     width: 100vw;
   }
+  
   a{
     color: black;
   }
@@ -89,16 +91,11 @@ const StyledContact = styled.div`
 const Contact= () => {
     return(
         <Layout>
-            <StyledContact>
-                <div className="address">
-                    <MapContainer>
-                        <MapFrame
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.43444669756!2d-79.39085344846093!3d43.65993365990993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b632b77689%3A0x901c210dff19e5a4!2s101%20College%20St%2C%20Toronto%2C%20ON%20M5G%201L7!5e0!3m2!1sen!2sca!4v1581544280286!5m2!1sen!2sca"
-                        />
-                    </MapContainer>
-                </div>
-                <div className="content">
-                </div>
+            <MapFrame
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.43444669756!2d-79.39085344846093!3d43.65993365990993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34b632b77689%3A0x901c210dff19e5a4!2s101%20College%20St%2C%20Toronto%2C%20ON%20M5G%201L7!5e0!3m2!1sen!2sca!4v1581544280286!5m2!1sen!2sca"
+            />
+            <Container>
+                <StyledContact>
                 <div className="content">
                     <StyledSection>
                         Soleil Miron, Administrative Assistant <br/>
@@ -138,7 +135,8 @@ const Contact= () => {
                         </a>
                     </div>
                 </div>
-            </StyledContact>
+                </StyledContact>
+            </Container>
         </Layout>
     );
 }

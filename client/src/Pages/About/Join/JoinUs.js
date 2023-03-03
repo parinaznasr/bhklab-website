@@ -2,6 +2,7 @@ import Layout from '../../../Components/Utils/Layout';
 import StyledPosition from "./PositionCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Container from "@mui/material/Container";
 
 const JoinUs = () => {
     const [isLoading, setLoading] = useState(false);
@@ -19,13 +20,15 @@ const JoinUs = () => {
 
     return (
         <Layout>
-            {isLoading ? (
-                <div>Loading...</div>
-            ) : (
-                positions.map((position, index) => (
-                    <StyledPosition key={index} position={position} />
-                ))
-            )}
+            <Container>
+                {isLoading ? (
+                    <div>Loading...</div>
+                ) : (
+                    positions.map((position, index) => (
+                        <StyledPosition key={index} position={position} />
+                    ))
+                )}
+            </Container>
         </Layout>
     );
 };
