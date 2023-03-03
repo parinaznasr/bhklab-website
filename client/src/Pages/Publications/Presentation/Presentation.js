@@ -11,31 +11,11 @@ import GroupAvatar from "../../../Components/Utils/GroupAvatar";
 import CustomDropdown from "../../../Components/Utils/CustomDropdown";
 import { FilterElement} from "../CustomFilter";
 import {PaginatedPublications} from "../PaginatedPublications";
+import PublicationCard from "../PublicationCard";
 
 
 const customizedContent = (item, index) => {
-    return (
-        <StyledPublicationCard key = {index} className="paper-details">
-            <h4>{item.title? item.title : `Event: ${item.event || ""}`}</h4>
-            { item.url &&
-            <a className="link" href={item.url} target='_blank'>
-                <button label={item.format} icon="pi pi-external-link" className="p-button-text"  iconPos="right"/>
-            </a>}
-            <a href={item.url || null} target="_blank">
-                {
-                    item.image &&
-                    <img src={`images/presentations/${item.image}`}
-                         onError={(e) => e.target.src='images/presentations/presentation-alt.png'}
-                         alt={item.name}
-                         width={150}
-                         height={100}
-                         className="shadow-1"
-                    />
-                }
-            </a>
-            <p>{ item.members && <GroupAvatar members={item.members}/>}</p>
-        </StyledPublicationCard>
-    );
+    return ( <PublicationCard key = {index} publication={item}/>);
 };
 
 

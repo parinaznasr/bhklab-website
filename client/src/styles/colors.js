@@ -36,7 +36,13 @@ const colors = {
 
     //Collaboration Map
     map_lands: '#1B5E20',
-    map_dots: '#cdcb8e'
+    map_dots: '#cdcb8e',
+
+    //Pagination
+    pagination: '#FF5722',
+    paginationButton: '#2E3B55',
+    paginationHover: '#4796F5',
+    paginationHoverBG: '#1B5E20'
 }
 
 export default colors;

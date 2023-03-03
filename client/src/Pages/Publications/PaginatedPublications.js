@@ -18,19 +18,20 @@ const StyledPaginatedPublications = styled.div`
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
-    color: ${colors.hyperlink};
+    color: ${colors.pagination};
     cursor: pointer;
   }
   .paginationBttns a:hover {
-    color: white;
-    background-color: ${colors.light_gray};
+    color: ${colors.paginationHover};
+    background-color: ${colors.deep_green};
   }
   .paginationActive a {
-    color: ${colors.origin};
-    background-color: white;
+    color: ${colors.paginationHover};
+    background-color: ${colors.pagination}
+    };
   }
   .paginationDisabled a {
-    color: white;
+    visibility: hidden;
     background-color: white;
   }
 `

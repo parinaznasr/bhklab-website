@@ -3,7 +3,6 @@ import React, {useEffect, useState} from 'react';
 import {useNavigate} from 'react-router-dom';
 import axios from "axios";
 import parse from 'html-react-parser';
-import {Container, Banner } from "../../../styles/StyledDataset";
 
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -12,6 +11,22 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import styled from "styled-components";
+
+const Banner = styled.div`
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  padding: 50px 150px;
+  display: flex;
+  flex-direction: column;
+
+  .text {
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+`;
 
 
 const accessions = (items) => {
@@ -54,46 +69,43 @@ const Dataset= () => {
         });
     }, [history]);
 
-    console.log(datasets)
     return(
         <Layout>
             <Banner>
                 <div className="text">
                     Data generated/curated as part of our research are shared via public repositories such as NCBI Gene Expression Omnibus or data packages. My lab maintains the following datasets:
                 </div>
-                </Banner>
-            <Container>
-                {
-                    ready &&
-                        <TableContainer component={Paper}>
-                            <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                                <TableHead>
-                                    <TableRow>
-                                        <TableCell>Accession</TableCell>
-                                        <TableCell align="left">Title</TableCell>
-                                        <TableCell align="right">#</TableCell>
-                                        <TableCell align="right">Release</TableCell>
+            </Banner>
+            {
+                ready &&
+                    <TableContainer component={Paper}>
+                        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                            <TableHead>
+                                <TableRow>
+                                    <TableCell>Accession</TableCell>
+                                    <TableCell align="left">Title</TableCell>
+                                    <TableCell align="right">#</TableCell>
+                                    <TableCell align="right">Release</TableCell>
+                                </TableRow>
+                            </TableHead>
+                            <TableBody>
+                                {datasets.map((row) => (
+                                    <TableRow
+                                        key={row.id}
+                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                    >
+                                        <TableCell component="th" scope="row">
+                                            {accessions(row.accession)}
+                                        </TableCell>
+                                        <TableCell align="left">{parse(row.title)}</TableCell>
+                                        <TableCell align="right">{row.samples}</TableCell>
+                                        <TableCell align="right">{row.release}</TableCell>
                                     </TableRow>
-                                </TableHead>
-                                <TableBody>
-                                    {datasets.map((row) => (
-                                        <TableRow
-                                            key={row.id}
-                                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                        >
-                                            <TableCell component="th" scope="row">
-                                                {accessions(row.accession)}
-                                            </TableCell>
-                                            <TableCell align="left">{parse(row.title)}</TableCell>
-                                            <TableCell align="right">{row.samples}</TableCell>
-                                            <TableCell align="right">{row.release}</TableCell>
-                                        </TableRow>
-                                    ))}
-                                </TableBody>
-                            </Table>
-                        </TableContainer>
-                }
-            </Container>
+                                ))}
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
+            }
         </Layout>
     );
 }
