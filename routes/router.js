@@ -11,6 +11,7 @@ const publication = require('./api/data/publication');
 const social = require('./api/data/social');
 const email = require('./api/mail/sendGrid');
 const positions = require('./api/data/positions');
+const research = require('./api/data/research');
 // const auth = require('./api/admin/auth');
 const admin = require('./api/admin/admin');
 
@@ -24,6 +25,7 @@ router.get('/data/positions', positions.getAll);
 router.get('/data/presentations', presentation.getAll);
 router.get('/data/projects', project.getAll);
 router.get('/data/publications', publication.getAll);
+router.get('/data/researches', research.getAll);
 router.get('/data/socials', social.getAll);
 
 router.post('/mail/send', email.sendEmail );

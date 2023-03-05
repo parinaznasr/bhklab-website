@@ -67,17 +67,17 @@ const MemberCard = ({ title, description, imageUrl }) => {
 
 const member = (item,index) => {
     return (
-            <div key = {index}>
-                <Link to={{
-                    pathname:`/people/${slugGeneratorHelper(item.name)}`,
-                    param: { member: item}
-                    }}>
-                    <MemberCard
-                        description={item.position}
-                        title = {item.name}
-                        imageUrl={`/images/people/${item.image}`}/>
-                </Link>
-            </div>
+        <div key = {index}>
+            <Link to={{
+                pathname:`/people/${item.slug}`,
+                param: { member: item}
+                }}>
+                <MemberCard
+                    description={item.position}
+                    title = {item.name}
+                    imageUrl={`/images/people/${item.image}`}/>
+            </Link>
+        </div>
     );
 }
 
@@ -128,7 +128,7 @@ const People= () => {
         window.scrollTo(0, 0)
         const getPeople = async () => {
             const res = await axios.get('/api/data/members');
-            setPeople(res.data.members);
+            setPeople(res.data.members.filter(item => item.display));
             setReady(true);
             console.log(people)
         }

@@ -3,38 +3,40 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Typography from '@mui/material/Typography';
 import Moment from "moment";
-import Link from '@mui/material/Link';
 
 function PresentationCard(props) {
     const {image, title, event, url, members, date} = props.publication;
     return (
         <Card sx={{ display: 'flex', margin:'10px 0px' }}>
             {
-                image ?
-                    <Link href={url || ""}>
+                url?
+                    <a className="link" href={url} target='_blank'>
                         <CardMedia
                             component="img"
                             sx={{ width: 150, objectFit: "contain", marginTop: "10px"}}
-                            image={`images/presentations/${image}`}
-                            alt="an image of first slide"
+                            image={image ?`images/presentations/${image}` : `images/presentations/presentation-blurry.png`}
+                            alt= {image ?"an image of first slide":"a placeholder image for unavailable" }
                         />
-                    </Link>
-                    :
+                    </a>:
                     <CardMedia
                         component="img"
-                        sx={{ width: 150, objectFit: "contain"}}
-                        image={`images/presentations/presentation-blurry.png`}
-                        alt="a placeholder image for unavailable"
+                        sx={{ width: 150, objectFit: "contain", marginTop: "10px"}}
+                        image={image ?`images/presentations/${image}` : `images/presentations/presentation-blurry.png`}
+                        alt= {image ?"an image of first slide":"a placeholder image for unavailable" }
                     />
             }
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
                     <Typography component="div" variant="subtitle1">
-                        {title? title : `Event: ${event || ""}`}
+                        {
+                            url?
+                                <a className="link" href={url} target='_blank'>
+                                    {title? title : `Event: ${event || ""}`}
+                                </a> :
+                                <>{title? title : `Event: ${event || ""}`}</>
+                        }
                     </Typography>
                     {   date &&
                             <Typography variant="h7" color="text.secondary" component="div">
@@ -47,13 +49,6 @@ function PresentationCard(props) {
                                 {members.map(item=> item.name).join(', ')}
                             </Typography>
                     }
-                    {/*{ url &&*/}
-                    {/*<a className="link" href={url} target='_blank'>*/}
-                    {/*    <IconButton color="primary" aria-label="add an alarm">*/}
-                    {/*        <OpenInNewIcon />*/}
-                    {/*    </IconButton>*/}
-                    {/*</a>*/}
-                    {/*}*/}
                 </CardContent>
             </Box>
         </Card>
@@ -67,25 +62,33 @@ function PaperCard(props) {
         <Card sx={{ display: 'flex', marginBottom: '10px'  }}>
             <div style={{width: '110px'}}>
                 {
-                    image ?
+                    url ?
+                        <a className="link" href={url} target='_blank'>
+                            <CardMedia
+                                component="img"
+                                sx={{ width: 110, objectFit: "cover"}}
+                                image={image ? `images/publication/${image}` : `images/publication/publication-blurry.png`}
+                                alt={image  ?"an image of publisher's cover" : "a placeholder image for unavailable publisher cover"}
+                            />
+                        </a>:
                         <CardMedia
                             component="img"
                             sx={{ width: 110, objectFit: "cover"}}
-                            image={`images/publication/${image}`}
-                            alt="an image of publisher's cover"
-                        />:
-                        <CardMedia
-                            component="img"
-                            sx={{ width: 110, objectFit: "contain"}}
-                            image={`images/publication/publication-blurry.png`}
-                            alt="a placeholder image for unavailable publisher cover"
+                            image={image ? `images/publication/${image}` : `images/publication/publication-blurry.png`}
+                            alt= {image  ?"an image of publisher's cover" : "a placeholder image for unavailable publisher cover"}
                         />
                 }
             </div>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                 <CardContent sx={{ flex: '1 0 auto' }}>
                     <Typography component="div" variant="subtitle1">
-                        {title? title : `Event: ${event || ""}`}
+                        {
+                            url?
+                                <a className="link" href={url} target='_blank'>
+                                    {title}
+                                </a> : <>{title}</>
+                        }
+
                     </Typography>
                     {   releaseDate &&
                     <Typography variant="h7" color="text.secondary" component="div">
@@ -103,13 +106,6 @@ function PaperCard(props) {
                         <Typography variant="h7" color="text.secondary" component="div">
                             {authors}
                         </Typography>
-                    }
-                    { url &&
-                    <a className="link" href={url} target='_blank'>
-                        <IconButton color="primary" aria-label="add an alarm">
-                            <OpenInNewIcon/>
-                        </IconButton>
-                    </a>
                     }
                 </CardContent>
             </Box>

@@ -52,11 +52,11 @@ const backup = async (output, Model) => {
         // // backup project indexes
         // await backup("./data/indexes.json", Index);
         //
-        // // // // backup lab members
+        // // // backup lab members
         // await backup("./data/memberprojects.json", Memberproject);
         //
         // // // // backup lab members
-        // await backup("./data/members.json", Member);
+        //await backup("./data/members.json", Member);
         //
         // // // backup news
         // await backup("./data/news.json", News);

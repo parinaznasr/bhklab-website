@@ -20,6 +20,7 @@ const Poster = require("../models/poster");
 const Project = require("../models/project");
 const Presentation = require("../models/presentation");
 const Publication = require("../models/publication");
+const Research = require("../models/research");
 const Social = require("../models/social");
 const Supervision = require("../models/supervision");
 
@@ -34,6 +35,41 @@ const Supervision = require("../models/supervision");
 //     await Model.insertMany(data);
 // };
 
+// (async () => {
+//     try {
+//         await mongoose.connect(process.env.DEV, {
+//             useNewUrlParser: true,
+//             useUnifiedTopology: true,
+//         });
+//         console.log("connection open");
+//
+//         //
+//         let projects = await Project.find().populate('grant').lean();
+//
+//
+//         let result = []
+//         projects.map(item => {
+//             result.push({
+//                 title: item.title,
+//                 researchArea: item.researchArea,
+//                 status: item.status,
+//                 grant: item.grant? item.grant.name: "N/A",
+//                 grant_status: item.grant?item.grant.status: "N/A",
+//                 grant_deadline: item.grant?item.grant.deadline: "N/A"
+//             })
+//             }
+//         )
+//         console.log();
+//         fs.writeFileSync("./data/misc.json", JSON.stringify(result, null, 2));
+//
+//     } catch (err) {
+//         console.log(err);
+//     } finally {
+//         await mongoose.connection.close();
+//         console.log("connection closed");
+//     }
+// })();
+
 (async () => {
     try {
         await mongoose.connect(process.env.DEV, {
@@ -43,22 +79,16 @@ const Supervision = require("../models/supervision");
         console.log("connection open");
 
         //
-        let projects = await Project.find().populate('grant').lean();
-
+        let member= await Member.find().lean();
 
         let result = []
-        projects.map(item => {
+        member.map(item => {
             result.push({
-                title: item.title,
-                researchArea: item.researchArea,
-                status: item.status,
-                grant: item.grant? item.grant.name: "N/A",
-                grant_status: item.grant?item.grant.status: "N/A",
-                grant_deadline: item.grant?item.grant.deadline: "N/A"
+                ...item,
+                "slug": item.name.toLowerCase().split(" ").join("_")
             })
-            }
-        )
-        console.log();
+        })
+
         fs.writeFileSync("./data/misc.json", JSON.stringify(result, null, 2));
 
     } catch (err) {

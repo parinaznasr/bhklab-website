@@ -18,6 +18,8 @@ const getAll = async (req, res) => {
         res.forEach(item => result.members.push({
             id: item._id,
             name: item.preferredName? item.preferredName : item.name,
+            slug: item.slug,
+            display: item.display,
             position : item.position,
             image: item.image,
             status: item.status,
@@ -38,12 +40,13 @@ const getOne = async (req, res) => {
     };
     let token = req.params.token;
     try{
-        // Get lab member's info
+        // Get lab member's info for a given slug
         let res =  await Member.find().lean();
-        let member = res.filter(item => item.name.toLowerCase().replace(" ","_") === token)[0];
+        let member = res.filter(item => item.slug === token)[0];
         if ( member ){
             result.member = {
                 name: member.name,
+                slug: member.slug,
                 position : member.position,
                 image: member.image,
                 bio: member.bio,

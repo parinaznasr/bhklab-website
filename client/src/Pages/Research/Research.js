@@ -1,11 +1,12 @@
 import Layout from '../../Components/Utils/Layout';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from "styled-components";
-import research from './research.json';
 import "animate.css/animate.min.css";
 import colors from "../../styles/colors";
 import {ResearchCard} from "../../Components/Utils/CustomCard";
 import slugGeneratorHelper from "../../Components/Utils/slugGeneratorHelper";
+import axios from "axios";
+import StyledPosition from "../About/Join/PositionCard";
 // import {StyledCard, StyledDescription, StyledImage, StyledTitle} from '../../../styles/StyledCard';
 
 // import styled from "styled-components";
@@ -145,66 +146,44 @@ const StyledSection = styled.div`
 
 
 const Research = () => {
+    const [ready, setReady] = useState(false);
+    const [researches, setResearches] = useState({});
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        const getDataset = async () => {
+            const res = await axios.get('/api/data/researches');
+            setResearches(res.data.research);
+        }
+        getDataset().then(()=> {setReady(true)});
+    }, []);
+
     return (
         <Layout>
         <StyledSection>
-            <h1>Pharmacogenomics</h1>
-            <div className="container">
-                <ResearchCard
-                    path = "/research/biomarker-discovery"
-                    title = "Integration of preclinical/clinical data"
-                    description="Hi1"
-                    image="./images/projects/biomarker.png"
-                />
-                <ResearchCard
-                    path = "/research/segmentation"
-                    title = "Drug classification/repurposing"
-                    description="Hi2"
-                    image="./images/projects/segmentation_liver.png"
-                />
-            </div>
-            <h1>Radiomics</h1>
-            <div className="container">
-                <ResearchCard
-                    path = {`/research/${slugGeneratorHelper("Integration of preclinical/clinical data")}`}
-                    title = "Segmentation/Deduction"
-                    description="Integration of preclinical/clinical data"
-                    image="./images/projects/biomarker.png"
-                />
-                <ResearchCard
-                    path = {`/research/${slugGeneratorHelper("Radiomics for prognosis and prediction")}`}
-                    title = "Radiomics for prognosis and prediction"
-                    description="list"
-                    image="./images/projects/segmentation_liver.png"
-                />
-                <ResearchCard
-                    path = {`/research/${slugGeneratorHelper("Validation using clinical radiogenomics")}`}
-                    title = "Validation using clinical radiogenomics"
-                    description="Integration of preclinical/clinical data"
-                    image="./images/projects/software.png"
-                />
-            </div>
-            <h1>Software Development</h1>
-            <div className="container">
-                <ResearchCard
-                    path = {`/software`}
-                    title = "Software"
-                    description=""
-                    image="./images/projects/biomarker.png"
-                />
-                <ResearchCard
-                    path = {`/software`}
-                    title = "Package"
-                    description=""
-                    image="./images/projects/segmentation_liver.png"
-                />
-                <ResearchCard
-                    path ={`/research/${slugGeneratorHelper("Eco-system")}`}
-                    title = "Eco-system"
-                    description=""
-                    image="./images/projects/segmentation_liver.png"
-                />
-            </div>
+            {
+                ready &&
+                researches.map((research, index) => (
+                    <div key={index}>
+                        <h1>{research.title}</h1>
+                        <div className="container">
+                            {
+                                research.teams.map((team,indx) =>
+                                {
+                                    return (
+                                        <ResearchCard
+                                            key={indx}
+                                            path = {team.url || slugGeneratorHelper(team.teamTitle)}
+                                            title = {team.teamTitle}
+                                            description= {team.teamDesc}
+                                            image={team.teamImage}
+                                        />
+                                    )
+                                })
+                            }
+                        </div>
+                    </div>
+                ))
+            }
         </StyledSection>
         </Layout>
     )

@@ -21,13 +21,11 @@ const JoinUs = () => {
     return (
         <Layout>
             <Container>
-                {isLoading ? (
-                    <div>Loading...</div>
-                ) : (
+                {isLoading &&
                     positions.map((position, index) => (
                         <StyledPosition key={index} position={position} />
                     ))
-                )}
+                }
             </Container>
         </Layout>
     );

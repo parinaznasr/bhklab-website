@@ -9,6 +9,7 @@ const memberSchema = new Schema({
     status: String,
     startDate: Date,
     endDate: Date,
+    slug: String,
     links: [{
         type: String,
         link: String

@@ -217,62 +217,6 @@
     "__v": 0
   },
   {
-    "_id": "634d80ecaa64ba96a74415a7",
-    "memberId": "6349b56d2a91a29c37ac76b1",
-    "projectId": "6331e4d68001b4e2616207e1",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415a8",
-    "memberId": "6349b56d2a91a29c37ac76b4",
-    "projectId": "6331e4d68001b4e2616207e1",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415a9",
-    "memberId": "6349b56d2a91a29c37ac7730",
-    "projectId": "6331e4d68001b4e2616207e1",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415aa",
-    "memberId": "6349b56d2a91a29c37ac76cc",
-    "projectId": "6331e4d68001b4e2616207e1",
-    "status": "Inactive",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415ab",
-    "memberId": "6349b56d2a91a29c37ac76b0",
-    "projectId": "6331e4d68001b4e2616207e9",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415ac",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e2616207e9",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415ad",
-    "memberId": "6349b56d2a91a29c37ac76be",
-    "projectId": "6331e4d68001b4e2616207e9",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415ae",
-    "memberId": "6349b56d2a91a29c37ac76b6",
-    "projectId": "6331e4d68001b4e2616207e9",
-    "status": "Active",
-    "__v": 0
-  },
-  {
     "_id": "634d80ecaa64ba96a74415af",
     "memberId": "6349b56d2a91a29c37ac76b5",
     "projectId": "6331e4d68001b4e2616207ec",
@@ -297,76 +241,6 @@
     "_id": "634d80ecaa64ba96a74415b2",
     "memberId": "6349b56d2a91a29c37ac76af",
     "projectId": "6331e4d68001b4e2616207ec",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b3",
-    "memberId": "6349b56d2a91a29c37ac76b5",
-    "projectId": "6331e4d68001b4e2616207f5",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b4",
-    "memberId": "6349b56d2a91a29c37ac772a",
-    "projectId": "6331e4d68001b4e2616207f5",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b5",
-    "memberId": "6349b56d2a91a29c37ac76b7",
-    "projectId": "6331e4d68001b4e2616207f5",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b6",
-    "memberId": "6349b56d2a91a29c37ac76b5",
-    "projectId": "6331e4d68001b4e2616207fe",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b7",
-    "memberId": "6349b56d2a91a29c37ac76b7",
-    "projectId": "6331e4d68001b4e2616207fe",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b8",
-    "memberId": "6349b56d2a91a29c37ac76b5",
-    "projectId": "6331e4d68001b4e261620800",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415b9",
-    "memberId": "6349b56d2a91a29c37ac76b7",
-    "projectId": "6331e4d68001b4e261620800",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415ba",
-    "memberId": "6349b56d2a91a29c37ac76af",
-    "projectId": "6331e4d68001b4e261620803",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415bb",
-    "memberId": "6349b56d2a91a29c37ac76b5",
-    "projectId": "6331e4d68001b4e261620803",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415bc",
-    "memberId": "6349b56d2a91a29c37ac76b7",
-    "projectId": "6331e4d68001b4e261620803",
     "status": "Active",
     "__v": 0
   },
@@ -399,13 +273,6 @@
     "__v": 0
   },
   {
-    "_id": "634d80ecaa64ba96a74415c1",
-    "memberId": "6349b56d2a91a29c37ac76bb",
-    "projectId": "6331e4d68001b4e261620811",
-    "status": "Active",
-    "__v": 0
-  },
-  {
     "_id": "634d80ecaa64ba96a74415c2",
     "memberId": "6349b56d2a91a29c37ac76bb",
     "projectId": "6331e4d68001b4e261620819",
@@ -430,27 +297,6 @@
     "_id": "634d80ecaa64ba96a74415c5",
     "memberId": "6349b56d2a91a29c37ac7730",
     "projectId": "6331e4d68001b4e261620819",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415c6",
-    "memberId": "6349b56d2a91a29c37ac76bb",
-    "projectId": "6331e4d68001b4e26162081d",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415c7",
-    "memberId": "6349b56d2a91a29c37ac76b8",
-    "projectId": "6331e4d68001b4e26162081d",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415c8",
-    "memberId": "6349b56d2a91a29c37ac76bc",
-    "projectId": "6331e4d68001b4e26162081d",
     "status": "Active",
     "__v": 0
   },
@@ -490,93 +336,9 @@
     "__v": 0
   },
   {
-    "_id": "634d80ecaa64ba96a74415ce",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620826",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415cf",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620827",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d0",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620828",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d1",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620829",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d2",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082a",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d3",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082b",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d4",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082c",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d5",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082d",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d6",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082e",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d7",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e26162082f",
-    "status": "Active",
-    "__v": 0
-  },
-  {
     "_id": "634d80ecaa64ba96a74415d8",
     "memberId": "6349b56d2a91a29c37ac76ba",
     "projectId": "6331e4d68001b4e261620830",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415d9",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620831",
-    "status": "Active",
-    "__v": 0
-  },
-  {
-    "_id": "634d80ecaa64ba96a74415da",
-    "memberId": "6349b56d2a91a29c37ac76ba",
-    "projectId": "6331e4d68001b4e261620832",
     "status": "Active",
     "__v": 0
   },

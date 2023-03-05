@@ -1,20 +1,32 @@
 import Layout from '../../Components/Utils/Layout';
-import React from 'react';
-import research from './research.json';
+import React, {useEffect, useState} from 'react';
 import {Container, StyledPage, StyledCard } from '../../styles/StyledPage';
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
+import axios from "axios";
 
 
 const IndivResearch= () => {
+    const [ready, setReady] = useState(false);
+    const [researches, setResearches] = useState({});
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        const getDataset = async () => {
+            const res = await axios.get('/api/data/researches');
+            setResearches(res.data.research);
+        }
+        getDataset().then(()=> {setReady(true)});
+    }, []);
+
     return(
         <Layout>
             <Container>
                 <StyledPage className="static">
                     <ScrollAnimation animateIn="fadeIn">
                         {
-                            research.length?
-                                research.map( item => {
+                            researches.length?
+                                researches.map( item => {
                                     return (
                                         <StyledCard>
                                             <div>
