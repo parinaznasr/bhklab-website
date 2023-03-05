@@ -11,7 +11,7 @@ const publication = require('./api/data/publication');
 const social = require('./api/data/social');
 const email = require('./api/mail/sendGrid');
 const positions = require('./api/data/positions');
-const auth = require('./api/admin/auth');
+// const auth = require('./api/admin/auth');
 const admin = require('./api/admin/admin');
 
 

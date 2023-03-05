@@ -1,0 +1,79 @@
+[
+  {
+    "_id": "64043904847f11c9d655b9ab",
+    "title": "Pharmacogenomics",
+    "description": "",
+    "teams": [
+      {
+        "teamTitle": "Integration of preclinical/clinical data",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9af"
+      },
+      {
+        "teamTitle": "Drug classification/repurposing",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9b0"
+      }
+    ],
+    "image": "",
+    "__v": 0
+  },
+  {
+    "_id": "64043904847f11c9d655b9ac",
+    "title": "Radiomics",
+    "description": "",
+    "teams": [
+      {
+        "teamTitle": "Segmentation/Deduction",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9b2"
+      },
+      {
+        "teamTitle": "Radiomics for prognosis and prediction",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9b3"
+      },
+      {
+        "teamTitle": "Validation using clinical radiogenomics",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9b4"
+      }
+    ],
+    "image": "./images/projects/segmentation_liver.png",
+    "__v": 0
+  },
+  {
+    "_id": "64043904847f11c9d655b9ad",
+    "title": "Software Development",
+    "description": "",
+    "teams": [
+      {
+        "teamTitle": "Software",
+        "url": "/software",
+        "teamDesc": "",
+        "teamImage": ".",
+        "_id": "64043904847f11c9d655b9b6"
+      },
+      {
+        "teamTitle": "Packages",
+        "url": "/software",
+        "teamDesc": "",
+        "teamImage": "",
+        "_id": "64043904847f11c9d655b9b7"
+      },
+      {
+        "teamTitle": "Eco-system",
+        "teamDesc": "",
+        "teamImage": "./images/projects/segmentation_liver.png",
+        "_id": "64043904847f11c9d655b9b8"
+      }
+    ],
+    "image": "",
+    "__v": 0
+  }
+]

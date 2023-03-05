@@ -21,6 +21,7 @@ const Position = require("../models/position");
 const Project = require("../models/project");
 const Presentation = require("../models/presentation");
 const Publication = require("../models/publication");
+const Research = require('../models/research');
 const Social = require("../models/social");
 const Supervision = require("../models/supervision");
 
@@ -63,6 +64,10 @@ const restore = async (file, Model) => {
         // await restore("./data/posters.json", Poster);
         // console.log("poster done");
         //
+        // insert research
+        // await restore("./data/researches.json", Research);
+        // console.log("research done");
+
         // // insert position
         // await restore("./data/positions.json", Position);
         // console.log("position done");

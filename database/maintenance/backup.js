@@ -21,6 +21,7 @@ const Position = require("../models/position");
 const Project = require("../models/project");
 const Presentation = require("../models/presentation");
 const Publication = require("../models/publication");
+const Research = require("../models/research");
 const Social = require("../models/social");
 const Supervision = require("../models/supervision");
 
@@ -77,6 +78,9 @@ const backup = async (output, Model) => {
         //
         // // // backup lab publications
         // await backup("./data/publications.json", Publication);
+        //
+        // // // backup lab research
+        // await backup("./data/researches.json", Research);
         //
         // // // backup lab socials
         // await backup("./data/socials.json", Social);
