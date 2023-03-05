@@ -26,13 +26,14 @@ router.get('/data/presentations', presentation.getAll);
 router.get('/data/projects', project.getAll);
 router.get('/data/publications', publication.getAll);
 router.get('/data/researches', research.getAll);
+router.get('/data/researches/:token', research.getOne);
 router.get('/data/socials', social.getAll);
 
 router.post('/mail/send', email.sendEmail );
 
 // admin authentication and management
 
-router.post('/admin/login', admin.login);
-router.post('/admin/signup', admin.signup);
+// router.post('/admin/login', admin.login);
+// router.post('/admin/signup', admin.signup);
 
 module.exports = router;

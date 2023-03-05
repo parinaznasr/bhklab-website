@@ -8,9 +8,8 @@ import Container from '@mui/material/Container';
 
 
 const Member= (props) => {
-    const params = useParams();
+    const {token} = useParams();
     const [member, setMember] = useState({data: {}, ready: false});
-    const {token} = params;
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -19,7 +18,7 @@ const Member= (props) => {
             setMember({data: res.data.member, ready: true})
         }
         getMember();
-    }, []);
+    }, [token]);
     const {image, position, bio, name} = member.data;
 
     return(

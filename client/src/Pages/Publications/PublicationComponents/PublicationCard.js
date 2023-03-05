@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Moment from "moment";
+import {Link} from "@mui/icons-material";
 
 function PresentationCard(props) {
     const {image, title, event, url, members, date} = props.publication;
@@ -46,7 +47,11 @@ function PresentationCard(props) {
                     {
                         members &&
                             <Typography variant="h7" color="text.secondary" component="div">
-                                {members.map(item=> item.name).join(', ')}
+                                {members.map((item, index)=>
+                                    <a key = {index} href= {item.name ==="Benjamin Haibe-Kains"?
+                                        "/people": `people/${item.slug}`}>
+                                        {item.name}
+                                    </a>)}
                             </Typography>
                     }
                 </CardContent>
@@ -98,7 +103,7 @@ function PaperCard(props) {
                     {
                         authors &&
                         <Typography color="text.secondary" component="div">
-                            {members.map(item=> item.name).join(', ')}
+                            {members.map(item=> <Link href = {item.slug}>{item.name}</Link>)}
                         </Typography>
                     }
                     {

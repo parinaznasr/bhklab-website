@@ -1,43 +1,35 @@
 import Layout from '../../Components/Utils/Layout';
 import React, {useEffect, useState} from 'react';
-import {Container, StyledPage, StyledCard } from '../../styles/StyledPage';
 import "animate.css/animate.min.css";
-import ScrollAnimation from 'react-animate-on-scroll';
 import axios from "axios";
+import {useParams} from "react-router-dom";
+import Container from "@mui/material/Container";
 
 
-const IndivResearch= () => {
+const IndivResearch= (props) => {
     const [ready, setReady] = useState(false);
-    const [researches, setResearches] = useState({});
+    const [research, setResearch] = useState({});
+    const {token} = useParams();
 
     useEffect(() => {
         window.scrollTo(0, 0)
         const getDataset = async () => {
-            const res = await axios.get('/api/data/researches');
-            setResearches(res.data.research);
+            const res = await axios.get(`/api/data/researches/${token}`);
+            setResearch(res.data.team);
+            setReady(true);
         }
         getDataset().then(()=> {setReady(true)});
-    }, []);
+    }, [token]);
 
     return(
         <Layout>
             <Container>
-                <StyledPage className="static">
-                    <ScrollAnimation animateIn="fadeIn">
-                        {
-                            researches.length?
-                                researches.map( item => {
-                                    return (
-                                        <StyledCard>
-                                            <div>
-                                                <div className="subject">{item.title}</div>
-                                                <div className="content">{item.description}</div>
-                                            </div>
-                                        </StyledCard>)
-                                }):''
-                        }
-                    </ScrollAnimation>
-                </StyledPage>
+                {
+                    ready &&
+                        <>
+                            {research.title}
+                        </>
+                }
             </Container>
         </Layout>
     );
