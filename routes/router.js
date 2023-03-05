@@ -31,6 +31,6 @@ router.post('/mail/send', email.sendEmail );
 // admin authentication and management
 
 router.post('/admin/login', admin.login);
-router.post('/admin/logout', admin.logout);
+router.post('/admin/signup', admin.signup);
 
 module.exports = router;
