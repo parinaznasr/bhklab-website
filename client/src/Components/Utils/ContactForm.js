@@ -13,6 +13,10 @@ const StyledLabel = (props) => {
     )
 };
 
+
+/**
+ * A function to create margin between input fields
+ */
 function MarginBar() {
     return (
         <Box
@@ -35,7 +39,12 @@ const StyledHeading= styled.div`
   font-weight: normal;
   text-align: left;
 `
-
+/**
+ * A custom React component that returns a contact form to receive emails by a registered
+ * email account on SendGrid
+ * @example
+ * <ContactFrom/>
+ */
 export const ContactForm = () => {
     // States for contact form fields
     const [fullName, setFullName] = useState("");

@@ -1,7 +1,12 @@
+/**
+ A custom react component that returns a navbar
+ based on the size of browser navbar includes links to individual pages or a burger menu
+ */
 import BurgerMenu from "./BurgerMenu";
 import {Link} from 'react-router-dom' ;
 import {LogoContainer, NavLinks, StyledNavigation} from "../../../styles/StyledNavigation";
 import React from 'react';
+
 
 const NavBar= () => {
     return (

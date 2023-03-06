@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
-import { AuthContext } from '../hooks/Contexts';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+// import { AuthContext } from '../hooks/Contexts';
 
 import {
     Home,
@@ -48,7 +48,6 @@ const PublicRoutes = () => {
                 }
             </React.Fragment>
             <Route path='/administration' element={<Admin/>} />
-            {/* <UserRoute path='/edit/:type/:id' component={EditMain} /> */}
         </Routes>
     </Router>
   );

@@ -38,12 +38,20 @@
   }
 }
 
-/*@font-face {*/
-/*  font-family: 'Segoe UI';*/
-/*  src: url('../styles/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');*/
-/*  font-weight: 400;*/
-/*  font-style: normal;*/
-/*}*/
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../styles/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../styles/fonts/Lora/static/Lora-Regular.ttf') format('truetype');
+}
+
 
 @font-face {
   font-family: 'Noto Sans';

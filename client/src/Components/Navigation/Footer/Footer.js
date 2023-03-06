@@ -3,7 +3,6 @@ import React from "react";
 import colors from "../../../styles/colors";
 import Container from "@mui/material/Container";
 
-
 const StyledFooter = styled.div`
   background-color: ${colors.white};
   padding: 40px 20px;
@@ -26,7 +25,6 @@ const StyledFooter = styled.div`
     margin-bottom: 10px;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
-  
   }
 
   .link-container a:hover {

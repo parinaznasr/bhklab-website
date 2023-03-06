@@ -2,12 +2,16 @@ import { slide as Menu } from 'react-burger-menu';
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {BurgerNav, styles} from "../../../styles/StyledNavigation";
-import {StyledLink,} from "../../../styles/StyledLink";
+
 
 const dropdownItems = (data) => data.map((x) => (
     <NavLink key={x.url} to={x.url}>{x.name}</NavLink>
 ));
 
+/**
+ A custom React component that returns a side burger menu
+ This component is used in Navbar component (./Navbar)
+ */
 const BurgerMenu = () => {
 
   const researchLinks = [

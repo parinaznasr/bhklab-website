@@ -10,7 +10,7 @@ import {Link} from "@mui/icons-material";
 function PresentationCard(props) {
     const {image, title, event, url, members, date} = props.publication;
     return (
-        <Card sx={{ display: 'flex', margin:'10px 0px' }}>
+        <Card sx={{ display: 'flex', margin:'10px 0px', fontFamily: 'Sans serif'}}>
             {
                 url?
                     <a className="link" href={url} target='_blank'>
@@ -40,7 +40,7 @@ function PresentationCard(props) {
                         }
                     </Typography>
                     {   date &&
-                            <Typography variant="h7" color="text.secondary" component="div">
+                            <Typography variant="h7" color="text.secondary" component="div" style={{fontSize: '12px'}}>
                                 {Moment(date).format("MMM Do, YYYY")}
                             </Typography>
                     }
@@ -62,9 +62,9 @@ function PresentationCard(props) {
 
 
 function PaperCard(props) {
-    const {image, title, event, url, authors, members, releaseDate} = props.publication;
+    const {image, title, url, authors, members, releaseDate} = props.publication;
     return (
-        <Card sx={{ display: 'flex', marginBottom: '10px'  }}>
+        <Card sx={{ display: 'flex', marginBottom: '10px' , fontFamily: 'Sans serif'}}>
             <div style={{width: '110px'}}>
                 {
                     url ?
@@ -96,7 +96,7 @@ function PaperCard(props) {
 
                     </Typography>
                     {   releaseDate &&
-                    <Typography variant="h7" color="text.secondary" component="div">
+                    <Typography variant="h7" color="text.secondary" component="div" style={{fontSize: '12px'}}>
                         {Moment(releaseDate).format("MMM Do, YYYY")}
                     </Typography>
                     }

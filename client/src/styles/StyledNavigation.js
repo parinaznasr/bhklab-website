@@ -31,7 +31,7 @@ const StyledNavigation = styled.div`
     margin-top: 18px;
     display: none;
     position: absolute;
-    background-color: ${colors.white};
+    background-color: ${colors.white_background};
     width: 180px;
     border-radius: 1px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);

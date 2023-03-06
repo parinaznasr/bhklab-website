@@ -3,6 +3,9 @@ import React from "react";
 import colors from "../../styles/colors";
 import {StyledLink} from "../../styles/StyledLink";
 
+/**
+ * Style components
+ */
 const StyledCard = styled.div`
   width: 210px;
   height: 280px;
@@ -33,12 +36,20 @@ const StyledDescription = styled.p`
   text-align: center;
 `;
 
-
+/**
+ * A custom React component that returns customized cards
+ *
+ * @param {Object} path, title, description, image
+ * @returns {JSX.Element} A customized card including image, title, description, and a link to individual research page
+ *
+ * @example
+ * <ResearchCard path = "linkToResearchPage" title = "Title" description= "description" image="src"/>
+ */
 export const ResearchCard = ({ title, description, image, path }) => {
     return (
         <StyledCard>
             <StyledLink href={path}>
-                <StyledImage src={image} alt={title} />
+                <StyledImage src={image || "/images/research/research.png"} alt={title} />
                 <StyledTitle>{title}</StyledTitle>
                 <StyledDescription>{description}</StyledDescription>
             </StyledLink>

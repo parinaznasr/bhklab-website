@@ -4,6 +4,7 @@ import "animate.css/animate.min.css";
 import axios from "axios";
 import {useParams} from "react-router-dom";
 import Container from "@mui/material/Container";
+import {StyledHeading} from "../../styles/StyledHeading";
 
 
 const IndivResearch= (props) => {
@@ -26,9 +27,9 @@ const IndivResearch= (props) => {
             <Container>
                 {
                     ready &&
-                        <>
+                        <StyledHeading>
                             {research.title}
-                        </>
+                        </StyledHeading>
                 }
             </Container>
         </Layout>

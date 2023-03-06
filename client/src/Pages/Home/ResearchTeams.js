@@ -1,8 +1,10 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
 import colors from "../../styles/colors";
 import {ResearchCard} from "../../Components/Utils/CustomCard";
-
+import axios from "axios";
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import slugGeneratorHelper from "../../Components/Utils/slugGeneratorHelper";
 
 const StyledSection = styled.div`
   border-top-color: #e0e0e0;
@@ -101,42 +103,41 @@ const StyledSection = styled.div`
 
 
 export const ResearchTopics = () => {
+    const [ready, setReady] = useState(false);
+    const [researches, setResearches] = useState({});
+    useEffect(() => {
+        window.scrollTo(0, 0)
+        const getDataset = async () => {
+            const res = await axios.get('/api/data/researches');
+            setResearches(res.data.research);
+        }
+        getDataset().then(()=> {setReady(true)});
+    }, []);
+
     return (
         <StyledSection>
             <h1>Research Teams</h1>
             <div className="container">
-                <ResearchCard
-                    title = "Pharmacogenomics"
-                    description= {
-                        <ul>
-                            <li>Integration of preclinical/clinical data</li>
-                            <li>Drug classification/repurposing</li>
-                        </ul>
+                {
+                    ready &&
+                    researches.map((item, index) => {
+                        return(
+                            <ResearchCard
+                                key={index}
+                                title = {item.teamTitle}
+                                description= { item.teams.map(team =>
+                                    <div style={{display: 'flex', justifyContent:'left', marginBottom: '10px'}}>
+                                        <ArrowRightIcon fontSize="15"/>
+                                            <a href={team.url || `./research/${slugGeneratorHelper(team.teamTitle)}`}>
+                                                {team.teamTitle}
+                                            </a>
+                                    </div> )}
+                                image={item.image}
+                            />
+                        )
                     }
-                    image="./images/projects/biomarker.png"
-                />
-                <ResearchCard
-                    title = "Radiomics"
-                    description= {
-                        <ul>
-                            <li>Segmentation/Deduction</li>
-                            <li>Radiomics for prognosis and prediction</li>
-                            <li>Validation using clinical radiogenomics</li>
-                        </ul>
-                    }
-                    image="./images/projects/segmentation_liver.png"
-                />
-                <ResearchCard
-                    title = "Software Development"
-                    description= {
-                        <ul>
-                            <li>Software</li>
-                            <li>Packages</li>
-                            <li>Eco-systems</li>
-                        </ul>
-                    }
-                    image="./images/projects/software.png"
-                />
+                    )
+                }
             </div>
         </StyledSection>
     )

@@ -14,8 +14,6 @@ import JoinUs from '../Pages/About/Join/JoinUs';
 import Social from '../Pages/About/Social/Social';
 import Admin from '../Pages/Admin/Admin';
 
-// import { lazy } from 'react';
-// const Home = lazy(() => import('./Views/Home/Home'));
 
 export {
     Home,
