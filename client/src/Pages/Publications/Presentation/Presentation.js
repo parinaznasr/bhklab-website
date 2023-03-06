@@ -5,7 +5,7 @@ import 'primeicons/primeicons.css';
 import {PaginatedPublications} from "../PublicationComponents/PaginatedPublications";
 import {PresentationCard} from "../PublicationComponents/PublicationCard";
 import Container from '@mui/material/Container';
-
+import {motion} from 'framer-motion';
 const customizedContent = (item, index) => {
     return ( <PresentationCard key = {index} publication={item}/>);
 };
@@ -29,11 +29,18 @@ const Presentation= () => {
         <Layout>
             <Container fixed>
                 {   ready &&
-                    <PaginatedPublications
-                        customizedContent={customizedContent}
-                        publications= {presentations}
-                        itemsPerPage={10}
-                    />
+                <motion.nav
+                    className="navbar"
+                    initial={{ opacity: 0, y: -50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    >
+                        <PaginatedPublications
+                            customizedContent={customizedContent}
+                            publications= {presentations}
+                            itemsPerPage={10}
+                        />
+                </motion.nav>
                 }
             </Container>
         </Layout>

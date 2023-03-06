@@ -4,7 +4,7 @@ import axios from "axios";
 import {PaginatedPublications} from "../PublicationComponents/PaginatedPublications";
 import {PaperCard} from "../PublicationComponents/PublicationCard";
 import Container from '@mui/material/Container';
-
+import {motion} from 'framer-motion';
 const customizedContent = (item, index) => {
     return ( <PaperCard key = {index} publication={item}/>);
 };
@@ -28,11 +28,19 @@ const Papers= () => {
         <Layout>
             <Container fixed>
                 { ready &&
-                <PaginatedPublications
-                    customizedContent={customizedContent}
-                    publications= {publications}
-                    itemsPerPage={10}
-                />}
+                    <motion.nav
+                        className="navbar"
+                        initial={{ opacity: 0, y: -50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <PaginatedPublications
+                            customizedContent={customizedContent}
+                            publications= {publications}
+                            itemsPerPage={10}
+                        />
+                    </motion.nav>
+                }
             </Container>
         </Layout>
     );

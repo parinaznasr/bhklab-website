@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Layout from '../../Components/Utils/Layout';
 import {TwitterTimelineEmbed} from "react-twitter-embed";
-import colors from "../../styles/colors";
 import {ResearchTopics} from "./ResearchTeams";
-
+import { motion } from 'framer-motion';
 
 const Container = styled.div`
   width: 100%;
@@ -30,6 +29,12 @@ const Container = styled.div`
 const Home = () => {
     return(
         <Layout page="home">
+            <motion.nav
+                className="navbar"
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+            >
             <Container>
                 {/*<header className="App-header">*/}
                 <div className="header">
@@ -46,6 +51,7 @@ const Home = () => {
                 </div>
                 <ResearchTopics/>
             </Container>
+            </motion.nav>
         </Layout>
     );
 }

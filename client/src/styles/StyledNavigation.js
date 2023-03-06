@@ -3,6 +3,7 @@ import colors from "./colors";
 
 const StyledNavigation = styled.div`
   /* The dropdown container */
+  
   .dropdown {
     float: right;
     overflow: hidden;
@@ -72,6 +73,7 @@ const StyledNavigation = styled.div`
   width: 100%;
   height: 65px;
   background: ${colors.navbarBackground};
+  //background-color: #333;
   z-index: 999;
   border-bottom: #d5d5d5;
   border-bottom-style: solid;
@@ -80,6 +82,7 @@ const StyledNavigation = styled.div`
   a {
     color: ${colors.header_deep_blue};
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
   }
 `;

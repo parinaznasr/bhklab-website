@@ -10,7 +10,7 @@ import {Link} from "@mui/icons-material";
 function PresentationCard(props) {
     const {image, title, event, url, members, date} = props.publication;
     return (
-        <Card sx={{ display: 'flex', margin:'10px 0px', fontFamily: 'Sans serif'}}>
+        <Card sx={{ display: 'flex', margin:'10px 0px'}}>
             {
                 url?
                     <a className="link" href={url} target='_blank'>
