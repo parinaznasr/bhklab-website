@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Button } from 'primereact/button';
 import TextField from '@mui/material/TextField';
 import Box from "@mui/material/Box";
-
+import styled from "styled-components";
+import Button from '@mui/material/Button';
 
 const StyledLabel = (props) => {
     const {title}= props;
@@ -24,6 +24,17 @@ function MarginBar() {
     );
 }
 
+const StyledHeading= styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 60px;
+  line-spacing: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+`
 
 export const ContactForm = () => {
     // States for contact form fields
@@ -69,7 +80,6 @@ export const ContactForm = () => {
     };
 
     //   Handling form submit
-
     const handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -106,14 +116,17 @@ export const ContactForm = () => {
     };
     return (
         <main>
+            <StyledHeading>
+                <b>Benjamin Haibe-Kains, Ph.D.</b>
+                Scientist, Princess Margaret Cancer Centre, University Health Network
+                Assistant Professor, Department of Medical Biophysics, University of Toronto
+            </StyledHeading>
             <Box
-                component="form"
-                sx={{
-                    '& > :not(style)': { m: 2, width: '40ch'},
-                }}
+                sx={{  display: 'flex',
+                    justifyContent: 'left'}}
                 autoComplete="off"
             >
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} >
                     <TextField
                         id="outlined-basic"
                         label={<StyledLabel title="Your Name"/>}
@@ -145,18 +158,20 @@ export const ContactForm = () => {
                     />
                     <MarginBar/>
                     <TextField
+                        sx={{ marginLeft: '5px', width: "200%" }}
                         id="outlined-multiline-static"
                         label={<StyledLabel title="Message"/>}
                         multiline
                         rows={4}
+                        fullWidth
                         onChange={(e) => {
                             setMessage(e.target.value);
                         }}
                     />
                     <MarginBar/>
-                    <div>
-                        <Button label="Send Message" className="p-button-rounded p-button-info"/>
-                    </div>
+                    <Button variant="contained" type="submit">
+                        Send
+                    </Button>
                 </form>
             </Box>
         </main>
