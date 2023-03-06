@@ -115,6 +115,7 @@ const BurgerNav = styled.div`
   /*react-burger-nav style*/
 
   /* Position and sizing of burger button */
+
   .bm-burger-button {
     position: fixed;
     width: 36px;
@@ -124,22 +125,26 @@ const BurgerNav = styled.div`
   }
 
   /* Color/shape of burger icon bars */
+
   .bm-burger-bars {
-    background: #3D405A;
+    background: #1327d4;
   }
 
   /* Color/shape of burger icon bars on hover*/
+
   .bm-burger-bars-hover {
     background: #555975;
   }
 
   /* Position and sizing of clickable cross button */
+
   .bm-cross-button {
     height: 24px;
     width: 24px;
   }
 
   /* Color/shape of close button cross */
+
   .bm-cross {
     background: #3D405A;
   }
@@ -148,27 +153,33 @@ const BurgerNav = styled.div`
   Sidebar wrapper styles
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
+
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
   }
 
   /* General sidebar styles */
+
   .bm-menu {
     background: rgba(255, 255, 255, 0.3);
     padding: 30px 10px 20px 10px;
     font-size: 12px;
+
     nav {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+
       a {
         margin-bottom: 15px;
         color: rgb(61, 64, 90);
       }
+
       button {
         text-align: center;
       }
+
       .status {
         display: flex;
       }
@@ -176,23 +187,27 @@ const BurgerNav = styled.div`
   }
 
   /* Morph shape necessary with bubble or elastic */
+
   .bm-morph-shape {
     fill: #373a47;
   }
 
   /* Wrapper for item list */
+
   .bm-item-list {
     color: #b8b7ad;
     padding: 0.8em;
   }
 
   /* Individual item */
+
   .bm-item {
     margin-bottom: 20px;
     text-align: left;
   }
 
   /* Styling of overlay */
+
   .bm-overlay {
     background: rgba(61, 64, 90, 0.5);
   }
@@ -222,7 +237,7 @@ const styles = {
         top: '15px',
     },
     bmBurgerBars: {
-        background: `${colors.white}`,
+        background: `${colors.bmBurgerBars}`,
         borderRadius: '3px',
         opacity: 0.8,
         height: '3px',
@@ -232,25 +247,18 @@ const styles = {
         width: '24px',
     },
     bmCross: {
-        backgroundColor: `${colors.white}`,
+        backgroundColor: `${colors.closeIcon}`,
     },
     bmMenuWrap: {
         position: 'fixed',
     },
     bmMenu: {
-        backgroundColor: 'rgb(145,170,211)',
+        backgroundColor: `${colors.burgerMenuBG}`,
         padding: '0.5em 1.5em 0',
         fontSize: '16px',
     },
-    bmItemList: {
-        padding: '0.8em',
-        display: 'flex',
-        flexDirection: 'column',
-        height: 'auto',
-        color: `${colors.gray_light}`
-    },
     bmItem: {
-        color: 'white',
+        color: `${colors.burgerMenuItems}`,
         display: 'inline-block',
     },
     bmOverlay: {

@@ -2,7 +2,7 @@ import { slide as Menu } from 'react-burger-menu';
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {BurgerNav, styles} from "../../../styles/StyledNavigation";
-import {StyledLink} from "../../../styles/StyledLink";
+import {StyledLink,} from "../../../styles/StyledLink";
 
 const dropdownItems = (data) => data.map((x) => (
     <NavLink key={x.url} to={x.url}>{x.name}</NavLink>
@@ -26,9 +26,13 @@ const BurgerMenu = () => {
 
   const aboutLinks = [
     { url: '/people', name: 'People' },
-    { url: '/collaborations', name: 'Collaborations' },
+    { url: '/collaboration', name: 'Collaborations' },
     { url: '/positions', name: 'Join Us' },
     { url: '/contact', name: 'Contact' },
+  ];
+
+  const softwareLinks = [
+    { url: '/software', name: 'Software' },
   ];
   return (
       <BurgerNav>
@@ -36,8 +40,8 @@ const BurgerMenu = () => {
           {dropdownItems(researchLinks)}
           {dropdownItems(publicationsLinks)}
           {dropdownItems(resourceLinks)}
-          <StyledLink href="https://github.com/bhklab" target='_blank'>GitHub</StyledLink>
-          <StyledLink href="https://bhklab.ca/" target='_blank'>Tools</StyledLink>
+          {dropdownItems(softwareLinks)}
+          <a href="https://github.com/bhklab" target='_blank'>GitHub</a>
           {dropdownItems(aboutLinks)}
         </Menu>
       </BurgerNav>

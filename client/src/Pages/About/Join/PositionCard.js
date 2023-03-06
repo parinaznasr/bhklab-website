@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { useState} from "react";
 import { Markup } from 'interweave';
 import { Divider } from 'primereact/divider';
-import { FaAngleDown, FaAngleUp} from 'react-icons/fa';
-import CustomButton from "../../../Components/Utils/CustomButton";
 import colors from "../../../styles/colors";
+import IconButton from "@mui/material/IconButton";
+import {ExpandLess, ExpandMore} from "@mui/icons-material";
 
 const StyledCard = styled.div`
   width: 60%;
@@ -91,11 +91,9 @@ const StyledPosition = ({ position }) => {
             {
                 ( responsibilities || req_qualifications || pref_qualifications || apply) &&
                 <div style={{ display: "flex", justifyContent: "flex-end" }}>
-                    <CustomButton
-                        className="p-button-text p-button-rounded"
-                        icon={display ? <FaAngleUp className="icon" /> : <FaAngleDown className="icon" />}
-                        onClick={() => setDisplay(!display)}
-                    />
+                    <IconButton onClick={() => setDisplay(!display)} aria-label="show more">
+                        {display? <ExpandLess/> : <ExpandMore/>}
+                    </IconButton>
                 </div>
             }
         </StyledCard>

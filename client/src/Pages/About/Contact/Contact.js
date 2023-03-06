@@ -10,10 +10,12 @@ import Container from "@mui/material/Container";
 import {Grid} from "@mui/material";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
+import {StyledHeading} from '../../../styles/StyledHeading';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: '#fff',
     padding: '20px',
+    marginBottom: '20px',
     textAlign: 'center',
 }));
 
@@ -57,20 +59,6 @@ const StyledIcons = styled.div`
   justify-content: center;
 `
 
-const StyledHeading= styled.div`
-  width: 100%;
-  display: flex;
-  color: black;
-  justify-content: center;
-  height: 60px;
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-`
-
-
-
 const Contact= () => {
     return(
         <Layout>
@@ -79,7 +67,7 @@ const Contact= () => {
             />
             <Container>
                 <StyledHeading>Contact Us</StyledHeading>
-                <Box>
+                <Box sx={{marginBottom: '10px'}}>
                     <Grid container spacing={1} sx={{ flexGrow: 1 }}>
                         <Grid item xs={12} md={12} lg={12} container spacing={2}>
                             <Grid item xs={4} lg={4}>
@@ -128,7 +116,7 @@ const Contact= () => {
                                     </Grid>
                                 </Box>
                             </Grid>
-                            <Grid item xs={12} md={10} lg={8}>
+                            <Grid item xs={10} md={8} lg={8}>
                                 <Item style={{display: 'flex', justifyContent: 'left'}}>
                                     <Grid container columnSpacing={1}>
                                         <ContactForm/>

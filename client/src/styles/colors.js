@@ -1,7 +1,8 @@
 const colors = {
 
     blue_background: '#292d3e',
-    white_background: '#f8f8f8',
+    // white_background: '#f8f8f8',
+    white_background: '#f6f9fa',
 
     gray_divider: '#c6c6c6',
     white: '#FFFFFF',
@@ -41,7 +42,18 @@ const colors = {
     //Pagination
     pagination: '#4796F5',
     paginationHover: '#4796F5',
-    paginationHoverBG: '#FFFFFF'
+    paginationHoverBG: '#FFFFFF',
+
+    //BurgerMenu
+    burgerMenuBG: '#69819e',
+    burgerMenuIcon: '',
+    closeIcon: '#FFFFFF',
+    burgerMenuItems: '#FFFFFF',
+    bmBurgerBars: '#2E3B55',
+
+    //Buttons
+    expandButton: '#4796F5'
+
 }
 
 export default colors;

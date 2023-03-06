@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from "react";
 import styled from 'styled-components';
 import colors from "../../styles/colors";
-import CustomButton from "../../Components/Utils/CustomButton";
+
 
 const StyledLogin = styled.div`
   label, input {

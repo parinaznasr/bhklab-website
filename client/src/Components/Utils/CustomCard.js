@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import colors from "../../styles/colors";
+import {StyledLink} from "../../styles/StyledLink";
 
 const StyledCard = styled.div`
   width: 210px;
@@ -36,11 +37,11 @@ const StyledDescription = styled.p`
 export const ResearchCard = ({ title, description, image, path }) => {
     return (
         <StyledCard>
-            <a href={path}>
+            <StyledLink href={path}>
                 <StyledImage src={image} alt={title} />
                 <StyledTitle>{title}</StyledTitle>
                 <StyledDescription>{description}</StyledDescription>
-            </a>
+            </StyledLink>
         </StyledCard>
     );
 };

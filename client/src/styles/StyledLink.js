@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import {Link} from "react-router-dom";
 import colors from "./colors";
 
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled.a`
     color: ${colors.navbarLink};
     target: "_blank";
 `;

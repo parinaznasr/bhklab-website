@@ -5,15 +5,14 @@ import axios from "axios";
 import Container from "@mui/material/Container";
 
 const JoinUs = () => {
-    const [isLoading, setLoading] = useState(false);
+    const [ready, setReady] = useState(false);
     const [positions, setPositions] = useState([]);
 
     useEffect(() => {
         const fetchPositions = async () => {
-            setLoading(true);
             const { data } = await axios.get("/api/data/positions");
             setPositions(data.positions);
-            setLoading(false);
+            setReady(true);
         };
         fetchPositions();
     }, []);
@@ -21,7 +20,7 @@ const JoinUs = () => {
     return (
         <Layout>
             <Container>
-                {isLoading &&
+                {ready &&
                     positions.map((position, index) => (
                         <StyledPosition key={index} position={position} />
                     ))
